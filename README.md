@@ -1,6 +1,6 @@
 # mpvd (Mozilla Products Vulnerability Data)
 
-### The following information is up-to-date as of May 31, 2020.
+### The following information is up-to-date as of June 02, 2020.
 
 #### NOTE: The data is not 100% complete due to unavailable data or other issues encountered while scraping and parsing.
 
@@ -17,4 +17,4 @@ The `vulnerable_source_code.zip` file contains a folder of vulnerable (older) ve
 
 Each source code filename is labeled as `bug_id`-`revision_id`-`status`-`original_filename`.`extension`. The `bug_id` refers to the Bugzilla entry. The `revision_id` refers to the commit ([Phabricator](https://phabricator.services.mozilla.com/)) or revision ([Mercurial](https://hg.mozilla.org/)) ID for the files related to the Bugzilla entry of the Bug ID. The `status` refers to either `vulnerable` (old) or `fixed` (new) source code. The `original_filename` represents the name of the file that was changed. When writing the file, the filename was adjusted by replacing backslashes (`\`) with underscores (`_`). The `extension` refers to the file extension.
 
-Both `.zip` files contain `4,197` source code files with a variety of file extensions. Only `1,883` of the total `2,734` Bug IDs are represented from the downloaded source code files. As stated earlier this is due to unavailable data or other issues encountered while scraping or parsing the associated product vulnerability data. Only Bugzilla entries that are public, have a status of `Closed`, and available attachments (revisions) are considered.
+Both `.zip` files contain `4,197` source code files with a variety of file extensions. Only `1,883` of the total `2,743` Bug IDs are represented from the downloaded source code files. As stated earlier this is due to unavailable data or other issues encountered while scraping or parsing the associated product vulnerability data. Only Bugzilla entries that are public, have a status of `Closed`, and available attachments (revisions) are considered.
