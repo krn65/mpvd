@@ -1,0 +1,11 @@
+cwe_id,title,description
+20,CWE-20: Improper Input Validation,"The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly."
+79,CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),The software does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.
+119,CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer,"The software performs operations on a memory buffer, but it can read from or write to a memory location that is outside of the intended boundary of the buffer."
+264,"CWE CATEGORY: Permissions, Privileges, and Access Controls","Weaknesses in this category are related to the management of permissions, privileges, and other security features that are used to perform access control."
+275,CWE CATEGORY: Permission Issues,Weaknesses in this category are related to improper assignment or handling of permissions.
+311,CWE-311: Missing Encryption of Sensitive Data,The software does not encrypt sensitive or critical information before storage or transmission.
+326,CWE-326: Inadequate Encryption Strength,"The software stores or transmits sensitive data using an encryption scheme that is theoretically sound, but is not strong enough for the level of protection required."
+399,CWE CATEGORY: Resource Management Errors,Weaknesses in this category are related to improper management of system resources.
+416,CWE-416: Use After Free,"Referencing memory after it has been freed can cause a program to crash, use unexpected values, or execute code."
+787,CWE-787: Out-of-bounds Write,"The software writes data past the end, or before the beginning, of the intended buffer."

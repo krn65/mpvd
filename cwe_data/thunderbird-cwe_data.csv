@@ -1,0 +1,15 @@
+cwe_id,title,description
+20,CWE-20: Improper Input Validation,"The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly."
+79,CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),The software does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.
+119,CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer,"The software performs operations on a memory buffer, but it can read from or write to a memory location that is outside of the intended boundary of the buffer."
+125,CWE-125: Out-of-bounds Read,"The software reads data past the end, or before the beginning, of the intended buffer."
+200,CWE-200: Exposure of Sensitive Information to an Unauthorized Actor,The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.
+264,"CWE CATEGORY: Permissions, Privileges, and Access Controls","Weaknesses in this category are related to the management of permissions, privileges, and other security features that are used to perform access control."
+287,CWE-287: Improper Authentication,"When an actor claims to have a given identity, the software does not prove or insufficiently proves that the claim is correct."
+346,CWE-346: Origin Validation Error,The software does not properly verify that the source of data or communication is valid.
+347,CWE-347: Improper Verification of Cryptographic Signature,"The software does not verify, or incorrectly verifies, the cryptographic signature for data."
+352,CWE-352: Cross-Site Request Forgery (CSRF),"The web application does not, or can not, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request."
+362,CWE-362: Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),"The program contains a code sequence that can run concurrently with other code, and the code sequence requires temporary, exclusive access to a shared resource, but a timing window exists in which the shared resource can be modified by another code sequence that is operating concurrently."
+416,CWE-416: Use After Free,"Referencing memory after it has been freed can cause a program to crash, use unexpected values, or execute code."
+704,CWE-704: Incorrect Type Conversion or Cast,"The software does not correctly convert an object, resource, or structure from one type to a different type."
+829,CWE-829: Inclusion of Functionality from Untrusted Control Sphere,"The software imports, requires, or includes executable functionality (such as a library) from a source that is outside of the intended control sphere."

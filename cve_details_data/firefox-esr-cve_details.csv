@@ -1,0 +1,751 @@
+cve_id,cwe_id,number_exploits,vulnerability_types,publish_date,update_date,score,gained_access_level,access,complexity,authentication,confidentiality,integrity,availability
+CVE-2019-11753,354,,,2019-09-27,2019-10-05,4.6,None,Local,Low,Not required,Partial,Partial,Partial
+CVE-2019-11753,354,,,2019-09-27,2019-10-05,4.6,None,Local,Low,Not required,Partial,Partial,Partial
+CVE-2019-11753,354,,,2019-09-27,2019-10-05,4.6,None,Local,Low,Not required,Partial,Partial,Partial
+CVE-2019-11753,354,,,2019-09-27,2019-10-05,4.6,None,Local,Low,Not required,Partial,Partial,Partial
+CVE-2019-11753,354,,,2019-09-27,2019-10-05,4.6,None,Local,Low,Not required,Partial,Partial,Partial
+CVE-2019-11753,354,,,2019-09-27,2019-10-05,4.6,None,Local,Low,Not required,Partial,Partial,Partial
+CVE-2019-11753,354,,,2019-09-27,2019-10-05,4.6,None,Local,Low,Not required,Partial,Partial,Partial
+CVE-2019-11753,354,,,2019-09-27,2019-10-05,4.6,None,Local,Low,Not required,Partial,Partial,Partial
+CVE-2019-11753,354,,,2019-09-27,2019-10-05,4.6,None,Local,Low,Not required,Partial,Partial,Partial
+CVE-2019-11753,354,,,2019-09-27,2019-10-05,4.6,None,Local,Low,Not required,Partial,Partial,Partial
+CVE-2019-11753,354,,,2019-09-27,2019-10-05,4.6,None,Local,Low,Not required,Partial,Partial,Partial
+CVE-2019-11753,354,,,2019-09-27,2019-10-05,4.6,None,Local,Low,Not required,Partial,Partial,Partial
+CVE-2019-11753,354,,,2019-09-27,2019-10-05,4.6,None,Local,Low,Not required,Partial,Partial,Partial
+CVE-2019-11753,354,,,2019-09-27,2019-10-05,4.6,None,Local,Low,Not required,Partial,Partial,Partial
+CVE-2019-11753,354,,,2019-09-27,2019-10-05,4.6,None,Local,Low,Not required,Partial,Partial,Partial
+CVE-2019-11752,416,,,2019-09-27,2019-10-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2019-11752,416,,,2019-09-27,2019-10-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2019-11752,416,,,2019-09-27,2019-10-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2019-11752,416,,,2019-09-27,2019-10-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2019-11752,416,,,2019-09-27,2019-10-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2019-11752,416,,,2019-09-27,2019-10-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2019-11752,416,,,2019-09-27,2019-10-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2019-11752,416,,,2019-09-27,2019-10-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2019-11752,416,,,2019-09-27,2019-10-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2019-11752,416,,,2019-09-27,2019-10-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2019-11752,416,,,2019-09-27,2019-10-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2019-11752,416,,,2019-09-27,2019-10-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2019-11752,416,,,2019-09-27,2019-10-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2019-11752,416,,,2019-09-27,2019-10-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2019-11752,416,,,2019-09-27,2019-10-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2019-11751,20,,,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11751,20,,,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11751,20,,,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11751,20,,,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11751,20,,,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11751,20,,,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11751,20,,,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11751,20,,,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11751,20,,,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11751,20,,,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11751,20,,,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11751,20,,,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11751,20,,,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11751,20,,,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11751,20,,,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11750,704,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,None,Partial
+CVE-2019-11750,704,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,None,Partial
+CVE-2019-11750,704,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,None,Partial
+CVE-2019-11750,704,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,None,Partial
+CVE-2019-11750,704,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,None,Partial
+CVE-2019-11750,704,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,None,Partial
+CVE-2019-11750,704,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,None,Partial
+CVE-2019-11750,704,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,None,Partial
+CVE-2019-11750,704,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,None,Partial
+CVE-2019-11750,704,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,None,Partial
+CVE-2019-11750,704,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,None,Partial
+CVE-2019-11750,704,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,None,Partial
+CVE-2019-11750,704,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,None,Partial
+CVE-2019-11750,704,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,None,Partial
+CVE-2019-11750,704,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,None,Partial
+CVE-2019-11749,200,,+Info,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11749,200,,+Info,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11749,200,,+Info,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11749,200,,+Info,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11749,200,,+Info,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11749,200,,+Info,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11749,200,,+Info,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11749,200,,+Info,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11749,200,,+Info,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11749,200,,+Info,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11749,200,,+Info,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11749,200,,+Info,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11749,200,,+Info,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11749,200,,+Info,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11749,200,,+Info,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11748,732,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11748,732,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11748,732,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11748,732,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11748,732,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11748,732,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11748,732,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11748,732,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11748,732,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11748,732,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11748,732,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11748,732,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11748,732,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11748,732,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11748,732,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11747,665,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11747,665,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11747,665,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11747,665,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11747,665,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11747,665,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11747,665,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11747,665,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11747,665,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11747,665,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11747,665,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11747,665,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11747,665,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11747,665,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11747,665,,,2019-09-27,2019-10-05,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11746,416,,,2019-09-27,2019-10-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11746,416,,,2019-09-27,2019-10-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11746,416,,,2019-09-27,2019-10-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11746,416,,,2019-09-27,2019-10-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11746,416,,,2019-09-27,2019-10-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11746,416,,,2019-09-27,2019-10-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11746,416,,,2019-09-27,2019-10-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11746,416,,,2019-09-27,2019-10-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11746,416,,,2019-09-27,2019-10-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11746,416,,,2019-09-27,2019-10-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11746,416,,,2019-09-27,2019-10-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11746,416,,,2019-09-27,2019-10-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11746,416,,,2019-09-27,2019-10-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11746,416,,,2019-09-27,2019-10-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11746,416,,,2019-09-27,2019-10-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11744,79,,XSS,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11744,79,,XSS,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11744,79,,XSS,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11744,79,,XSS,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11744,79,,XSS,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11744,79,,XSS,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11744,79,,XSS,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11744,79,,XSS,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11744,79,,XSS,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11744,79,,XSS,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11744,79,,XSS,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11744,79,,XSS,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11744,79,,XSS,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11744,79,,XSS,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11744,79,,XSS,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11743,200,,+Info,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11743,200,,+Info,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11743,200,,+Info,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11743,200,,+Info,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11743,200,,+Info,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11743,200,,+Info,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11743,200,,+Info,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11743,200,,+Info,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11743,200,,+Info,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11743,200,,+Info,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11743,200,,+Info,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11743,200,,+Info,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11743,200,,+Info,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11743,200,,+Info,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11743,200,,+Info,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11742,829,,,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11742,829,,,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11742,829,,,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11742,829,,,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11742,829,,,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11742,829,,,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11742,829,,,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11742,829,,,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11742,829,,,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11742,829,,,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11742,829,,,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11742,829,,,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11742,829,,,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11742,829,,,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11742,829,,,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11740,119,,Overflow Mem. Corr.,2019-09-27,2019-10-04,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11740,119,,Overflow Mem. Corr.,2019-09-27,2019-10-04,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11740,119,,Overflow Mem. Corr.,2019-09-27,2019-10-04,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11740,119,,Overflow Mem. Corr.,2019-09-27,2019-10-04,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11740,119,,Overflow Mem. Corr.,2019-09-27,2019-10-04,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11740,119,,Overflow Mem. Corr.,2019-09-27,2019-10-04,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11740,119,,Overflow Mem. Corr.,2019-09-27,2019-10-04,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11740,119,,Overflow Mem. Corr.,2019-09-27,2019-10-04,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11740,119,,Overflow Mem. Corr.,2019-09-27,2019-10-04,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11740,119,,Overflow Mem. Corr.,2019-09-27,2019-10-04,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11740,119,,Overflow Mem. Corr.,2019-09-27,2019-10-04,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11740,119,,Overflow Mem. Corr.,2019-09-27,2019-10-04,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11740,119,,Overflow Mem. Corr.,2019-09-27,2019-10-04,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11740,119,,Overflow Mem. Corr.,2019-09-27,2019-10-04,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11740,119,,Overflow Mem. Corr.,2019-09-27,2019-10-04,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11738,276,,Bypass,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11738,276,,Bypass,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11738,276,,Bypass,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11738,276,,Bypass,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11738,276,,Bypass,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11738,276,,Bypass,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11738,276,,Bypass,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11738,276,,Bypass,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11738,276,,Bypass,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11738,276,,Bypass,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11738,276,,Bypass,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11738,276,,Bypass,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11738,276,,Bypass,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11738,276,,Bypass,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11738,276,,Bypass,2019-09-27,2019-10-05,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11736,362,,+Priv,2019-09-27,2019-10-05,4.4,None,Local,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11736,362,,+Priv,2019-09-27,2019-10-05,4.4,None,Local,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11736,362,,+Priv,2019-09-27,2019-10-05,4.4,None,Local,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11736,362,,+Priv,2019-09-27,2019-10-05,4.4,None,Local,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11736,362,,+Priv,2019-09-27,2019-10-05,4.4,None,Local,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11736,362,,+Priv,2019-09-27,2019-10-05,4.4,None,Local,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11736,362,,+Priv,2019-09-27,2019-10-05,4.4,None,Local,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11736,362,,+Priv,2019-09-27,2019-10-05,4.4,None,Local,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11736,362,,+Priv,2019-09-27,2019-10-05,4.4,None,Local,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11736,362,,+Priv,2019-09-27,2019-10-05,4.4,None,Local,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11736,362,,+Priv,2019-09-27,2019-10-05,4.4,None,Local,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11736,362,,+Priv,2019-09-27,2019-10-05,4.4,None,Local,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11736,362,,+Priv,2019-09-27,2019-10-05,4.4,None,Local,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11736,362,,+Priv,2019-09-27,2019-10-05,4.4,None,Local,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11736,362,,+Priv,2019-09-27,2019-10-05,4.4,None,Local,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11735,120,,Mem. Corr.,2019-09-27,2019-10-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11735,120,,Mem. Corr.,2019-09-27,2019-10-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11735,120,,Mem. Corr.,2019-09-27,2019-10-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11735,120,,Mem. Corr.,2019-09-27,2019-10-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11735,120,,Mem. Corr.,2019-09-27,2019-10-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11735,120,,Mem. Corr.,2019-09-27,2019-10-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11735,120,,Mem. Corr.,2019-09-27,2019-10-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11735,120,,Mem. Corr.,2019-09-27,2019-10-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11735,120,,Mem. Corr.,2019-09-27,2019-10-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11735,120,,Mem. Corr.,2019-09-27,2019-10-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11735,120,,Mem. Corr.,2019-09-27,2019-10-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11735,120,,Mem. Corr.,2019-09-27,2019-10-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11735,120,,Mem. Corr.,2019-09-27,2019-10-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11735,120,,Mem. Corr.,2019-09-27,2019-10-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11735,120,,Mem. Corr.,2019-09-27,2019-10-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11733,200,,+Info,2019-09-27,2019-10-05,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11733,200,,+Info,2019-09-27,2019-10-05,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11733,200,,+Info,2019-09-27,2019-10-05,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11733,200,,+Info,2019-09-27,2019-10-05,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11733,200,,+Info,2019-09-27,2019-10-05,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11733,200,,+Info,2019-09-27,2019-10-05,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11733,200,,+Info,2019-09-27,2019-10-05,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11733,200,,+Info,2019-09-27,2019-10-05,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11733,200,,+Info,2019-09-27,2019-10-05,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11733,200,,+Info,2019-09-27,2019-10-05,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11733,200,,+Info,2019-09-27,2019-10-05,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11733,200,,+Info,2019-09-27,2019-10-05,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11733,200,,+Info,2019-09-27,2019-10-05,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11733,200,,+Info,2019-09-27,2019-10-05,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11733,200,,+Info,2019-09-27,2019-10-05,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11730,200,,+Info,2019-07-23,2019-08-15,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11730,200,,+Info,2019-07-23,2019-08-15,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11730,200,,+Info,2019-07-23,2019-08-15,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11730,200,,+Info,2019-07-23,2019-08-15,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11730,200,,+Info,2019-07-23,2019-08-15,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11730,200,,+Info,2019-07-23,2019-08-15,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11730,200,,+Info,2019-07-23,2019-08-15,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11730,200,,+Info,2019-07-23,2019-08-15,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11730,200,,+Info,2019-07-23,2019-08-15,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11730,200,,+Info,2019-07-23,2019-08-15,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11730,200,,+Info,2019-07-23,2019-08-15,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11730,200,,+Info,2019-07-23,2019-08-15,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11730,200,,+Info,2019-07-23,2019-08-15,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11730,200,,+Info,2019-07-23,2019-08-15,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11730,200,,+Info,2019-07-23,2019-08-15,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2019-11729,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,None,Partial
+CVE-2019-11729,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,None,Partial
+CVE-2019-11729,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,None,Partial
+CVE-2019-11729,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,None,Partial
+CVE-2019-11729,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,None,Partial
+CVE-2019-11729,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,None,Partial
+CVE-2019-11729,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,None,Partial
+CVE-2019-11729,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,None,Partial
+CVE-2019-11729,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,None,Partial
+CVE-2019-11729,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,None,Partial
+CVE-2019-11729,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,None,Partial
+CVE-2019-11729,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,None,Partial
+CVE-2019-11729,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,None,Partial
+CVE-2019-11729,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,None,Partial
+CVE-2019-11729,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,None,Partial
+CVE-2019-11719,125,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11719,125,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11719,125,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11719,125,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11719,125,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11719,125,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11719,125,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11719,125,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11719,125,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11719,125,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11719,125,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11719,125,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11719,125,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11719,125,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11719,125,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11717,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-11717,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-11717,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-11717,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-11717,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-11717,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-11717,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-11717,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-11717,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-11717,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-11717,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-11717,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-11717,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-11717,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-11717,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-11715,79,,XSS,2019-07-23,2019-07-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11715,79,,XSS,2019-07-23,2019-07-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11715,79,,XSS,2019-07-23,2019-07-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11715,79,,XSS,2019-07-23,2019-07-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11715,79,,XSS,2019-07-23,2019-07-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11715,79,,XSS,2019-07-23,2019-07-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11715,79,,XSS,2019-07-23,2019-07-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11715,79,,XSS,2019-07-23,2019-07-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11715,79,,XSS,2019-07-23,2019-07-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11715,79,,XSS,2019-07-23,2019-07-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11715,79,,XSS,2019-07-23,2019-07-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11715,79,,XSS,2019-07-23,2019-07-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11715,79,,XSS,2019-07-23,2019-07-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11715,79,,XSS,2019-07-23,2019-07-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11715,79,,XSS,2019-07-23,2019-07-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-11713,416,,,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11713,416,,,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11713,416,,,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11713,416,,,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11713,416,,,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11713,416,,,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11713,416,,,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11713,416,,,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11713,416,,,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11713,416,,,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11713,416,,,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11713,416,,,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11713,416,,,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11713,416,,,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11713,416,,,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11712,352,,Bypass CSRF,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11712,352,,Bypass CSRF,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11712,352,,Bypass CSRF,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11712,352,,Bypass CSRF,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11712,352,,Bypass CSRF,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11712,352,,Bypass CSRF,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11712,352,,Bypass CSRF,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11712,352,,Bypass CSRF,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11712,352,,Bypass CSRF,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11712,352,,Bypass CSRF,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11712,352,,Bypass CSRF,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11712,352,,Bypass CSRF,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11712,352,,Bypass CSRF,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11712,352,,Bypass CSRF,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11712,352,,Bypass CSRF,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11711,20,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11711,20,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11711,20,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11711,20,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11711,20,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11711,20,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11711,20,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11711,20,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11711,20,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11711,20,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11711,20,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11711,20,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11711,20,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11711,20,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11711,20,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11709,119,,Overflow Mem. Corr.,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11709,119,,Overflow Mem. Corr.,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11709,119,,Overflow Mem. Corr.,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11709,119,,Overflow Mem. Corr.,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11709,119,,Overflow Mem. Corr.,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11709,119,,Overflow Mem. Corr.,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11709,119,,Overflow Mem. Corr.,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11709,119,,Overflow Mem. Corr.,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11709,119,,Overflow Mem. Corr.,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11709,119,,Overflow Mem. Corr.,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11709,119,,Overflow Mem. Corr.,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11709,119,,Overflow Mem. Corr.,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11709,119,,Overflow Mem. Corr.,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11709,119,,Overflow Mem. Corr.,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11709,119,,Overflow Mem. Corr.,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11708,20,,,2019-07-23,2019-08-15,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2019-11708,20,,,2019-07-23,2019-08-15,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2019-11708,20,,,2019-07-23,2019-08-15,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2019-11708,20,,,2019-07-23,2019-08-15,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2019-11708,20,,,2019-07-23,2019-08-15,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2019-11708,20,,,2019-07-23,2019-08-15,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2019-11708,20,,,2019-07-23,2019-08-15,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2019-11708,20,,,2019-07-23,2019-08-15,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2019-11708,20,,,2019-07-23,2019-08-15,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2019-11708,20,,,2019-07-23,2019-08-15,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2019-11708,20,,,2019-07-23,2019-08-15,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2019-11708,20,,,2019-07-23,2019-08-15,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2019-11708,20,,,2019-07-23,2019-08-15,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2019-11708,20,,,2019-07-23,2019-08-15,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2019-11708,20,,,2019-07-23,2019-08-15,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2019-11707,704,,,2019-07-23,2019-08-15,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11707,704,,,2019-07-23,2019-08-15,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11707,704,,,2019-07-23,2019-08-15,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11707,704,,,2019-07-23,2019-08-15,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11707,704,,,2019-07-23,2019-08-15,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11707,704,,,2019-07-23,2019-08-15,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11707,704,,,2019-07-23,2019-08-15,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11707,704,,,2019-07-23,2019-08-15,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11707,704,,,2019-07-23,2019-08-15,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11707,704,,,2019-07-23,2019-08-15,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11707,704,,,2019-07-23,2019-08-15,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11707,704,,,2019-07-23,2019-08-15,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11707,704,,,2019-07-23,2019-08-15,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11707,704,,,2019-07-23,2019-08-15,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11707,704,,,2019-07-23,2019-08-15,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11698,20,,,2019-07-23,2019-07-28,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11698,20,,,2019-07-23,2019-07-28,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11698,20,,,2019-07-23,2019-07-28,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11698,20,,,2019-07-23,2019-07-28,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11698,20,,,2019-07-23,2019-07-28,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11698,20,,,2019-07-23,2019-07-28,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11698,20,,,2019-07-23,2019-07-28,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11698,20,,,2019-07-23,2019-07-28,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11698,20,,,2019-07-23,2019-07-28,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11698,20,,,2019-07-23,2019-07-28,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11698,20,,,2019-07-23,2019-07-28,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11698,20,,,2019-07-23,2019-07-28,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11698,20,,,2019-07-23,2019-07-28,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11698,20,,,2019-07-23,2019-07-28,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11698,20,,,2019-07-23,2019-07-28,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11694,200,,+Info,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11694,200,,+Info,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11694,200,,+Info,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11694,200,,+Info,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11694,200,,+Info,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11694,200,,+Info,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11694,200,,+Info,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11694,200,,+Info,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11694,200,,+Info,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11694,200,,+Info,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11694,200,,+Info,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11694,200,,+Info,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11694,200,,+Info,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11694,200,,+Info,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11694,200,,+Info,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-11693,119,,Overflow,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11693,119,,Overflow,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11693,119,,Overflow,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11693,119,,Overflow,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11693,119,,Overflow,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11693,119,,Overflow,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11693,119,,Overflow,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11693,119,,Overflow,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11693,119,,Overflow,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11693,119,,Overflow,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11693,119,,Overflow,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11693,119,,Overflow,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11693,119,,Overflow,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11693,119,,Overflow,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11693,119,,Overflow,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11692,416,,,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11692,416,,,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11692,416,,,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11692,416,,,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11692,416,,,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11692,416,,,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11692,416,,,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11692,416,,,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11692,416,,,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11692,416,,,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11692,416,,,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11692,416,,,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11692,416,,,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11692,416,,,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11692,416,,,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11691,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11691,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11691,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11691,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11691,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11691,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11691,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11691,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11691,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11691,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11691,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11691,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11691,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11691,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11691,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9820,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9820,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9820,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9820,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9820,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9820,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9820,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9820,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9820,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9820,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9820,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9820,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9820,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9820,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9820,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9819,20,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9819,20,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9819,20,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9819,20,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9819,20,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9819,20,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9819,20,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9819,20,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9819,20,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9819,20,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9819,20,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9819,20,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9819,20,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9819,20,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9819,20,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9817,346,,,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-9817,346,,,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-9817,346,,,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-9817,346,,,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-9817,346,,,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-9817,346,,,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-9817,346,,,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-9817,346,,,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-9817,346,,,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-9817,346,,,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-9817,346,,,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-9817,346,,,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-9817,346,,,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-9817,346,,,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-9817,346,,,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Partial,None,None
+CVE-2019-9816,704,,Bypass,2019-07-23,2019-07-26,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9816,704,,Bypass,2019-07-23,2019-07-26,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9816,704,,Bypass,2019-07-23,2019-07-26,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9816,704,,Bypass,2019-07-23,2019-07-26,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9816,704,,Bypass,2019-07-23,2019-07-26,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9816,704,,Bypass,2019-07-23,2019-07-26,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9816,704,,Bypass,2019-07-23,2019-07-26,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9816,704,,Bypass,2019-07-23,2019-07-26,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9816,704,,Bypass,2019-07-23,2019-07-26,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9816,704,,Bypass,2019-07-23,2019-07-26,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9816,704,,Bypass,2019-07-23,2019-07-26,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9816,704,,Bypass,2019-07-23,2019-07-26,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9816,704,,Bypass,2019-07-23,2019-07-26,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9816,704,,Bypass,2019-07-23,2019-07-26,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9816,704,,Bypass,2019-07-23,2019-07-26,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9815,362,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9815,362,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9815,362,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9815,362,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9815,362,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9815,362,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9815,362,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9815,362,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9815,362,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9815,362,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9815,362,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9815,362,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9815,362,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9815,362,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9815,362,,,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9813,704,,,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9813,704,,,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9813,704,,,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9813,704,,,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9813,704,,,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9813,704,,,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9813,704,,,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9813,704,,,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9813,704,,,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9813,704,,,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9813,704,,,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9813,704,,,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9813,704,,,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9813,704,,,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9813,704,,,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9811,264,,,2019-07-23,2019-07-29,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-9811,264,,,2019-07-23,2019-07-29,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-9811,264,,,2019-07-23,2019-07-29,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-9811,264,,,2019-07-23,2019-07-29,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-9811,264,,,2019-07-23,2019-07-29,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-9811,264,,,2019-07-23,2019-07-29,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-9811,264,,,2019-07-23,2019-07-29,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-9811,264,,,2019-07-23,2019-07-29,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-9811,264,,,2019-07-23,2019-07-29,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-9811,264,,,2019-07-23,2019-07-29,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-9811,264,,,2019-07-23,2019-07-29,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-9811,264,,,2019-07-23,2019-07-29,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-9811,264,,,2019-07-23,2019-07-29,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-9811,264,,,2019-07-23,2019-07-29,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-9811,264,,,2019-07-23,2019-07-29,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-9810,119,,Overflow,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9810,119,,Overflow,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9810,119,,Overflow,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9810,119,,Overflow,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9810,119,,Overflow,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9810,119,,Overflow,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9810,119,,Overflow,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9810,119,,Overflow,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9810,119,,Overflow,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9810,119,,Overflow,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9810,119,,Overflow,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9810,119,,Overflow,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9810,119,,Overflow,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9810,119,,Overflow,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9810,119,,Overflow,2019-04-26,2019-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9801,20,,,2019-04-26,2019-04-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-9801,20,,,2019-04-26,2019-04-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-9801,20,,,2019-04-26,2019-04-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-9801,20,,,2019-04-26,2019-04-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-9801,20,,,2019-04-26,2019-04-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-9801,20,,,2019-04-26,2019-04-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-9801,20,,,2019-04-26,2019-04-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-9801,20,,,2019-04-26,2019-04-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-9801,20,,,2019-04-26,2019-04-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-9801,20,,,2019-04-26,2019-04-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-9801,20,,,2019-04-26,2019-04-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-9801,20,,,2019-04-26,2019-04-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-9801,20,,,2019-04-26,2019-04-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-9801,20,,,2019-04-26,2019-04-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-9801,20,,,2019-04-26,2019-04-29,5.0,None,Remote,Low,Not required,None,Partial,None
+CVE-2019-9800,119,,Overflow Mem. Corr.,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9800,119,,Overflow Mem. Corr.,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9800,119,,Overflow Mem. Corr.,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9800,119,,Overflow Mem. Corr.,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9800,119,,Overflow Mem. Corr.,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9800,119,,Overflow Mem. Corr.,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9800,119,,Overflow Mem. Corr.,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9800,119,,Overflow Mem. Corr.,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9800,119,,Overflow Mem. Corr.,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9800,119,,Overflow Mem. Corr.,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9800,119,,Overflow Mem. Corr.,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9800,119,,Overflow Mem. Corr.,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9800,119,,Overflow Mem. Corr.,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9800,119,,Overflow Mem. Corr.,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9800,119,,Overflow Mem. Corr.,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9796,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9796,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9796,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9796,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9796,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9796,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9796,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9796,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9796,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9796,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9796,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9796,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9796,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9796,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9796,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9795,704,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9795,704,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9795,704,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9795,704,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9795,704,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9795,704,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9795,704,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9795,704,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9795,704,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9795,704,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9795,704,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9795,704,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9795,704,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9795,704,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9795,704,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9794,20,,Exec Code,2019-04-26,2019-04-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9794,20,,Exec Code,2019-04-26,2019-04-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9794,20,,Exec Code,2019-04-26,2019-04-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9794,20,,Exec Code,2019-04-26,2019-04-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9794,20,,Exec Code,2019-04-26,2019-04-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9794,20,,Exec Code,2019-04-26,2019-04-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9794,20,,Exec Code,2019-04-26,2019-04-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9794,20,,Exec Code,2019-04-26,2019-04-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9794,20,,Exec Code,2019-04-26,2019-04-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9794,20,,Exec Code,2019-04-26,2019-04-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9794,20,,Exec Code,2019-04-26,2019-04-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9794,20,,Exec Code,2019-04-26,2019-04-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9794,20,,Exec Code,2019-04-26,2019-04-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9794,20,,Exec Code,2019-04-26,2019-04-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9794,20,,Exec Code,2019-04-26,2019-04-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9793,119,,Overflow,2019-04-26,2019-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9793,119,,Overflow,2019-04-26,2019-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9793,119,,Overflow,2019-04-26,2019-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9793,119,,Overflow,2019-04-26,2019-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9793,119,,Overflow,2019-04-26,2019-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9793,119,,Overflow,2019-04-26,2019-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9793,119,,Overflow,2019-04-26,2019-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9793,119,,Overflow,2019-04-26,2019-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9793,119,,Overflow,2019-04-26,2019-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9793,119,,Overflow,2019-04-26,2019-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9793,119,,Overflow,2019-04-26,2019-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9793,119,,Overflow,2019-04-26,2019-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9793,119,,Overflow,2019-04-26,2019-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9793,119,,Overflow,2019-04-26,2019-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9793,119,,Overflow,2019-04-26,2019-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2019-9792,119,,Overflow Mem. Corr.,2019-04-26,2019-05-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9792,119,,Overflow Mem. Corr.,2019-04-26,2019-05-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9792,119,,Overflow Mem. Corr.,2019-04-26,2019-05-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9792,119,,Overflow Mem. Corr.,2019-04-26,2019-05-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9792,119,,Overflow Mem. Corr.,2019-04-26,2019-05-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9792,119,,Overflow Mem. Corr.,2019-04-26,2019-05-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9792,119,,Overflow Mem. Corr.,2019-04-26,2019-05-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9792,119,,Overflow Mem. Corr.,2019-04-26,2019-05-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9792,119,,Overflow Mem. Corr.,2019-04-26,2019-05-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9792,119,,Overflow Mem. Corr.,2019-04-26,2019-05-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9792,119,,Overflow Mem. Corr.,2019-04-26,2019-05-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9792,119,,Overflow Mem. Corr.,2019-04-26,2019-05-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9792,119,,Overflow Mem. Corr.,2019-04-26,2019-05-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9792,119,,Overflow Mem. Corr.,2019-04-26,2019-05-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9792,119,,Overflow Mem. Corr.,2019-04-26,2019-05-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9791,20,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9791,20,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9791,20,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9791,20,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9791,20,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9791,20,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9791,20,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9791,20,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9791,20,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9791,20,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9791,20,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9791,20,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9791,20,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9791,20,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9791,20,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9790,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9790,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9790,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9790,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9790,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9790,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9790,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9790,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9790,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9790,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9790,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9790,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9790,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9790,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9790,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9788,119,,Overflow Mem. Corr.,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9788,119,,Overflow Mem. Corr.,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9788,119,,Overflow Mem. Corr.,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9788,119,,Overflow Mem. Corr.,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9788,119,,Overflow Mem. Corr.,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9788,119,,Overflow Mem. Corr.,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9788,119,,Overflow Mem. Corr.,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9788,119,,Overflow Mem. Corr.,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9788,119,,Overflow Mem. Corr.,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9788,119,,Overflow Mem. Corr.,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9788,119,,Overflow Mem. Corr.,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9788,119,,Overflow Mem. Corr.,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9788,119,,Overflow Mem. Corr.,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9788,119,,Overflow Mem. Corr.,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9788,119,,Overflow Mem. Corr.,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
