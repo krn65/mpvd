@@ -1,5 +1,6 @@
 cve_id,description
 CVE-2020-6831,A buffer overflow could occur when parsing and validating SCTP chunks in WebRTC. This could have led to memory corruption and a potentially exploitable crash. This vulnerability affects Firefox ESR < 68.8 Firefox < 76 and Thunderbird < 68.8.0.
+CVE-2020-6829,RESERVED
 CVE-2020-6828,A malicious Android application could craft an Intent that would have been processed by Firefox for Android and potentially result in a file overwrite in the user's profile directory. One exploitation vector for this would be to supply a user.js file providing arbitrary malicious preference values. Control of arbitrary preferences can lead to sufficient compromise such that it is generally equivalent to arbitrary code execution.<br> *Note: This issue only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox ESR < 68.7.
 CVE-2020-6827,When following a link that opened an intent://-schemed URL causing a custom tab to be opened Firefox for Android could be tricked into displaying the incorrect URI. <br> *Note: This issue only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox ESR < 68.7.
 CVE-2020-6826,Mozilla developers Tyson Smith Bob Clary and Alexandru Michis reported memory safety bugs present in Firefox 74. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 75.
@@ -33,6 +34,14 @@ CVE-2020-6793,When processing an email message with an ill-formed envelope Thund
 CVE-2020-6792,When deriving an identifier for an email message uninitialized memory was used in addition to the message contents. This vulnerability affects Thunderbird < 68.5.
 CVE-2020-6514,Inappropriate implementation in WebRTC in Google Chrome prior to 84.0.4147.89 allowed an attacker in a privileged network position to potentially exploit heap corruption via a crafted SCTP stream.
 CVE-2020-6463,Use after free in ANGLE in Google Chrome prior to 81.0.4044.122 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+CVE-2020-15670,RESERVED
+CVE-2020-15669,RESERVED
+CVE-2020-15668,RESERVED
+CVE-2020-15667,RESERVED
+CVE-2020-15666,RESERVED
+CVE-2020-15665,RESERVED
+CVE-2020-15664,RESERVED
+CVE-2020-15663,RESERVED
 CVE-2020-15659,Mozilla developers and community members reported memory safety bugs present in Firefox 78 and Firefox ESR 78.0. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 79 Firefox ESR < 68.11 Firefox ESR < 78.1 Thunderbird < 68.11 and Thunderbird < 78.1.
 CVE-2020-15658,The code for downloading files did not properly take care of special characters which led to an attacker being able to cut off the file ending at an earlier position leading to a different file type being downloaded than shown in the dialog. This vulnerability affects Firefox ESR < 78.1 Firefox < 79 and Thunderbird < 78.1.
 CVE-2020-15657,Firefox could be made to load attacker-supplied DLL files from the installation directory. This required an attacker that is already capable of placing files in the installation directory. *Note: This issue only affected Windows operating systems. Other operating systems are unaffected.*. This vulnerability affects Firefox ESR < 78.1 Firefox < 79 and Thunderbird < 78.1.
@@ -66,6 +75,8 @@ CVE-2020-12407,Mozilla Developer Nicolas Silva found that when using WebRender F
 CVE-2020-12406,Mozilla Developer Iain Ireland discovered a missing type check during unboxed objects removal resulting in a crash. We presume that with enough effort that it could be exploited to run arbitrary code. This vulnerability affects Thunderbird < 68.9.0 Firefox < 77 and Firefox ESR < 68.9.
 CVE-2020-12405,When browsing a malicious page a race condition in our SharedWorkerService could occur and lead to a potentially exploitable crash. This vulnerability affects Thunderbird < 68.9.0 Firefox < 77 and Firefox ESR < 68.9.
 CVE-2020-12402,During RSA key generation bignum implementations used a variation of the Binary Extended Euclidean Algorithm which entailed significantly input-dependent flow. This allowed an attacker able to perform electromagnetic-based side channel attacks to record traces leading to the recovery of the secret primes. *Note:* An unmodified Firefox browser does not generate RSA keys in normal operation and is not affected but products built on top of it might. This vulnerability affects Firefox < 78.
+CVE-2020-12401,RESERVED
+CVE-2020-12400,RESERVED
 CVE-2020-12399,NSS has shown timing differences when performing DSA signatures which was exploitable and could eventually leak private keys. This vulnerability affects Thunderbird < 68.9.0 Firefox < 77 and Firefox ESR < 68.9.
 CVE-2020-12398,If Thunderbird is configured to use STARTTLS for an IMAP server and the server sends a PREAUTH response then Thunderbird will continue with an unencrypted connection causing email data to be sent without protection. This vulnerability affects Thunderbird < 68.9.0.
 CVE-2020-12397,By encoding Unicode whitespace characters within the From email header an attacker can spoof the sender email address that Thunderbird displays. This vulnerability affects Thunderbird < 68.8.0.

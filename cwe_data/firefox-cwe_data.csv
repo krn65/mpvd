@@ -23,7 +23,7 @@ cwe_id,title,description
 264,"CWE CATEGORY: Permissions, Privileges, and Access Controls","Weaknesses in this category are related to the management of permissions, privileges, and other security features that are used to perform access control."
 269,CWE-269: Improper Privilege Management,"The software does not properly assign, modify, track, or check privileges for an actor, creating an unintended sphere of control for that actor."
 275,CWE CATEGORY: Permission Issues,Weaknesses in this category are related to improper assignment or handling of permissions.
-276,CWE-276: Incorrect Default Permissions,"The product, upon installation, sets incorrect permissions for an object that exposes it to an unintended actor."
+276,CWE-276: Incorrect Default Permissions,"During installation, installed file permissions are set to allow anyone to modify those files."
 281,CWE-281: Improper Preservation of Permissions,"The software does not preserve permissions or incorrectly preserves permissions when copying, restoring, or sharing objects, which can cause them to have less restrictive permissions than intended."
 284,CWE-284: Improper Access Control,The software does not restrict or incorrectly restricts access to a resource from an unauthorized actor.
 287,CWE-287: Improper Authentication,"When an actor claims to have a given identity, the software does not prove or insufficiently proves that the claim is correct."
