@@ -34,6 +34,12 @@ CVE-2020-6793,When processing an email message with an ill-formed envelope Thund
 CVE-2020-6792,When deriving an identifier for an email message uninitialized memory was used in addition to the message contents. This vulnerability affects Thunderbird < 68.5.
 CVE-2020-6514,Inappropriate implementation in WebRTC in Google Chrome prior to 84.0.4147.89 allowed an attacker in a privileged network position to potentially exploit heap corruption via a crafted SCTP stream.
 CVE-2020-6463,Use after free in ANGLE in Google Chrome prior to 81.0.4044.122 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+CVE-2020-15678,RESERVED
+CVE-2020-15677,RESERVED
+CVE-2020-15676,RESERVED
+CVE-2020-15675,RESERVED
+CVE-2020-15674,RESERVED
+CVE-2020-15673,RESERVED
 CVE-2020-15670,RESERVED
 CVE-2020-15669,RESERVED
 CVE-2020-15668,RESERVED
