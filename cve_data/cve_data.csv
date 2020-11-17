@@ -34,7 +34,28 @@ CVE-2020-6793,When processing an email message with an ill-formed envelope Thund
 CVE-2020-6792,When deriving an identifier for an email message uninitialized memory was used in addition to the message contents. This vulnerability affects Thunderbird < 68.5.
 CVE-2020-6514,Inappropriate implementation in WebRTC in Google Chrome prior to 84.0.4147.89 allowed an attacker in a privileged network position to potentially exploit heap corruption via a crafted SCTP stream.
 CVE-2020-6463,Use after free in ANGLE in Google Chrome prior to 81.0.4044.122 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+CVE-2020-26969,RESERVED
+CVE-2020-26968,RESERVED
+CVE-2020-26967,RESERVED
+CVE-2020-26966,RESERVED
+CVE-2020-26965,RESERVED
+CVE-2020-26964,RESERVED
+CVE-2020-26963,RESERVED
+CVE-2020-26962,RESERVED
+CVE-2020-26961,RESERVED
+CVE-2020-26960,RESERVED
+CVE-2020-26959,RESERVED
+CVE-2020-26958,RESERVED
+CVE-2020-26957,RESERVED
+CVE-2020-26956,RESERVED
+CVE-2020-26955,RESERVED
+CVE-2020-26954,RESERVED
+CVE-2020-26953,RESERVED
+CVE-2020-26952,RESERVED
+CVE-2020-26951,RESERVED
 CVE-2020-26950,RESERVED
+CVE-2020-16012,RESERVED
+CVE-2020-15999,Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 CVE-2020-15969,Use after free in WebRTC in Google Chrome prior to 86.0.4240.75 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 CVE-2020-15684,Mozilla developers reported memory safety bugs present in Firefox 81. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 82.
 CVE-2020-15683,Mozilla developers and community members reported memory safety bugs present in Firefox 81 and Firefox ESR 78.3. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox ESR < 78.4 Firefox < 82 and Thunderbird < 78.4.
