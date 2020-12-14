@@ -34,26 +34,27 @@ CVE-2020-6793,When processing an email message with an ill-formed envelope Thund
 CVE-2020-6792,When deriving an identifier for an email message uninitialized memory was used in addition to the message contents. This vulnerability affects Thunderbird < 68.5.
 CVE-2020-6514,Inappropriate implementation in WebRTC in Google Chrome prior to 84.0.4147.89 allowed an attacker in a privileged network position to potentially exploit heap corruption via a crafted SCTP stream.
 CVE-2020-6463,Use after free in ANGLE in Google Chrome prior to 81.0.4044.122 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-CVE-2020-26969,RESERVED
-CVE-2020-26968,RESERVED
-CVE-2020-26967,RESERVED
-CVE-2020-26966,RESERVED
-CVE-2020-26965,RESERVED
-CVE-2020-26964,RESERVED
-CVE-2020-26963,RESERVED
-CVE-2020-26962,RESERVED
-CVE-2020-26961,RESERVED
-CVE-2020-26960,RESERVED
-CVE-2020-26959,RESERVED
-CVE-2020-26958,RESERVED
-CVE-2020-26957,RESERVED
-CVE-2020-26956,RESERVED
-CVE-2020-26955,RESERVED
-CVE-2020-26954,RESERVED
-CVE-2020-26953,RESERVED
-CVE-2020-26952,RESERVED
-CVE-2020-26951,RESERVED
-CVE-2020-26950,RESERVED
+CVE-2020-26970,When reading SMTP server status codes Thunderbird writes an integer value to a position on the stack that is intended to contain just one byte. Depending on processor architecture and stack layout this leads to stack corruption that may be exploitable. This vulnerability affects Thunderbird < 78.5.1.
+CVE-2020-26969,Mozilla developers reported memory safety bugs present in Firefox 82. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 83.
+CVE-2020-26968,Mozilla developers reported memory safety bugs present in Firefox 82 and Firefox ESR 78.4. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 83 Firefox ESR < 78.5 and Thunderbird < 78.5.
+CVE-2020-26967,When listening for page changes with a Mutation Observer a malicious web page could confuse Firefox Screenshots into interacting with elements other than those that it injected into the page. This would lead to internal errors and unexpected behavior in the Screenshots code. This vulnerability affects Firefox < 83.
+CVE-2020-26966,Searching for a single word from the address bar caused an mDNS request to be sent on the local network searching for a hostname consisting of that string; resulting in an information leak. *Note: This issue only affected Windows operating systems. Other operating systems are unaffected.*. This vulnerability affects Firefox < 83 Firefox ESR < 78.5 and Thunderbird < 78.5.
+CVE-2020-26965,"Some websites have a feature ""Show Password"" where clicking a button will change a password field into a textbook field revealing the typed password. If when using a software keyboard that remembers user input a user typed their password and used that feature the type of the password field was changed resulting in a keyboard layout change and the possibility for the software keyboard to remember the typed password. This vulnerability affects Firefox < 83 Firefox ESR < 78.5 and Thunderbird < 78.5."
+CVE-2020-26964,If the Remote Debugging via USB feature was enabled in Firefox for Android on an Android version prior to Android 6.0 untrusted apps could have connected to the feature and operated with the privileges of the browser to read and interact with web content. The feature was implemented as a unix domain socket protected by the Android SELinux policy; however SELinux was not enforced for versions prior to 6.0. This was fixed by removing the Remote Debugging via USB feature from affected devices. *Note: This issue only affected Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 83.
+CVE-2020-26963,Repeated calls to the history and location interfaces could have been used to hang the browser. This was addressed by introducing rate-limiting to these API calls. This vulnerability affects Firefox < 83.
+CVE-2020-26962,Cross-origin iframes that contained a login form could have been recognized by the login autofill service and populated. This could have been used in clickjacking attacks as well as be read across partitions in dynamic first party isolation. This vulnerability affects Firefox < 83.
+CVE-2020-26961,When DNS over HTTPS is in use it intentionally filters RFC1918 and related IP ranges from the responses as these do not make sense coming from a DoH resolver. However when an IPv4 address was mapped through IPv6 these addresses were erroneously let through leading to a potential DNS Rebinding attack. This vulnerability affects Firefox < 83 Firefox ESR < 78.5 and Thunderbird < 78.5.
+CVE-2020-26960,If the Compact() method was called on an nsTArray the array could have been reallocated without updating other pointers leading to a potential use-after-free and exploitable crash. This vulnerability affects Firefox < 83 Firefox ESR < 78.5 and Thunderbird < 78.5.
+CVE-2020-26959,During browser shutdown reference decrementing could have occured on a previously freed object resulting in a use-after-free memory corruption and a potentially exploitable crash. This vulnerability affects Firefox < 83 Firefox ESR < 78.5 and Thunderbird < 78.5.
+CVE-2020-26958,Firefox did not block execution of scripts with incorrect MIME types when the response was intercepted and cached through a ServiceWorker. This could lead to a cross-site script inclusion vulnerability or a Content Security Policy bypass. This vulnerability affects Firefox < 83 Firefox ESR < 78.5 and Thunderbird < 78.5.
+CVE-2020-26957,OneCRL was non-functional in the new Firefox for Android due to a missing service initialization. This could result in a failure to enforce some certificate revocations. *Note: This issue only affected Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 83.
+CVE-2020-26956,In some cases removing HTML elements during sanitization would keep existing SVG event handlers and therefore lead to XSS. This vulnerability affects Firefox < 83 Firefox ESR < 78.5 and Thunderbird < 78.5.
+CVE-2020-26955,When a user downloaded a file in Firefox for Android if a cookie is set it would have been re-sent during a subsequent file download operation on the same domain regardless of whether the original and subsequent request were in private and non-private browsing modes. *Note: This issue only affected Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 83.
+CVE-2020-26954,When accepting a malicious intent from other installed apps Firefox for Android accepted manifests from arbitrary file paths and allowed declaring webapp manifests for other origins. This could be used to gain fullscreen access for UI spoofing and could also lead to cross-origin attacks on targeted websites. *Note: This issue only affected Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 83.
+CVE-2020-26953,It was possible to cause the browser to enter fullscreen mode without displaying the security UI; thus making it possible to attempt a phishing attack or otherwise confuse the user. This vulnerability affects Firefox < 83 Firefox ESR < 78.5 and Thunderbird < 78.5.
+CVE-2020-26952,Incorrect bookkeeping of functions inlined during JIT compilation could have led to memory corruption and a potentially exploitable crash when handling out-of-memory errors. This vulnerability affects Firefox < 83.
+CVE-2020-26951,A parsing and event loading mismatch in Firefox's SVG code could have allowed load events to fire even after sanitization. An attacker already capable of exploiting an XSS vulnerability in privileged internal pages could have used this attack to bypass our built-in sanitizer. This vulnerability affects Firefox < 83 Firefox ESR < 78.5 and Thunderbird < 78.5.
+CVE-2020-26950,In certain circumstances the MCallGetProperty opcode can be emitted with unmet assumptions resulting in an exploitable use-after-free condition. This vulnerability affects Firefox < 82.0.3 Firefox ESR < 78.4.1 and Thunderbird < 78.4.2.
 CVE-2020-16012,RESERVED
 CVE-2020-15999,Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 CVE-2020-15969,Use after free in WebRTC in Google Chrome prior to 86.0.4240.75 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
