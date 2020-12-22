@@ -34,6 +34,19 @@ CVE-2020-6793,When processing an email message with an ill-formed envelope Thund
 CVE-2020-6792,When deriving an identifier for an email message uninitialized memory was used in addition to the message contents. This vulnerability affects Thunderbird < 68.5.
 CVE-2020-6514,Inappropriate implementation in WebRTC in Google Chrome prior to 84.0.4147.89 allowed an attacker in a privileged network position to potentially exploit heap corruption via a crafted SCTP stream.
 CVE-2020-6463,Use after free in ANGLE in Google Chrome prior to 81.0.4044.122 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+CVE-2020-35114,RESERVED
+CVE-2020-35113,RESERVED
+CVE-2020-35112,RESERVED
+CVE-2020-35111,RESERVED
+CVE-2020-26979,RESERVED
+CVE-2020-26978,RESERVED
+CVE-2020-26977,RESERVED
+CVE-2020-26976,RESERVED
+CVE-2020-26975,RESERVED
+CVE-2020-26974,RESERVED
+CVE-2020-26973,RESERVED
+CVE-2020-26972,RESERVED
+CVE-2020-26971,RESERVED
 CVE-2020-26970,When reading SMTP server status codes Thunderbird writes an integer value to a position on the stack that is intended to contain just one byte. Depending on processor architecture and stack layout this leads to stack corruption that may be exploitable. This vulnerability affects Thunderbird < 78.5.1.
 CVE-2020-26969,Mozilla developers reported memory safety bugs present in Firefox 82. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 83.
 CVE-2020-26968,Mozilla developers reported memory safety bugs present in Firefox 82 and Firefox ESR 78.4. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 83 Firefox ESR < 78.5 and Thunderbird < 78.5.
@@ -55,6 +68,7 @@ CVE-2020-26953,It was possible to cause the browser to enter fullscreen mode wit
 CVE-2020-26952,Incorrect bookkeeping of functions inlined during JIT compilation could have led to memory corruption and a potentially exploitable crash when handling out-of-memory errors. This vulnerability affects Firefox < 83.
 CVE-2020-26951,A parsing and event loading mismatch in Firefox's SVG code could have allowed load events to fire even after sanitization. An attacker already capable of exploiting an XSS vulnerability in privileged internal pages could have used this attack to bypass our built-in sanitizer. This vulnerability affects Firefox < 83 Firefox ESR < 78.5 and Thunderbird < 78.5.
 CVE-2020-26950,In certain circumstances the MCallGetProperty opcode can be emitted with unmet assumptions resulting in an exploitable use-after-free condition. This vulnerability affects Firefox < 82.0.3 Firefox ESR < 78.4.1 and Thunderbird < 78.4.2.
+CVE-2020-16042,RESERVED
 CVE-2020-16012,RESERVED
 CVE-2020-15999,Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 CVE-2020-15969,Use after free in WebRTC in Google Chrome prior to 86.0.4240.75 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
