@@ -1,4 +1,16 @@
 cve_id,description
+CVE-2021-23979,RESERVED
+CVE-2021-23978,RESERVED
+CVE-2021-23977,RESERVED
+CVE-2021-23976,RESERVED
+CVE-2021-23975,RESERVED
+CVE-2021-23974,RESERVED
+CVE-2021-23973,RESERVED
+CVE-2021-23972,RESERVED
+CVE-2021-23971,RESERVED
+CVE-2021-23970,RESERVED
+CVE-2021-23969,RESERVED
+CVE-2021-23968,RESERVED
 CVE-2021-23965,RESERVED
 CVE-2021-23964,RESERVED
 CVE-2021-23963,RESERVED
@@ -81,7 +93,7 @@ CVE-2020-26953,It was possible to cause the browser to enter fullscreen mode wit
 CVE-2020-26952,Incorrect bookkeeping of functions inlined during JIT compilation could have led to memory corruption and a potentially exploitable crash when handling out-of-memory errors. This vulnerability affects Firefox < 83.
 CVE-2020-26951,A parsing and event loading mismatch in Firefox's SVG code could have allowed load events to fire even after sanitization. An attacker already capable of exploiting an XSS vulnerability in privileged internal pages could have used this attack to bypass our built-in sanitizer. This vulnerability affects Firefox < 83 Firefox ESR < 78.5 and Thunderbird < 78.5.
 CVE-2020-26950,In certain circumstances the MCallGetProperty opcode can be emitted with unmet assumptions resulting in an exploitable use-after-free condition. This vulnerability affects Firefox < 82.0.3 Firefox ESR < 78.4.1 and Thunderbird < 78.4.2.
-CVE-2020-16044,RESERVED
+CVE-2020-16044,Use after free in WebRTC in Google Chrome prior to 88.0.4324.96 allowed a remote attacker to potentially exploit heap corruption via a crafted SCTP packet.
 CVE-2020-16042,Uninitialized Use in V8 in Google Chrome prior to 87.0.4280.88 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page.
 CVE-2020-16012,Side-channel information leakage in graphics in Google Chrome prior to 87.0.4280.66 allowed a remote attacker to leak cross-origin data via a crafted HTML page.
 CVE-2020-15999,Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
