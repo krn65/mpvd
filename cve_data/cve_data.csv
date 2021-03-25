@@ -1,29 +1,37 @@
 cve_id,description
-CVE-2021-23979,RESERVED
-CVE-2021-23978,RESERVED
-CVE-2021-23977,RESERVED
-CVE-2021-23976,RESERVED
-CVE-2021-23975,RESERVED
-CVE-2021-23974,RESERVED
-CVE-2021-23973,RESERVED
-CVE-2021-23972,RESERVED
-CVE-2021-23971,RESERVED
-CVE-2021-23970,RESERVED
-CVE-2021-23969,RESERVED
-CVE-2021-23968,RESERVED
-CVE-2021-23965,RESERVED
-CVE-2021-23964,RESERVED
-CVE-2021-23963,RESERVED
-CVE-2021-23962,RESERVED
-CVE-2021-23961,RESERVED
-CVE-2021-23960,RESERVED
-CVE-2021-23959,RESERVED
-CVE-2021-23958,RESERVED
-CVE-2021-23957,RESERVED
-CVE-2021-23956,RESERVED
-CVE-2021-23955,RESERVED
-CVE-2021-23954,RESERVED
-CVE-2021-23953,RESERVED
+CVE-2021-23988,RESERVED
+CVE-2021-23987,RESERVED
+CVE-2021-23986,RESERVED
+CVE-2021-23985,RESERVED
+CVE-2021-23984,RESERVED
+CVE-2021-23983,RESERVED
+CVE-2021-23982,RESERVED
+CVE-2021-23981,RESERVED
+CVE-2021-23979,Mozilla developers reported memory safety bugs present in Firefox 85. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 86.
+CVE-2021-23978,Mozilla developers reported memory safety bugs present in Firefox 85 and Firefox ESR 78.7. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 86 Thunderbird < 78.8 and Firefox ESR < 78.8.
+CVE-2021-23977,Firefox for Android suffered from a time-of-check-time-of-use vulnerability that allowed a malicious application to read sensitive data from application directories. Note: This issue is only affected Firefox for Android. Other operating systems are unaffected. This vulnerability affects Firefox < 86.
+CVE-2021-23976,When accepting a malicious intent from other installed apps Firefox for Android accepted manifests from arbitrary file paths and allowed declaring webapp manifests for other origins. This could be used to gain fullscreen access for UI spoofing and could also lead to cross-origin attacks on targeted websites. Note: This issue is a different issue from CVE-2020-26954 and only affected Firefox for Android. Other operating systems are unaffected. This vulnerability affects Firefox < 86.
+CVE-2021-23975,The developer page about:memory has a Measure function for exploring what object types the browser has allocated and their sizes. When this function was invoked we incorrectly called the sizeof function instead of using the API method that checks for invalid pointers. This vulnerability affects Firefox < 86.
+CVE-2021-23974,The DOMParser API did not properly process '<noscript>' elements for escaping. This could be used as an mXSS vector to bypass an HTML Sanitizer. This vulnerability affects Firefox < 86.
+CVE-2021-23973,When trying to load a cross-origin resource in an audio/video context a decoding error may have resulted and the content of that error may have revealed information about the resource. This vulnerability affects Firefox < 86 Thunderbird < 78.8 and Firefox ESR < 78.8.
+CVE-2021-23972,One phishing tactic on the web is to provide a link with HTTP Auth. For example 'https://www.phishingtarget.com@evil.com'. To mitigate this type of attack Firefox will display a warning dialog; however this warning dialog would not have been displayed if evil.com used a redirect that was cached by the browser. This vulnerability affects Firefox < 86.
+CVE-2021-23971,When processing a redirect with a conflicting Referrer-Policy Firefox would have adopted the redirect's Referrer-Policy. This would have potentially resulted in more information than intended by the original origin being provided to the destination of the redirect. This vulnerability affects Firefox < 86.
+CVE-2021-23970,Context-specific code was included in a shared jump table; resulting in assertions being triggered in multithreaded wasm code. This vulnerability affects Firefox < 86.
+CVE-2021-23969,"As specified in the W3C Content Security Policy draft when creating a violation report ""User agents need to ensure that the source file is the URL requested by the page pre-redirects. If that&#8217;s not possible user agents need to strip the URL down to an origin to avoid unintentional leakage."" Under certain types of redirects Firefox incorrectly set the source file to be the destination of the redirects. This was fixed to be the redirect destination's origin. This vulnerability affects Firefox < 86 Thunderbird < 78.8 and Firefox ESR < 78.8."
+CVE-2021-23968,If Content Security Policy blocked frame navigation the full destination of a redirect served in the frame was reported in the violation report; as opposed to the original frame URI. This could be used to leak sensitive information contained in such URIs. This vulnerability affects Firefox < 86 Thunderbird < 78.8 and Firefox ESR < 78.8.
+CVE-2021-23965,Mozilla developers reported memory safety bugs present in Firefox 84. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 85.
+CVE-2021-23964,Mozilla developers reported memory safety bugs present in Firefox 84 and Firefox ESR 78.6. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 85 Thunderbird < 78.7 and Firefox ESR < 78.7.
+CVE-2021-23963,When sharing geolocation during an active WebRTC share Firefox could have reset the webRTC sharing state in the user interface leading to loss of control over the currently granted permission. This vulnerability affects Firefox < 85.
+CVE-2021-23962,Incorrect use of the '<RowCountChanged>' method could have led to a user-after-poison and a potentially exploitable crash. This vulnerability affects Firefox < 85.
+CVE-2021-23961,Further techniques that built on the slipstream research combined with a malicious webpage could have exposed both an internal network's hosts as well as services running on the user's local machine. This vulnerability affects Firefox < 85.
+CVE-2021-23960,Performing garbage collection on re-declared JavaScript variables resulted in a user-after-poison and a potentially exploitable crash. This vulnerability affects Firefox < 85 Thunderbird < 78.7 and Firefox ESR < 78.7.
+CVE-2021-23959,An XSS bug in internal error pages could have led to various spoofing attacks including other error pages and the address bar. Note: This issue only affected Firefox for Android. Other operating systems are unaffected. This vulnerability affects Firefox < 85.
+CVE-2021-23958,The browser could have been confused into transferring a screen sharing state into another tab which would leak unintended information. This vulnerability affects Firefox < 85.
+CVE-2021-23957,Navigations through the Android-specific `intent` URL scheme could have been misused to escape iframe sandbox. Note: This issue only affected Firefox for Android. Other operating systems are unaffected. This vulnerability affects Firefox < 85.
+CVE-2021-23956,An ambiguous file picker design could have confused users who intended to select and upload a single file into uploading a whole directory. This was addressed by adding a new prompt. This vulnerability affects Firefox < 85.
+CVE-2021-23955,The browser could have been confused into transferring a pointer lock state into another tab which could have lead to clickjacking attacks. This vulnerability affects Firefox < 85.
+CVE-2021-23954,Using the new logical assignment operators in a JavaScript switch statement could have caused a type confusion leading to a memory corruption and a potentially exploitable crash. This vulnerability affects Firefox < 85 Thunderbird < 78.7 and Firefox ESR < 78.7.
+CVE-2021-23953,If a user clicked into a specifically crafted PDF the PDF reader could be confused into leaking cross-origin information when said information is served as chunked data. This vulnerability affects Firefox < 85 Thunderbird < 78.7 and Firefox ESR < 78.7.
 CVE-2020-6831,A buffer overflow could occur when parsing and validating SCTP chunks in WebRTC. This could have led to memory corruption and a potentially exploitable crash. This vulnerability affects Firefox ESR < 68.8 Firefox < 76 and Thunderbird < 68.8.0.
 CVE-2020-6829,When performing EC scalar point multiplication the wNAF point multiplication algorithm was used; which leaked partial information about the nonce used during signature generation. Given an electro-magnetic trace of a few signature generations the private key could have been computed. This vulnerability affects Firefox < 80 and Firefox for Android < 80.
 CVE-2020-6828,A malicious Android application could craft an Intent that would have been processed by Firefox for Android and potentially result in a file overwrite in the user's profile directory. One exploitation vector for this would be to supply a user.js file providing arbitrary malicious preference values. Control of arbitrary preferences can lead to sufficient compromise such that it is generally equivalent to arbitrary code execution.<br> *Note: This issue only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox ESR < 68.7.
@@ -93,6 +101,7 @@ CVE-2020-26953,It was possible to cause the browser to enter fullscreen mode wit
 CVE-2020-26952,Incorrect bookkeeping of functions inlined during JIT compilation could have led to memory corruption and a potentially exploitable crash when handling out-of-memory errors. This vulnerability affects Firefox < 83.
 CVE-2020-26951,A parsing and event loading mismatch in Firefox's SVG code could have allowed load events to fire even after sanitization. An attacker already capable of exploiting an XSS vulnerability in privileged internal pages could have used this attack to bypass our built-in sanitizer. This vulnerability affects Firefox < 83 Firefox ESR < 78.5 and Thunderbird < 78.5.
 CVE-2020-26950,In certain circumstances the MCallGetProperty opcode can be emitted with unmet assumptions resulting in an exploitable use-after-free condition. This vulnerability affects Firefox < 82.0.3 Firefox ESR < 78.4.1 and Thunderbird < 78.4.2.
+CVE-2020-16048,RESERVED
 CVE-2020-16044,Use after free in WebRTC in Google Chrome prior to 88.0.4324.96 allowed a remote attacker to potentially exploit heap corruption via a crafted SCTP packet.
 CVE-2020-16042,Uninitialized Use in V8 in Google Chrome prior to 87.0.4280.88 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page.
 CVE-2020-16012,Side-channel information leakage in graphics in Google Chrome prior to 87.0.4280.66 allowed a remote attacker to leak cross-origin data via a crafted HTML page.
