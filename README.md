@@ -1,6 +1,6 @@
 # mpvd (Mozilla Products Vulnerability Dataset)
 
-### The following information is up-to-date as of October 07, 2021.
+### The following information is up-to-date as of January 13, 2021.
 - The data will be updated periodically to account for new vulnerabilities provided in security advisories for updates to Mozilla products.
 
 #### NOTE: The dataset is not 100% complete due to unavailable data or other issues encountered while scraping and parsing.
@@ -21,10 +21,10 @@ The `product_bug_ids` folder contains a `.txt` file for each product that provid
 
 Only source code files that have the following file extensions are scraped and part of the dataset: `.js`, `.java`, `.c`, `.cc`, `.cpp`, `.c++`, `.cp`, `.cxx`, `.h`, `.hh`, `.hpp`, `.py`
 
-The `vulnerable_source_code.zip` file contains a folder of vulnerable (older) versions of source code files for all products before a vulnerability was fixed. The `fixed_source_code.zip` file contains a folder of fixed (newer) versions of source code files for all products after a vulnerability was fixed.
+The `source_code-vulnerable.zip` file contains a folder of `"vulnerable"` (older) versions of source code files for all products before a vulnerability was fixed. The `source_code-fixed.zip` file contains a folder of `"fixed"` (newer) versions of source code files for all products after a vulnerability was fixed.
 
-- **Note:** A scraped `vulnerable` source code file is not necessarily the original state of the file which created the vulnerability. It is just the last instance of the file where the vulnerability was still present (aka the parent revision which comes before the revision that fixed the vulnerability).
+- **Note:** A scraped `"vulnerable"` source code file is not necessarily the original state of the file which created the vulnerability. It is just the last instance of the file where the vulnerability was still present (aka the parent revision which comes before the revision that fixed the vulnerability).
 
 Each source code filename is labeled as `bug_id`-`revision_id`-`status`-`original_filename`.`extension`. The `bug_id` refers to the Bugzilla entry. The `revision_id` refers to the commit ([Phabricator](https://phabricator.services.mozilla.com/)) or revision ([Mercurial](https://hg.mozilla.org/)) ID for the files related to the Bugzilla entry of the Bug ID. The `status` refers to either `vulnerable` (old) or `fixed` (new) source code. The `original_filename` represents the name of the file that was changed. When writing the file, the filename was adjusted by replacing backslashes (`\`) with underscores (`_`). The `extension` refers to the file extension.
 
-Both `.zip` files contain `5,257` source code files from all Mozilla products with a variety of file extensions. Only `2,217` of the total `3,066` unique Bug IDs are represented from the downloaded source code files. Only instances of source code files that have content (not empty) for both the `fixed` and `vulnerable` versions are included in the dataset. For example, if a source code file was created or deleted between a revision (current and parent), then that file is ignored. As stated earlier, this is due to unavailable data or other issues encountered while scraping or parsing the associated product security advisory data. Only Bugzilla entries that are public, have a status of `Closed`, and available attachments (table of revisions) are considered.
+Both `.zip` files contain `6,276` source code files from all Mozilla products with a variety of file extensions. Only `2,310` of the total `3,134` unique Bug IDs are represented from the downloaded source code files. Only instances of source code files that have content (not empty) for both the `fixed` and `vulnerable` versions are included in the dataset. For example, if a source code file was created or deleted between a revision (current and parent), then that file is ignored. As stated earlier, this is due to unavailable data or other issues encountered while scraping or parsing the associated product security advisory data. Only Bugzilla entries that are public, have a status of `Closed`, and available attachments (table of revisions) are considered.
