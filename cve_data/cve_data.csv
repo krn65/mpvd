@@ -1,4 +1,25 @@
 cve_id,description
+CVE-2022-26486,RESERVED
+CVE-2022-26485,RESERVED
+CVE-2022-26387,RESERVED
+CVE-2022-26386,RESERVED
+CVE-2022-26385,RESERVED
+CVE-2022-26384,RESERVED
+CVE-2022-26383,RESERVED
+CVE-2022-26382,RESERVED
+CVE-2022-26381,RESERVED
+CVE-2022-22764,RESERVED
+CVE-2022-22763,RESERVED
+CVE-2022-22762,RESERVED
+CVE-2022-22761,RESERVED
+CVE-2022-22760,RESERVED
+CVE-2022-22759,RESERVED
+CVE-2022-22758,RESERVED
+CVE-2022-22757,RESERVED
+CVE-2022-22756,RESERVED
+CVE-2022-22755,RESERVED
+CVE-2022-22754,RESERVED
+CVE-2022-22753,RESERVED
 CVE-2022-22752,RESERVED
 CVE-2022-22751,RESERVED
 CVE-2022-22750,RESERVED
@@ -16,6 +37,9 @@ CVE-2022-22739,RESERVED
 CVE-2022-22738,RESERVED
 CVE-2022-22737,RESERVED
 CVE-2022-22736,RESERVED
+CVE-2022-0843,RESERVED
+CVE-2022-0566,RESERVED
+CVE-2022-0511,RESERVED
 CVE-2021-44538,The olm_session_describe function in Matrix libolm before 3.2.7 is vulnerable to a buffer overflow. The Olm session object represents a cryptographic channel between two parties. Therefore its state is partially controllable by the remote party of the channel. Attackers can construct a crafted sequence of messages to manipulate the state of the receiver's session in such a way that for some buffer sizes a buffer overflow happens on a call to olm_session_describe. Furthermore safe buffer sizes were undocumented. The overflow content is partially controllable by the attacker and limited to ASCII spaces and digits. The known affected products are Element Web And SchildiChat Web.
 CVE-2021-43546,It was possible to recreate previous cursor spoofing attacks against users with a zoomed native cursor. This vulnerability affects Thunderbird < 91.4.0 Firefox ESR < 91.4.0 and Firefox < 95.
 CVE-2021-43545,Using the Location API in a loop could have caused severe application hangs and crashes. This vulnerability affects Thunderbird < 91.4.0 Firefox ESR < 91.4.0 and Firefox < 95.
@@ -35,6 +59,7 @@ CVE-2021-43532,The 'Copy Image Link' context menu action would copy the final im
 CVE-2021-43531,When a user loaded a Web Extensions context menu the Web Extension could access the post-redirect URL of the element clicked. If the Web Extension lacked the WebRequest permission for the hosts involved in the redirect this would be a same-origin-violation leaking data the Web Extension should have access to. This was fixed to provide the pre-redirect URL. This is related to CVE-2021-43532 but in the context of Web Extensions. This vulnerability affects Firefox < 94.
 CVE-2021-43530,A Universal XSS vulnerability was present in Firefox for Android resulting from improper sanitization when processing a URL scanned from a QR code. *This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 94.
 CVE-2021-43528,Thunderbird unexpectedly enabled JavaScript in the composition area. The JavaScript execution context was limited to this area and did not receive chrome-level privileges but could be used as a stepping stone to further an attack with other vulnerabilities. This vulnerability affects Thunderbird < 91.4.0.
+CVE-2021-4221,RESERVED
 CVE-2021-4140,RESERVED
 CVE-2021-4129,RESERVED
 CVE-2021-4128,RESERVED
