@@ -1,42 +1,42 @@
 cve_id,cwe_id,number_exploits,vulnerability_types,publish_date,update_date,score,gained_access_level,access,complexity,authentication,confidentiality,integrity,availability
-CVE-2021-43546,1021,,,2021-12-08,2022-02-22,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2021-43545,834,,,2021-12-08,2022-02-28,4.3,None,Remote,Medium,Not required,None,None,Partial
-CVE-2021-43543,79,,XSS,2021-12-08,2022-02-22,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2021-43542,209,,,2021-12-08,2022-02-22,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2021-43541,,,,2021-12-08,2022-02-22,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2021-43539,416,,,2021-12-08,2022-02-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2021-43538,362,,,2021-12-08,2022-02-22,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2021-43537,704,,,2021-12-08,2022-02-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2021-43536,668,,,2021-12-08,2022-02-22,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2021-43535,416,,Mem. Corr.,2021-12-08,2022-01-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2021-43534,787,,Mem. Corr.,2021-12-08,2022-01-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2021-43528,269,,,2021-12-08,2022-01-04,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2021-38509,1021,,,2021-12-08,2022-02-22,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2021-38508,1021,,,2021-12-08,2022-02-22,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2021-38507,346,,,2021-12-08,2022-02-22,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2021-38506,1021,,,2021-12-08,2022-02-28,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2021-38504,416,,Mem. Corr.,2021-12-08,2022-02-22,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2021-38503,863,,Bypass,2021-12-08,2022-02-22,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2021-38502,522,,Exec Code,2021-11-03,2022-01-04,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2021-43546,1021,,,2021-12-08,2022-08-10,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2021-43545,834,,,2021-12-08,2022-08-10,4.3,None,Remote,Medium,Not required,None,None,Partial
+CVE-2021-43543,79,,XSS,2021-12-08,2022-08-10,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2021-43542,209,,,2021-12-08,2022-08-10,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2021-43541,,,,2021-12-08,2022-08-10,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2021-43539,416,,,2021-12-08,2022-08-10,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-43538,362,,,2021-12-08,2022-08-10,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2021-43537,704,,,2021-12-08,2022-08-10,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-43536,668,,,2021-12-08,2022-08-10,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2021-43535,416,,Mem. Corr.,2021-12-08,2022-03-17,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-43534,787,,Mem. Corr.,2021-12-08,2022-03-17,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-43528,269,,,2021-12-08,2022-08-10,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2021-38509,1021,,,2021-12-08,2022-08-10,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2021-38508,1021,,,2021-12-08,2022-08-10,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2021-38507,346,,,2021-12-08,2022-08-10,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2021-38506,1021,,,2021-12-08,2022-08-10,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2021-38504,416,,Mem. Corr.,2021-12-08,2022-08-10,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-38503,863,,Bypass,2021-12-08,2022-08-10,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2021-38502,,,Exec Code,2021-11-03,2022-07-12,4.3,None,Remote,Medium,Not required,Partial,None,None
 CVE-2021-38501,,,Mem. Corr.,2021-11-03,2021-11-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2021-38500,,,Mem. Corr.,2021-11-03,2022-01-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-38500,,,Mem. Corr.,2021-11-03,2022-03-17,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2021-38498,416,,Mem. Corr.,2021-11-03,2021-11-04,5.0,None,Remote,Low,Not required,None,None,Partial
 CVE-2021-38497,346,,,2021-11-03,2021-11-04,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2021-38496,416,,Mem. Corr.,2021-11-03,2022-01-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2021-38495,119,,Overflow Mem. Corr.,2021-11-03,2022-02-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2021-38493,119,,Overflow Mem. Corr.,2021-11-03,2022-02-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-38496,416,,Mem. Corr.,2021-11-03,2022-03-17,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-38495,787,,Mem. Corr.,2021-11-03,2022-08-10,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-38493,787,,Mem. Corr.,2021-11-03,2022-08-10,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2021-29991,444,,,2021-11-03,2021-11-04,5.8,None,Remote,Medium,Not required,Partial,Partial,None
-CVE-2021-29989,119,,Overflow Mem. Corr.,2021-08-17,2022-02-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2021-29988,436,,Mem. Corr.,2021-08-17,2022-02-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2021-29985,416,,Mem. Corr.,2021-08-17,2022-02-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2021-29984,,,Mem. Corr.,2021-08-17,2022-02-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2021-29982,772,,,2021-08-17,2022-02-22,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2021-29981,,,,2021-08-17,2022-02-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2021-29980,909,,Mem. Corr.,2021-08-17,2022-02-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2021-29976,787,,Mem. Corr.,2021-08-05,2022-02-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2021-29970,416,,Mem. Corr.,2021-08-05,2022-02-22,5.1,None,Remote,High,Not required,Partial,Partial,Partial
-CVE-2021-29969,552,,,2021-08-05,2021-08-12,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2021-29967,119,,Overflow Mem. Corr.,2021-06-24,2021-06-25,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-29989,787,,Mem. Corr.,2021-08-17,2022-08-10,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-29988,125,,Mem. Corr.,2021-08-17,2022-08-10,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-29985,416,,Mem. Corr.,2021-08-17,2022-08-10,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-29984,787,,Mem. Corr.,2021-08-17,2022-08-10,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-29982,772,,,2021-08-17,2022-03-16,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2021-29981,,,,2021-08-17,2022-03-16,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-29980,909,,Mem. Corr.,2021-08-17,2022-08-10,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-29976,787,,Mem. Corr.,2021-08-05,2022-08-10,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-29970,787,,Mem. Corr.,2021-08-05,2022-08-10,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2021-29969,552,,,2021-08-05,2022-08-10,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2021-29967,787,,Mem. Corr.,2021-06-24,2022-08-10,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2021-29957,,,,2021-06-24,2021-06-30,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2021-29956,312,,,2021-06-24,2021-06-30,4.3,None,Remote,Medium,Not required,Partial,None,None
 CVE-2021-29950,312,,,2021-06-24,2021-06-25,5.0,None,Remote,Low,Not required,Partial,None,None
@@ -45,22 +45,22 @@ CVE-2021-29948,362,,,2021-06-24,2021-06-30,1.9,None,Local,Medium,Not required,No
 CVE-2021-29946,190,,Overflow Bypass,2021-06-24,2021-06-25,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2021-29945,682,,,2021-06-24,2021-06-30,4.3,None,Remote,Medium,Not required,None,None,Partial
 CVE-2021-24002,88,,,2021-06-24,2021-07-02,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2021-23999,269,,,2021-06-24,2021-07-02,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-23999,269,,,2021-06-24,2022-04-26,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2021-23998,345,,,2021-06-24,2021-07-02,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2021-23995,672,,,2021-06-24,2021-07-02,5.1,None,Remote,High,Not required,Partial,Partial,Partial
 CVE-2021-23994,909,,Mem. Corr.,2021-06-24,2021-07-02,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2021-23993,327,,,2021-06-24,2021-07-06,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2021-23992,347,,,2021-06-24,2021-07-08,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2021-23991,,,,2021-06-24,2021-07-08,4.0,None,Remote,High,Not required,Partial,Partial,None
-CVE-2021-23987,119,,Overflow Mem. Corr.,2021-03-31,2021-08-06,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-23987,787,,Mem. Corr.,2021-03-31,2022-05-03,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2021-23984,290,,,2021-03-31,2021-08-06,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2021-23982,326,,,2021-03-31,2021-08-06,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2021-23981,119,,Overflow Mem. Corr. +Info,2021-03-31,2021-08-06,5.8,None,Remote,Medium,Not required,Partial,None,Partial
-CVE-2021-23978,,,Mem. Corr.,2021-02-26,2021-05-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2021-23973,209,,,2021-02-26,2021-05-01,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2021-23969,,,,2021-02-26,2021-05-01,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2021-23968,209,,+Info,2021-02-26,2021-05-01,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2021-23964,119,,Overflow Mem. Corr.,2021-02-26,2021-03-04,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-23981,787,,Mem. Corr. +Info,2021-03-31,2022-05-03,5.8,None,Remote,Medium,Not required,Partial,None,Partial
+CVE-2021-23978,,,Mem. Corr.,2021-02-26,2022-05-27,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2021-23973,209,,,2021-02-26,2022-05-27,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2021-23969,,,,2021-02-26,2022-05-27,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2021-23968,209,,+Info,2021-02-26,2022-05-27,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2021-23964,787,,Mem. Corr.,2021-02-26,2022-05-03,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2021-23960,,,,2021-02-26,2021-03-03,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2021-23954,843,,Mem. Corr.,2021-02-26,2021-03-03,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2021-23953,,,+Info,2021-02-26,2021-03-03,4.3,None,Remote,Medium,Not required,Partial,None,None
@@ -80,47 +80,47 @@ CVE-2020-26958,79,,XSS Bypass,2020-12-09,2020-12-10,4.3,None,Remote,Medium,Not r
 CVE-2020-26956,79,,XSS,2020-12-09,2020-12-10,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2020-26953,1021,,,2020-12-09,2020-12-10,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2020-26951,79,,XSS Bypass,2020-12-09,2020-12-09,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2020-26950,416,,,2020-12-09,2022-03-01,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2020-15683,,,Mem. Corr.,2020-10-22,2021-07-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2020-26950,416,,,2020-12-09,2022-04-08,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2020-15683,787,,Mem. Corr.,2020-10-22,2022-04-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
 CVE-2020-15678,416,,,2020-10-01,2020-11-02,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2020-15677,601,,,2020-10-01,2020-11-02,5.8,None,Remote,Medium,Not required,Partial,Partial,None
 CVE-2020-15676,79,,XSS,2020-10-01,2020-11-02,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2020-15673,763,,Mem. Corr.,2020-10-01,2021-07-21,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2020-15673,416,,Mem. Corr.,2020-10-01,2022-04-28,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2020-15670,763,,Mem. Corr.,2020-10-01,2021-07-21,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2020-15669,416,,,2020-10-01,2020-10-02,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2020-15664,863,,,2020-10-01,2020-10-13,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2020-15663,269,,Exec Code,2020-10-01,2020-10-13,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2020-15663,427,,Exec Code,2020-10-01,2022-07-12,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
 CVE-2020-15659,787,,Mem. Corr.,2020-08-10,2020-08-21,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
 CVE-2020-15658,754,,,2020-08-10,2020-08-18,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2020-15656,843,,,2020-08-10,2020-08-18,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2020-15655,200,,Bypass +Info,2020-08-10,2021-07-21,4.3,None,Remote,Medium,Not required,Partial,None,None
+CVE-2020-15655,,,Bypass,2020-08-10,2022-05-03,4.3,None,Remote,Medium,Not required,Partial,None,None
 CVE-2020-15654,835,,,2020-08-10,2020-08-18,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2020-15653,,,Bypass,2020-08-10,2020-08-18,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2020-15652,346,,,2020-08-10,2020-08-18,4.3,None,Remote,Medium,Not required,Partial,None,None
 CVE-2020-15648,1021,,,2020-08-10,2020-08-12,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2020-15646,522,,,2020-10-08,2021-07-21,4.3,None,Remote,Medium,Not required,Partial,None,None
 CVE-2020-12421,295,,,2020-07-09,2020-07-27,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2020-12420,416,,Mem. Corr.,2020-07-09,2021-07-21,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2020-12420,362,,Mem. Corr.,2020-07-09,2022-05-03,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
 CVE-2020-12419,416,,Mem. Corr.,2020-07-09,2020-07-27,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
 CVE-2020-12418,125,,,2020-07-09,2020-07-27,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2020-12417,119,,Overflow Mem. Corr.,2020-07-09,2021-07-21,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+CVE-2020-12417,787,,Mem. Corr.,2020-07-09,2022-05-03,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
 CVE-2020-12406,345,,,2020-07-09,2020-07-22,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2020-12405,416,,,2020-07-09,2021-07-21,2.6,None,Remote,High,Not required,None,None,Partial
+CVE-2020-12405,362,,,2020-07-09,2022-05-03,2.6,None,Remote,High,Not required,None,None,Partial
 CVE-2020-12399,203,,,2020-07-09,2022-01-04,1.2,None,Local,High,Not required,Partial,None,None
 CVE-2020-12398,319,,,2020-07-09,2022-01-04,4.3,None,Remote,Medium,Not required,Partial,None,None
 CVE-2020-12397,346,,,2020-05-22,2020-06-12,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2020-12395,119,,Overflow Mem. Corr.,2020-05-26,2021-07-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2020-12392,200,,+Info,2020-05-26,2021-07-21,2.1,None,Local,Low,Not required,Partial,None,None
+CVE-2020-12395,787,,Mem. Corr.,2020-05-26,2022-04-26,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2020-12392,22,,Dir. Trav.,2020-05-26,2022-04-26,2.1,None,Local,Low,Not required,Partial,None,None
 CVE-2020-12387,362,,,2020-05-26,2021-12-14,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2020-6831,120,,Overflow Mem. Corr.,2020-05-26,2021-07-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
 CVE-2020-6825,119,,Overflow Mem. Corr.,2020-04-24,2021-07-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
 CVE-2020-6822,787,,,2020-04-24,2020-05-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2020-6821,119,,Overflow,2020-04-24,2021-07-21,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2020-6820,415,,,2020-04-24,2021-07-21,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2020-6819,416,,,2020-04-24,2021-07-21,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2020-6814,119,,Overflow Mem. Corr.,2020-03-25,2021-07-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2020-6820,362,,,2020-04-24,2022-07-12,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2020-6819,362,,,2020-04-24,2022-07-12,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2020-6814,787,,Mem. Corr.,2020-03-25,2022-04-18,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
 CVE-2020-6812,200,,+Info,2020-03-25,2020-04-22,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2020-6811,74,,Exec Code,2020-03-25,2021-07-21,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2020-6811,77,,Exec Code,2020-03-25,2022-04-11,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2020-6807,416,,Exec Code,2020-03-25,2020-04-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2020-6806,125,,Mem. Corr.,2020-03-25,2020-04-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2020-6805,416,,,2020-03-25,2020-04-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
@@ -131,18 +131,18 @@ CVE-2020-6794,312,,,2020-03-02,2022-01-01,4.3,None,Remote,Medium,Not required,Pa
 CVE-2020-6793,908,,,2020-03-02,2022-01-01,4.3,None,Remote,Medium,Not required,Partial,None,None
 CVE-2020-6792,908,,,2020-03-02,2022-01-01,4.3,None,Remote,Medium,Not required,Partial,None,None
 CVE-2019-17026,843,,,2020-03-02,2021-05-13,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2019-17012,120,,Mem. Corr.,2020-01-08,2021-07-21,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2019-17011,416,,,2020-01-08,2021-07-21,5.1,None,Remote,High,Not required,Partial,Partial,Partial
-CVE-2019-17010,416,,,2020-01-08,2021-07-21,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-17012,787,,Mem. Corr.,2020-01-08,2022-04-08,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-17011,362,,,2020-01-08,2022-04-08,5.1,None,Remote,High,Not required,Partial,Partial,Partial
+CVE-2019-17010,362,,,2020-01-08,2022-04-08,5.1,None,Remote,High,Not required,Partial,Partial,Partial
 CVE-2019-17008,416,,,2020-01-08,2020-01-16,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2019-17005,120,,Overflow Mem. Corr.,2020-01-08,2021-07-21,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-17005,787,,Overflow Mem. Corr.,2020-01-08,2022-04-08,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2019-11764,787,,Mem. Corr.,2020-01-08,2022-01-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2019-11763,79,,XSS,2020-01-08,2020-03-14,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2019-11762,346,,,2020-01-08,2020-03-14,5.8,None,Remote,Medium,Not required,Partial,Partial,None
 CVE-2019-11761,362,,+Priv Bypass,2020-01-08,2020-08-24,5.8,None,Remote,Medium,Not required,Partial,Partial,None
 CVE-2019-11760,787,,Overflow,2020-01-08,2020-03-14,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2019-11759,120,,Exec Code,2020-01-08,2020-03-14,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2019-11758,119,,Overflow Mem. Corr.,2020-01-08,2021-07-21,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-11758,787,,Mem. Corr.,2020-01-08,2022-04-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2019-11757,416,,,2020-01-08,2020-03-14,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2019-11755,347,,,2019-09-27,2020-08-24,5.0,None,Remote,Low,Not required,None,Partial,None
 CVE-2019-11752,416,,,2019-09-27,2019-10-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
@@ -151,7 +151,7 @@ CVE-2019-11745,787,,,2020-01-08,2021-02-19,6.8,None,Remote,Medium,Not required,P
 CVE-2019-11744,79,,XSS,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2019-11743,203,,,2019-09-27,2020-08-24,4.3,None,Remote,Medium,Not required,Partial,None,None
 CVE-2019-11742,829,,,2019-09-27,2019-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2019-11740,119,,Overflow Mem. Corr.,2019-09-27,2021-07-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11740,787,,Mem. Corr.,2019-09-27,2022-03-31,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2019-11739,319,,,2019-09-27,2020-08-24,4.3,None,Remote,Medium,Not required,Partial,None,None
 CVE-2019-11730,,,,2019-07-23,2020-08-24,4.3,None,Remote,Medium,Not required,Partial,None,None
 CVE-2019-11729,119,,Overflow,2019-07-23,2020-09-30,5.0,None,Remote,Low,Not required,None,None,Partial
@@ -161,13 +161,13 @@ CVE-2019-11715,79,,XSS,2019-07-23,2019-07-29,4.3,None,Remote,Medium,Not required
 CVE-2019-11713,416,,,2019-07-23,2019-07-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
 CVE-2019-11712,352,,Bypass CSRF,2019-07-23,2019-07-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2019-11711,,,,2019-07-23,2020-08-24,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2019-11709,119,,Overflow Mem. Corr.,2019-07-23,2021-07-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11709,787,,Mem. Corr.,2019-07-23,2022-04-18,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
 CVE-2019-11708,20,,,2019-07-23,2019-08-15,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
 CVE-2019-11707,843,,,2019-07-23,2020-08-24,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
 CVE-2019-11706,843,,,2019-07-23,2020-08-24,5.0,None,Remote,Low,Not required,None,None,Partial
 CVE-2019-11705,787,,Overflow,2019-07-23,2020-08-24,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2019-11704,119,,Overflow,2019-07-23,2021-07-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2019-11703,119,,Overflow,2019-07-23,2021-07-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11704,787,,Overflow,2019-07-23,2022-04-18,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-11703,787,,Overflow,2019-07-23,2022-04-18,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
 CVE-2019-11698,20,,,2019-07-23,2019-07-29,5.0,None,Remote,Low,Not required,Partial,None,None
 CVE-2019-11692,416,,,2019-07-23,2019-07-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
 CVE-2019-11691,416,,,2019-07-23,2019-07-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
@@ -177,15 +177,16 @@ CVE-2019-9817,346,,,2019-07-23,2019-07-26,5.0,None,Remote,Low,Not required,Parti
 CVE-2019-9816,843,,Bypass,2019-07-23,2020-08-24,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2019-9813,843,,,2019-04-26,2020-08-24,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2019-9811,74,,,2019-07-23,2020-08-24,5.1,None,Remote,High,Not required,Partial,Partial,Partial
-CVE-2019-9810,119,,Overflow,2019-04-26,2021-07-21,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+CVE-2019-9810,119,,Overflow,2019-04-26,2022-03-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
 CVE-2019-9800,119,,Overflow Mem. Corr.,2019-07-23,2021-07-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
 CVE-2019-9796,416,,,2019-04-26,2019-06-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
 CVE-2019-9795,617,,,2019-04-26,2020-08-24,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
 CVE-2019-9793,119,,Overflow,2019-04-26,2019-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2019-9792,119,,Overflow Mem. Corr.,2019-04-26,2021-07-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2019-9791,20,,,2019-04-26,2021-07-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9792,787,,Mem. Corr.,2019-04-26,2022-03-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9791,843,,,2019-04-26,2022-03-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
 CVE-2019-9790,416,,,2019-04-26,2019-05-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2019-9788,119,,Overflow Mem. Corr.,2019-04-26,2021-07-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-9788,787,,Mem. Corr.,2019-04-26,2022-03-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+CVE-2019-7317,416,,,2019-02-04,2022-05-23,2.6,None,Remote,High,Not required,None,None,Partial
 CVE-2018-18513,476,,,2019-04-26,2020-08-24,5.0,None,Remote,Low,Not required,None,None,Partial
 CVE-2018-18512,416,,,2019-04-26,2019-04-26,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
 CVE-2018-18509,347,,,2019-04-26,2019-06-03,5.0,None,Remote,Low,Not required,None,Partial,None
@@ -379,7 +380,7 @@ CVE-2016-1526,119,,DoS Overflow +Info,2016-02-13,2018-01-05,5.8,None,Remote,Medi
 CVE-2016-1523,,,DoS,2016-02-13,2017-07-01,4.3,None,Remote,Medium,Not required,None,None,Partial
 CVE-2016-1522,119,,DoS Exec Code Overflow,2016-02-13,2017-07-01,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
 CVE-2016-1521,119,,DoS Exec Code Overflow +Info,2016-02-13,2017-07-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2015-4000,310,,,2015-05-21,2021-07-23,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2015-4000,310,,,2015-05-21,2022-05-13,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2015-2740,119,,DoS Overflow,2015-07-06,2016-12-28,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
 CVE-2015-2739,119,,Overflow,2015-07-06,2016-12-28,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
 CVE-2015-2738,17,,,2015-07-06,2018-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
