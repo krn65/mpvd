@@ -1,4 +1,29 @@
 cve_id,description
+CVE-2022-45421,RESERVED
+CVE-2022-45420,RESERVED
+CVE-2022-45419,RESERVED
+CVE-2022-45418,RESERVED
+CVE-2022-45417,RESERVED
+CVE-2022-45416,RESERVED
+CVE-2022-45415,RESERVED
+CVE-2022-45414,RESERVED
+CVE-2022-45413,RESERVED
+CVE-2022-45412,RESERVED
+CVE-2022-45411,RESERVED
+CVE-2022-45410,RESERVED
+CVE-2022-45409,RESERVED
+CVE-2022-45408,RESERVED
+CVE-2022-45407,RESERVED
+CVE-2022-45406,RESERVED
+CVE-2022-45405,RESERVED
+CVE-2022-45404,RESERVED
+CVE-2022-45403,RESERVED
+CVE-2022-42932,RESERVED
+CVE-2022-42931,RESERVED
+CVE-2022-42930,RESERVED
+CVE-2022-42929,RESERVED
+CVE-2022-42928,RESERVED
+CVE-2022-42927,RESERVED
 CVE-2022-40962,RESERVED
 CVE-2022-40961,RESERVED
 CVE-2022-40960,RESERVED
@@ -6,6 +31,7 @@ CVE-2022-40959,RESERVED
 CVE-2022-40958,RESERVED
 CVE-2022-40957,RESERVED
 CVE-2022-40956,RESERVED
+CVE-2022-40674,libexpat before 2.4.9 has a use-after-free in the doContent function in xmlparse.c.
 CVE-2022-39251,Matrix Javascript SDK is the Matrix Client-Server SDK for JavaScript. Prior to version 19.7.0 an attacker cooperating with a malicious homeserver can construct messages that legitimately appear to have come from another person without any indication such as a grey shield. Additionally a sophisticated attacker cooperating with a malicious homeserver could employ this vulnerability to perform a targeted attack in order to send fake to-device messages appearing to originate from another user. This can allow for example to inject the key backup secret during a self-verification to make a targeted device start using a malicious key backup spoofed by the homeserver. These attacks are possible due to a protocol confusion vulnerability that accepts to-device messages encrypted with Megolm instead of Olm. Starting with version 19.7.0 matrix-js-sdk has been modified to only accept Olm-encrypted to-device messages. Out of caution several other checks have been audited or added. This attack requires coordination between a malicious home server and an attacker so those who trust their home servers do not need a workaround.
 CVE-2022-39250,Matrix JavaScript SDK is the Matrix Client-Server software development kit (SDK) for JavaScript. Prior to version 19.7.0 an attacker cooperating with a malicious homeserver could interfere with the verification flow between two users injecting its own cross-signing user identity in place of one of the users&#8217; identities. This would lead to the other device trusting/verifying the user identity under the control of the homeserver instead of the intended one. The vulnerability is a bug in the matrix-js-sdk caused by checking and signing user identities and devices in two separate steps and inadequately fixing the keys to be signed between those steps. Even though the attack is partly made possible due to the design decision of treating cross-signing user identities as Matrix devices on the server side (with their device ID set to the public part of the user identity key) no other examined implementations were vulnerable. Starting with version 19.7.0 the matrix-js-sdk has been modified to double check that the key signed is the one that was verified instead of just referencing the key by ID. An additional check has been made to report an error when one of the device ID matches a cross-signing key. As this attack requires coordination between a malicious homeserver and an attacker those who trust their homeservers do not need a particular workaround.
 CVE-2022-39249,Matrix Javascript SDK is the Matrix Client-Server SDK for JavaScript. Prior to version 19.7.0 an attacker cooperating with a malicious homeserver can construct messages appearing to have come from another person. Such messages will be marked with a grey shield on some platforms but this may be missing in others. This attack is possible due to the matrix-js-sdk implementing a too permissive key forwarding strategy on the receiving end. Starting with version 19.7.0 the default policy for accepting key forwards has been made more strict in the matrix-js-sdk. matrix-js-sdk will now only accept forwarded keys in response to previously issued requests and only from own verified devices. The SDK now sets a `trusted` flag on the decrypted message upon decryption based on whether the key used to decrypt the message was received from a trusted source. Clients need to ensure that messages decrypted with a key with `trusted = false` are decorated appropriately for example by showing a warning for such messages. This attack requires coordination between a malicious homeserver and an attacker and those who trust your homeservers do not need a workaround.

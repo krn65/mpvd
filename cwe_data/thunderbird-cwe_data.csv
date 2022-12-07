@@ -29,7 +29,7 @@ cwe_id,title,description
 295,CWE-295: Improper Certificate Validation,"The software does not validate, or incorrectly validates, a certificate."
 310,CWE CATEGORY: Cryptographic Issues,"Weaknesses in this category are related to the design and implementation of data confidentiality and integrity. Frequently these deal with the use of encoding techniques, encryption libraries, and hashing algorithms. The weaknesses in this category could lead to a degradation of the quality data if they are not addressed."
 311,CWE-311: Missing Encryption of Sensitive Data,The software does not encrypt sensitive or critical information before storage or transmission.
-312,CWE-312: Cleartext Storage of Sensitive Information,The application stores sensitive information in cleartext within a resource that might be accessible to another control sphere.
+312,CWE-312: Cleartext Storage of Sensitive Information,The product stores sensitive information in cleartext within a resource that might be accessible to another control sphere.
 319,CWE-319: Cleartext Transmission of Sensitive Information,The software transmits sensitive or security-critical data in cleartext in a communication channel that can be sniffed by unauthorized actors.
 326,CWE-326: Inadequate Encryption Strength,"The software stores or transmits sensitive data using an encryption scheme that is theoretically sound, but is not strong enough for the level of protection required."
 327,CWE-327: Use of a Broken or Risky Cryptographic Algorithm,The use of a broken or risky cryptographic algorithm is an unnecessary risk that may result in the exposure of sensitive information.
