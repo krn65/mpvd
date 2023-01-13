@@ -87,3 +87,4 @@ cwe_id,title,description
 909,CWE-909: Missing Initialization of Resource,The software does not initialize a critical resource.
 1021,CWE-1021: Improper Restriction of Rendered UI Layers or Frames,"The web application does not restrict or incorrectly restricts frame objects or UI layers that belong to another application or domain, which can lead to user confusion about which interface the user is interacting with."
 1187,CWE-1187: DEPRECATED: Use of Uninitialized Resource,This entry has been deprecated because it was a duplicate of CWE-908. All content has been transferred to CWE-908.
+1321,CWE-1321: Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),"The software receives input from an upstream component that specifies attributes that are to be initialized or updated in an object, but it does not properly control modifications of attributes of the object prototype."

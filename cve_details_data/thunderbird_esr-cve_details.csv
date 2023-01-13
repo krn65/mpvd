@@ -68,7 +68,7 @@ CVE-2013-0800,,,Exec Code,2013-04-03,2021-03-11,6.8,None,Remote,Medium,Not requi
 CVE-2013-0797,,,+Priv,2013-04-03,2017-09-19,6.9,None,Local,Medium,Not required,Complete,Complete,Complete
 CVE-2013-0795,264,,Exec Code Bypass,2013-04-03,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
 CVE-2013-0793,79,,XSS,2013-04-03,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2013-0791,119,,DoS Overflow Mem. Corr.,2013-04-03,2017-09-19,5.0,None,Remote,Low,Not required,None,None,Partial
+CVE-2013-0791,119,,DoS Overflow Mem. Corr.,2013-04-03,2022-12-21,5.0,None,Remote,Low,Not required,None,None,Partial
 CVE-2013-0788,,,DoS Exec Code Mem. Corr.,2013-04-03,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
 CVE-2013-0787,399,,Exec Code,2013-03-11,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
 CVE-2013-0784,,,DoS Exec Code Mem. Corr.,2013-02-19,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete

@@ -1,163 +1,174 @@
 cve_id,description
-CVE-2022-45421,RESERVED
-CVE-2022-45420,RESERVED
-CVE-2022-45419,RESERVED
-CVE-2022-45418,RESERVED
-CVE-2022-45417,RESERVED
-CVE-2022-45416,RESERVED
-CVE-2022-45415,RESERVED
-CVE-2022-45414,RESERVED
-CVE-2022-45413,RESERVED
-CVE-2022-45412,RESERVED
-CVE-2022-45411,RESERVED
-CVE-2022-45410,RESERVED
-CVE-2022-45409,RESERVED
-CVE-2022-45408,RESERVED
-CVE-2022-45407,RESERVED
-CVE-2022-45406,RESERVED
-CVE-2022-45405,RESERVED
-CVE-2022-45404,RESERVED
-CVE-2022-45403,RESERVED
-CVE-2022-42932,RESERVED
-CVE-2022-42931,RESERVED
-CVE-2022-42930,RESERVED
-CVE-2022-42929,RESERVED
-CVE-2022-42928,RESERVED
-CVE-2022-42927,RESERVED
-CVE-2022-40962,RESERVED
-CVE-2022-40961,RESERVED
-CVE-2022-40960,RESERVED
-CVE-2022-40959,RESERVED
-CVE-2022-40958,RESERVED
-CVE-2022-40957,RESERVED
-CVE-2022-40956,RESERVED
+CVE-2022-46882,A use-after-free in WebGL extensions could have led to a potentially exploitable crash. This vulnerability affects Firefox < 107 Firefox ESR < 102.6 and Thunderbird < 102.6.
+CVE-2022-46881,An optimization in WebGL was incorrect in some cases and could have led to memory corruption and a potentially exploitable crash. This vulnerability affects Firefox < 106 Firefox ESR < 102.6 and Thunderbird < 102.6.
+CVE-2022-46880,A missing check related to tex units could have led to a use-after-free and potentially exploitable crash.<br />*Note*: This advisory was added on December 13th 2022 after we better understood the impact of the issue. The fix was included in the original release of Firefox 105. This vulnerability affects Firefox ESR < 102.6 Firefox < 105 and Thunderbird < 102.6.
+CVE-2022-46879,Mozilla developers and community members Lukas Bernhard Gabriele Svelto Randell Jesup and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 107. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 108.
+CVE-2022-46878,Mozilla developers Randell Jesup Valentin Gosu Olli Pettay and the Mozilla Fuzzing Team reported memory safety bugs present in Thunderbird 102.5. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 108 Firefox ESR < 102.6 and Thunderbird < 102.6.
+CVE-2022-46877,By confusing the browser the fullscreen notification could have been delayed or suppressed resulting in potential user confusion or spoofing attacks. This vulnerability affects Firefox < 108.
+CVE-2022-46875,The executable file warning was not presented when downloading .atloc and .ftploc files which can run commands on a user's computer. <br>*Note: This issue only affected Mac OS operating systems. Other operating systems are unaffected.*. This vulnerability affects Firefox < 108 Firefox ESR < 102.6 and Thunderbird < 102.6.
+CVE-2022-46874,A file with a long filename could have had its filename truncated to remove the valid extension leaving a malicious extension in its place. This could potentially led to user confusion and the execution of malicious code.<br/>*Note*: This issue was originally included in the advisories for Thunderbird 102.6 but a patch (specific to Thunderbird) was omitted resulting in it actually being fixed in Thunderbird 102.6.1. This vulnerability affects Firefox < 108 Thunderbird < 102.6.1 Thunderbird < 102.6 and Firefox ESR < 102.6.
+CVE-2022-46873,Because Firefox did not implement the <code>unsafe-hashes</code> CSP directive an attacker who was able to inject markup into a page otherwise protected by a Content Security Policy may have been able to inject executable script. This would be severely constrained by the specified Content Security Policy of the document. This vulnerability affects Firefox < 108.
+CVE-2022-46872,An attacker who compromised a content process could have partially escaped the sandbox to read arbitrary files via clipboard-related IPC messages.<br>*This bug only affects Thunderbird for Linux. Other operating systems are unaffected.*. This vulnerability affects Firefox < 108 Firefox ESR < 102.6 and Thunderbird < 102.6.
+CVE-2022-46871,An out of date library (libusrsctp) contained vulnerabilities that could potentially be exploited. This vulnerability affects Firefox < 108.
+CVE-2022-45421,Mozilla developers Andrew McCreight and Gabriele Svelto reported memory safety bugs present in Thunderbird 102.4. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox ESR < 102.5 Thunderbird < 102.5 and Firefox < 107.
+CVE-2022-45420,Use tables inside of an iframe an attacker could have caused iframe contents to be rendered outside the boundaries of the iframe resulting in potential user confusion or spoofing attacks. This vulnerability affects Firefox ESR < 102.5 Thunderbird < 102.5 and Firefox < 107.
+CVE-2022-45419,If the user added a security exception for an invalid TLS certificate opened an ongoing TLS connection with a server that used that certificate and then deleted the exception Firefox would have kept the connection alive making it seem like the certificate was still trusted. This vulnerability affects Firefox < 107.
+CVE-2022-45418,If a custom mouse cursor is specified in CSS under certain circumstances the cursor could have been drawn over the browser UI resulting in potential user confusion or spoofing attacks. This vulnerability affects Firefox ESR < 102.5 Thunderbird < 102.5 and Firefox < 107.
+CVE-2022-45417,Service Workers did not detect Private Browsing Mode correctly in all cases which could have led to Service Workers being written to disk for websites visited in Private Browsing Mode. This would not have persisted them in a state where they would run again but it would have leaked Private Browsing Mode details to disk. This vulnerability affects Firefox < 107.
+CVE-2022-45416,"Keyboard events reference strings like ""KeyA"" that were at fixed known and widely-spread addresses. Cache-based timing attacks such as Prime+Probe could have possibly figured out which keys were being pressed. This vulnerability affects Firefox ESR < 102.5 Thunderbird < 102.5 and Firefox < 107."
+CVE-2022-45415,When downloading an HTML file if the title of the page was formatted as a filename with a malicious extension Firefox may have saved the file with that extension leading to possible system compromise if the downloaded file was later ran. This vulnerability affects Firefox < 107.
+CVE-2022-45414,If a Thunderbird user quoted from an HTML email for example by replying to the email and the email contained either a VIDEO tag with the POSTER attribute or an OBJECT tag with a DATA attribute a network request to the referenced remote URL was performed regardless of a configuration to block remote content. An image loaded from the POSTER attribute was shown in the composer window. These issues could have given an attacker additional capabilities when targetting releases that did not yet have a fix for CVE-2022-3033 which was reported around three months ago. This vulnerability affects Thunderbird < 102.5.1.
+CVE-2022-45413,Using the <code>S.browser_fallback_url parameter</code> parameter an attacker could redirect a user to a URL and cause SameSite=Strict cookies to be sent.<br>*This issue only affects Firefox for Android. Other operating systems are not affected.*. This vulnerability affects Firefox < 107.
+CVE-2022-45412,When resolving a symlink such as <code>file:///proc/self/fd/1</code> an error message may be produced where the symlink was resolved to a string containing unitialized memory in the buffer. <br>*This bug only affects Thunderbird on Unix-based operated systems (Android Linux MacOS). Windows is unaffected.*. This vulnerability affects Firefox ESR < 102.5 Thunderbird < 102.5 and Firefox < 107.
+CVE-2022-45411,Cross-Site Tracing occurs when a server will echo a request back via the Trace method allowing an XSS attack to access to authorization headers and cookies inaccessible to JavaScript (such as cookies protected by HTTPOnly). To mitigate this attack browsers placed limits on <code>fetch()</code> and XMLHttpRequest; however some webservers have implemented non-standard headers such as <code>X-Http-Method-Override</code> that override the HTTP method and made this attack possible again. Thunderbird has applied the same mitigations to the use of this and similar headers. This vulnerability affects Firefox ESR < 102.5 Thunderbird < 102.5 and Firefox < 107.
+CVE-2022-45410,When a ServiceWorker intercepted a request with <code>FetchEvent</code> the origin of the request was lost after the ServiceWorker took ownership of it. This had the effect of negating SameSite cookie protections. This was addressed in the spec and then in browsers. This vulnerability affects Firefox ESR < 102.5 Thunderbird < 102.5 and Firefox < 107.
+CVE-2022-45409,The garbage collector could have been aborted in several states and zones and <code>GCRuntime::finishCollection</code> may not have been called leading to a use-after-free and potentially exploitable crash. This vulnerability affects Firefox ESR < 102.5 Thunderbird < 102.5 and Firefox < 107.
+CVE-2022-45408,Through a series of popups that reuse windowName an attacker can cause a window to go fullscreen without the user seeing the notification prompt resulting in potential user confusion or spoofing attacks. This vulnerability affects Firefox ESR < 102.5 Thunderbird < 102.5 and Firefox < 107.
+CVE-2022-45407,If an attacker loaded a font using <code>FontFace()</code> on a background worker a use-after-free could have occurred leading to a potentially exploitable crash. This vulnerability affects Firefox < 107.
+CVE-2022-45406,If an out-of-memory condition occurred when creating a JavaScript global a JavaScript realm may be deleted while references to it lived on in a BaseShape. This could lead to a use-after-free causing a potentially exploitable crash. This vulnerability affects Firefox ESR < 102.5 Thunderbird < 102.5 and Firefox < 107.
+CVE-2022-45405,Freeing arbitrary <code>nsIInputStream</code>'s on a different thread than creation could have led to a use-after-free and potentially exploitable crash. This vulnerability affects Firefox ESR < 102.5 Thunderbird < 102.5 and Firefox < 107.
+CVE-2022-45404,Through a series of popup and <code>window.print()</code> calls an attacker can cause a window to go fullscreen without the user seeing the notification prompt resulting in potential user confusion or spoofing attacks. This vulnerability affects Firefox ESR < 102.5 Thunderbird < 102.5 and Firefox < 107.
+CVE-2022-45403,Service Workers should not be able to infer information about opaque cross-origin responses; but timing information for cross-origin media combined with Range requests might have allowed them to determine the presence or length of a media file. This vulnerability affects Firefox ESR < 102.5 Thunderbird < 102.5 and Firefox < 107.
+CVE-2022-42932,Mozilla developers Ashley Hale and the Mozilla Fuzzing Team reported memory safety bugs present in Thunderbird 102.3. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Thunderbird < 102.4 Firefox ESR < 102.4 and Firefox < 106.
+CVE-2022-42931,Logins saved by Firefox should be managed by the Password Manager component which uses encryption to save files on-disk. Instead the username (not password) was saved by the Form Manager to an unencrypted file on disk. This vulnerability affects Firefox < 106.
+CVE-2022-42930,If two Workers were simultaneously initializing their CacheStorage a data race could have occurred in the <code>ThirdPartyUtil</code> component. This vulnerability affects Firefox < 106.
+CVE-2022-42929,If a website called <code>window.print()</code> in a particular way it could cause a denial of service of the browser which may persist beyond browser restart depending on the user's session restore settings. This vulnerability affects Thunderbird < 102.4 Firefox ESR < 102.4 and Firefox < 106.
+CVE-2022-42928,Certain types of allocations were missing annotations that if the Garbage Collector was in a specific state could have lead to memory corruption and a potentially exploitable crash. This vulnerability affects Thunderbird < 102.4 Firefox ESR < 102.4 and Firefox < 106.
+CVE-2022-42927,A same-origin policy violation could have allowed the theft of cross-origin URL entries leaking the result of a redirect via <code>performance.getEntries()</code>. This vulnerability affects Thunderbird < 102.4 Firefox ESR < 102.4 and Firefox < 106.
+CVE-2022-40962,Mozilla developers Nika Layzell Timothy Nikkel Sebastian Hengst Andreas Pehrson and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 104 and Firefox ESR 102.2. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox ESR < 102.3 Thunderbird < 102.3 and Firefox < 105.
+CVE-2022-40961,During startup a graphics driver with an unexpected name could lead to a stack-buffer overflow causing a potentially exploitable crash.<br>*This issue only affects Firefox for Android. Other operating systems are not affected.*. This vulnerability affects Firefox < 105.
+CVE-2022-40960,Concurrent use of the URL parser with non-UTF-8 data was not thread-safe. This could lead to a use-after-free causing a potentially exploitable crash. This vulnerability affects Firefox ESR < 102.3 Thunderbird < 102.3 and Firefox < 105.
+CVE-2022-40959,During iframe navigation certain pages did not have their FeaturePolicy fully initialized leading to a bypass that leaked device permissions into untrusted subdocuments. This vulnerability affects Firefox ESR < 102.3 Thunderbird < 102.3 and Firefox < 105.
+CVE-2022-40958,By injecting a cookie with certain special characters an attacker on a shared subdomain which is not a secure context could set and thus overwrite cookies from a secure context leading to session fixation and other attacks. This vulnerability affects Firefox ESR < 102.3 Thunderbird < 102.3 and Firefox < 105.
+CVE-2022-40957,Inconsistent data in instruction and data cache when creating wasm code could lead to a potentially exploitable crash.<br>*This bug only affects Firefox on ARM64 platforms.*. This vulnerability affects Firefox ESR < 102.3 Thunderbird < 102.3 and Firefox < 105.
+CVE-2022-40956,When injecting an HTML base element some requests would ignore the CSP's base-uri settings and accept the injected element's base instead. This vulnerability affects Firefox ESR < 102.3 Thunderbird < 102.3 and Firefox < 105.
 CVE-2022-40674,libexpat before 2.4.9 has a use-after-free in the doContent function in xmlparse.c.
 CVE-2022-39251,Matrix Javascript SDK is the Matrix Client-Server SDK for JavaScript. Prior to version 19.7.0 an attacker cooperating with a malicious homeserver can construct messages that legitimately appear to have come from another person without any indication such as a grey shield. Additionally a sophisticated attacker cooperating with a malicious homeserver could employ this vulnerability to perform a targeted attack in order to send fake to-device messages appearing to originate from another user. This can allow for example to inject the key backup secret during a self-verification to make a targeted device start using a malicious key backup spoofed by the homeserver. These attacks are possible due to a protocol confusion vulnerability that accepts to-device messages encrypted with Megolm instead of Olm. Starting with version 19.7.0 matrix-js-sdk has been modified to only accept Olm-encrypted to-device messages. Out of caution several other checks have been audited or added. This attack requires coordination between a malicious home server and an attacker so those who trust their home servers do not need a workaround.
 CVE-2022-39250,Matrix JavaScript SDK is the Matrix Client-Server software development kit (SDK) for JavaScript. Prior to version 19.7.0 an attacker cooperating with a malicious homeserver could interfere with the verification flow between two users injecting its own cross-signing user identity in place of one of the users&#8217; identities. This would lead to the other device trusting/verifying the user identity under the control of the homeserver instead of the intended one. The vulnerability is a bug in the matrix-js-sdk caused by checking and signing user identities and devices in two separate steps and inadequately fixing the keys to be signed between those steps. Even though the attack is partly made possible due to the design decision of treating cross-signing user identities as Matrix devices on the server side (with their device ID set to the public part of the user identity key) no other examined implementations were vulnerable. Starting with version 19.7.0 the matrix-js-sdk has been modified to double check that the key signed is the one that was verified instead of just referencing the key by ID. An additional check has been made to report an error when one of the device ID matches a cross-signing key. As this attack requires coordination between a malicious homeserver and an attacker those who trust their homeservers do not need a particular workaround.
 CVE-2022-39249,Matrix Javascript SDK is the Matrix Client-Server SDK for JavaScript. Prior to version 19.7.0 an attacker cooperating with a malicious homeserver can construct messages appearing to have come from another person. Such messages will be marked with a grey shield on some platforms but this may be missing in others. This attack is possible due to the matrix-js-sdk implementing a too permissive key forwarding strategy on the receiving end. Starting with version 19.7.0 the default policy for accepting key forwards has been made more strict in the matrix-js-sdk. matrix-js-sdk will now only accept forwarded keys in response to previously issued requests and only from own verified devices. The SDK now sets a `trusted` flag on the decrypted message upon decryption based on whether the key used to decrypt the message was received from a trusted source. Clients need to ensure that messages decrypted with a key with `trusted = false` are decorated appropriately for example by showing a warning for such messages. This attack requires coordination between a malicious homeserver and an attacker and those who trust your homeservers do not need a workaround.
 CVE-2022-39236,Matrix Javascript SDK is the Matrix Client-Server SDK for JavaScript. Starting with version 17.1.0-rc.1 improperly formed beacon events can disrupt or impede the matrix-js-sdk from functioning properly potentially impacting the consumer's ability to process data safely. Note that the matrix-js-sdk can appear to be operating normally but be excluding or corrupting runtime data presented to the consumer. This is patched in matrix-js-sdk v19.7.0. Redacting applicable events waiting for the sync processor to store data and restarting the client are possible workarounds. Alternatively redacting the applicable events and clearing all storage will fix the further perceived issues. Downgrading to an unaffected version noting that such a version may be subject to other vulnerabilities will additionally resolve the issue.
-CVE-2022-38478,RESERVED
-CVE-2022-38477,RESERVED
-CVE-2022-38476,RESERVED
-CVE-2022-38475,RESERVED
-CVE-2022-38474,RESERVED
-CVE-2022-38473,RESERVED
-CVE-2022-38472,RESERVED
-CVE-2022-36320,RESERVED
-CVE-2022-36319,RESERVED
-CVE-2022-36318,RESERVED
-CVE-2022-36317,RESERVED
-CVE-2022-36316,RESERVED
-CVE-2022-36315,RESERVED
-CVE-2022-36314,RESERVED
+CVE-2022-38478,Members the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 103 Firefox ESR 102.1 and Firefox ESR 91.12. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Thunderbird < 102.2 Thunderbird < 91.13 Firefox ESR < 91.13 Firefox ESR < 102.2 and Firefox < 104.
+CVE-2022-38477,Mozilla developer Nika Layzell and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 103 and Firefox ESR 102.1. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox ESR < 102.2 Thunderbird < 102.2 and Firefox < 104.
+CVE-2022-38476,A data race could occur in the <code>PK11_ChangePW</code> function potentially leading to a use-after-free vulnerability. In Firefox this lock protected the data when a user changed their master password. This vulnerability affects Firefox ESR < 102.2 and Thunderbird < 102.2.
+CVE-2022-38475,An attacker could have written a value to the first element in a zero-length JavaScript array. Although the array was zero-length the value was not written to an invalid memory address. This vulnerability affects Firefox < 104.
+CVE-2022-38474,A website that had permission to access the microphone could record audio without the audio notification being shown. This bug does not allow the attacker to bypass the permission prompt - it only affects the notification shown once permission has been granted.<br />*This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 104.
+CVE-2022-38473,A cross-origin iframe referencing an XSLT document would inherit the parent domain's permissions (such as microphone or camera access). This vulnerability affects Thunderbird < 102.2 Thunderbird < 91.13 Firefox ESR < 91.13 Firefox ESR < 102.2 and Firefox < 104.
+CVE-2022-38472,An attacker could have abused XSLT error handling to associate attacker-controlled content with another origin which was displayed in the address bar. This could have been used to fool the user into submitting data intended for the spoofed origin. This vulnerability affects Thunderbird < 102.2 Thunderbird < 91.13 Firefox ESR < 91.13 Firefox ESR < 102.2 and Firefox < 104.
+CVE-2022-36320,Mozilla developers and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 102. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 103.
+CVE-2022-36319,When combining CSS properties for overflow and transform the mouse cursor could interact with different coordinates than displayed. This vulnerability affects Firefox ESR < 102.1 Firefox ESR < 91.12 Firefox < 103 Thunderbird < 102.1 and Thunderbird < 91.12.
+CVE-2022-36318,When visiting directory listings for `chrome://` URLs as source text some parameters were reflected. This vulnerability affects Firefox ESR < 102.1 Firefox ESR < 91.12 Firefox < 103 Thunderbird < 102.1 and Thunderbird < 91.12.
+CVE-2022-36317,When visiting a website with an overly long URL the user interface would start to hang. Due to session restore this could lead to a permanent Denial of Service.<br>*This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 103.
+CVE-2022-36316,When using the Performance API an attacker was able to notice subtle differences between PerformanceEntries and thus learn whether the target URL had been subject to a redirect. This vulnerability affects Firefox < 103.
+CVE-2022-36315,When loading a script with Subresource Integrity attackers with an injection capability could trigger the reuse of previously cached entries with incorrect different integrity metadata. This vulnerability affects Firefox < 103.
+CVE-2022-36314,When opening a Windows shortcut from the local filesystem an attacker could supply a remote path that would lead to unexpected network requests from the operating system.<br>This bug only affects Firefox for Windows. Other operating systems are unaffected.*. This vulnerability affects Firefox ESR < 102.1 Firefox < 103 and Thunderbird < 102.1.
 CVE-2022-36059,RESERVED
-CVE-2022-34485,RESERVED
-CVE-2022-34484,RESERVED
-CVE-2022-34483,RESERVED
-CVE-2022-34482,RESERVED
-CVE-2022-34481,RESERVED
-CVE-2022-34480,RESERVED
-CVE-2022-34479,RESERVED
-CVE-2022-34478,RESERVED
-CVE-2022-34477,RESERVED
-CVE-2022-34476,RESERVED
-CVE-2022-34475,RESERVED
-CVE-2022-34474,RESERVED
-CVE-2022-34473,RESERVED
-CVE-2022-34472,RESERVED
-CVE-2022-34471,RESERVED
-CVE-2022-34470,RESERVED
-CVE-2022-34469,RESERVED
-CVE-2022-34468,RESERVED
-CVE-2022-3266,RESERVED
-CVE-2022-31748,RESERVED
-CVE-2022-31747,RESERVED
-CVE-2022-31745,RESERVED
-CVE-2022-31744,RESERVED
-CVE-2022-31743,RESERVED
-CVE-2022-31742,RESERVED
-CVE-2022-31741,RESERVED
-CVE-2022-31740,RESERVED
-CVE-2022-31739,RESERVED
-CVE-2022-31738,RESERVED
-CVE-2022-31737,RESERVED
-CVE-2022-31736,RESERVED
-CVE-2022-3155,RESERVED
-CVE-2022-3034,RESERVED
-CVE-2022-3033,RESERVED
-CVE-2022-3032,RESERVED
-CVE-2022-29918,RESERVED
-CVE-2022-29917,RESERVED
-CVE-2022-29916,RESERVED
-CVE-2022-29915,RESERVED
-CVE-2022-29914,RESERVED
-CVE-2022-29913,RESERVED
-CVE-2022-29912,RESERVED
-CVE-2022-29911,RESERVED
-CVE-2022-29910,RESERVED
-CVE-2022-29909,RESERVED
-CVE-2022-28289,RESERVED
-CVE-2022-28288,RESERVED
-CVE-2022-28287,RESERVED
-CVE-2022-28286,RESERVED
-CVE-2022-28285,RESERVED
-CVE-2022-28284,RESERVED
-CVE-2022-28283,RESERVED
-CVE-2022-28282,RESERVED
-CVE-2022-28281,RESERVED
-CVE-2022-26486,RESERVED
-CVE-2022-26485,RESERVED
-CVE-2022-26387,RESERVED
-CVE-2022-26386,RESERVED
-CVE-2022-26385,RESERVED
-CVE-2022-26384,RESERVED
-CVE-2022-26383,RESERVED
-CVE-2022-26382,RESERVED
-CVE-2022-26381,RESERVED
-CVE-2022-2505,RESERVED
+CVE-2022-34485,Mozilla developers Bryce Seager van Dyk and the Mozilla Fuzzing Team reported potential vulnerabilities present in Firefox 101. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 102.
+CVE-2022-34484,The Mozilla Fuzzing Team reported potential vulnerabilities present in Thunderbird 91.10. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 102 Firefox ESR < 91.11 Thunderbird < 102 and Thunderbird < 91.11.
+CVE-2022-34483,An attacker who could have convinced a user to drag and drop an image to a filesystem could have manipulated the resulting filename to contain an executable extension and by extension potentially tricked the user into executing malicious code. While very similar this is a separate issue from CVE-2022-34482. This vulnerability affects Firefox < 102.
+CVE-2022-34482,An attacker who could have convinced a user to drag and drop an image to a filesystem could have manipulated the resulting filename to contain an executable extension and by extension potentially tricked the user into executing malicious code. While very similar this is a separate issue from CVE-2022-34483. This vulnerability affects Firefox < 102.
+CVE-2022-34481,In the <code>nsTArray_Impl::ReplaceElementsAt()</code> function an integer overflow could have occurred when the number of elements to replace was too large for the container. This vulnerability affects Firefox < 102 Firefox ESR < 91.11 Thunderbird < 102 and Thunderbird < 91.11.
+CVE-2022-34480,Within the <code>lg_init()</code> function if several allocations succeed but then one fails an uninitialized pointer would have been freed despite never being allocated. This vulnerability affects Firefox < 102.
+CVE-2022-34479,A malicious website that could create a popup could have resized the popup to overlay the address bar with its own content resulting in potential user confusion or spoofing attacks. <br>*This bug only affects Thunderbird for Linux. Other operating systems are unaffected.*. This vulnerability affects Firefox < 102 Firefox ESR < 91.11 Thunderbird < 102 and Thunderbird < 91.11.
+CVE-2022-34478,The <code>ms-msdt</code> <code>search</code> and <code>search-ms</code> protocols deliver content to Microsoft applications bypassing the browser when a user accepts a prompt. These applications have had known vulnerabilities exploited in the wild (although we know of none exploited through Thunderbird) so in this release Thunderbird has blocked these protocols from prompting the user to open them.<br>*This bug only affects Thunderbird on Windows. Other operating systems are unaffected.*. This vulnerability affects Firefox < 102 Firefox ESR < 91.11 Thunderbird < 102 and Thunderbird < 91.11.
+CVE-2022-34477,The MediaError message property should be consistent to avoid leaking information about cross-origin resources; however for a same-site cross-origin resource the message could have leaked information enabling XS-Leaks attacks. This vulnerability affects Firefox < 102.
+CVE-2022-34476,ASN.1 parsing of an indefinite SEQUENCE inside an indefinite GROUP could have resulted in the parser accepting malformed ASN.1. This vulnerability affects Firefox < 102.
+CVE-2022-34475,SVG <code>&lt;use&gt;</code> tags that referenced a same-origin document could have resulted in script execution if attacker input was sanitized via the HTML Sanitizer API. This would have required the attacker to reference a same-origin JavaScript file containing the script to be executed. This vulnerability affects Firefox < 102.
+CVE-2022-34474,Even when an iframe was sandboxed with <code>allow-top-navigation-by-user-activation</code> if it received a redirect header to an external protocol the browser would process the redirect and prompt the user as appropriate. This vulnerability affects Firefox < 102.
+CVE-2022-34473,The HTML Sanitizer should have sanitized the <code>href</code> attribute of SVG <code>&lt;use&gt;</code> tags; however it incorrectly did not sanitize <code>xlink:href</code> attributes. This vulnerability affects Firefox < 102.
+CVE-2022-34472,If there was a PAC URL set and the server that hosts the PAC was not reachable OCSP requests would have been blocked resulting in incorrect error pages being shown. This vulnerability affects Firefox < 102 Firefox ESR < 91.11 Thunderbird < 102 and Thunderbird < 91.11.
+CVE-2022-34471,When downloading an update for an addon the downloaded addon update's version was not verified to match the version selected from the manifest. If the manifest had been tampered with on the server an attacker could trick the browser into downgrading the addon to a prior version. This vulnerability affects Firefox < 102.
+CVE-2022-34470,Session history navigations may have led to a use-after-free and potentially exploitable crash. This vulnerability affects Firefox < 102 Firefox ESR < 91.11 Thunderbird < 102 and Thunderbird < 91.11.
+CVE-2022-34469,When a TLS Certificate error occurs on a domain protected by the HSTS header the browser should not allow the user to bypass the certificate error. On Firefox for Android the user was presented with the option to bypass the error; this could only have been done by the user explicitly. <br>*This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 102.
+CVE-2022-34468,An iframe that was not permitted to run scripts could do so if the user clicked on a <code>javascript:</code> link. This vulnerability affects Firefox < 102 Firefox ESR < 91.11 Thunderbird < 102 and Thunderbird < 91.11.
+CVE-2022-3266,An out-of-bounds read can occur when decoding H264 video. This results in a potentially exploitable crash. This vulnerability affects Firefox ESR < 102.3 Thunderbird < 102.3 and Firefox < 105.
+CVE-2022-31748,Mozilla developers Gabriele Svelto Timothy Nikkel Randell Jesup Jon Coppeard and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 100. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 101.
+CVE-2022-31747,Mozilla developers Andrew McCreight Nicolas B. Pierron and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 100 and Firefox ESR 91.9. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Thunderbird < 91.10 Firefox < 101 and Firefox ESR < 91.10.
+CVE-2022-31745,If array shift operations are not used the Garbage Collector may have become confused about valid objects. This vulnerability affects Firefox < 101.
+CVE-2022-31744,An attacker could have injected CSS into stylesheets accessible via internal URIs such as resource: and in doing so bypass a page's Content Security Policy. This vulnerability affects Firefox ESR < 91.11 Thunderbird < 102 Thunderbird < 91.11 and Firefox < 101.
+CVE-2022-31743,Firefox's HTML parser did not correctly interpret HTML comment tags resulting in an incongruity with other browsers. This could have been used to escape HTML comments on pages that put user-controlled data in them. This vulnerability affects Firefox < 101.
+CVE-2022-31742,An attacker could have exploited a timing attack by sending a large number of allowCredential entries and detecting the difference between invalid key handles and cross-origin key handles. This could have led to cross-origin account linking in violation of WebAuthn goals. This vulnerability affects Thunderbird < 91.10 Firefox < 101 and Firefox ESR < 91.10.
+CVE-2022-31741,A crafted CMS message could have been processed incorrectly leading to an invalid memory read and potentially further memory corruption. This vulnerability affects Thunderbird < 91.10 Firefox < 101 and Firefox ESR < 91.10.
+CVE-2022-31740,On arm64 WASM code could have resulted in incorrect assembly generation leading to a register allocation problem and a potentially exploitable crash. This vulnerability affects Thunderbird < 91.10 Firefox < 101 and Firefox ESR < 91.10.
+CVE-2022-31739,When downloading files on Windows the % character was not escaped which could have lead to a download incorrectly being saved to attacker-influenced paths that used variables such as %HOMEPATH% or %APPDATA%.<br>*This bug only affects Firefox for Windows. Other operating systems are unaffected.*. This vulnerability affects Thunderbird < 91.10 Firefox < 101 and Firefox ESR < 91.10.
+CVE-2022-31738,When exiting fullscreen mode an iframe could have confused the browser about the current state of fullscreen resulting in potential user confusion or spoofing attacks. This vulnerability affects Thunderbird < 91.10 Firefox < 101 and Firefox ESR < 91.10.
+CVE-2022-31737,A malicious webpage could have caused an out-of-bounds write in WebGL leading to memory corruption and a potentially exploitable crash. This vulnerability affects Thunderbird < 91.10 Firefox < 101 and Firefox ESR < 91.10.
+CVE-2022-31736,A malicious website could have learned the size of a cross-origin resource that supported Range requests. This vulnerability affects Thunderbird < 91.10 Firefox < 101 and Firefox ESR < 91.10.
+CVE-2022-3155,When saving or opening an email attachment on macOS Thunderbird did not set attribute com.apple.quarantine on the received file. If the received file was an application and the user attempted to open it then the application was started immediately without asking the user to confirm. This vulnerability affects Thunderbird < 102.3.
+CVE-2022-3034,When receiving an HTML email that specified to load an <code>iframe</code> element from a remote location a request to the remote document was sent. However Thunderbird didn't display the document. This vulnerability affects Thunderbird < 102.2.1 and Thunderbird < 91.13.1.
+CVE-2022-3033,"If a Thunderbird user replied to a crafted HTML email containing a <code>meta</code> tag with the <code>meta</code> tag having the <code>http-equiv=""refresh""</code> attribute and the content attribute specifying an URL then Thunderbird started a network request to that URL regardless of the configuration to block remote content. In combination with certain other HTML elements and attributes in the email it was possible to execute JavaScript code included in the message in the context of the message compose document. The JavaScript code was able to perform actions including but probably not limited to read and modify the contents of the message compose document including the quoted original message which could potentially contain the decrypted plaintext of encrypted data in the crafted email. The contents could then be transmitted to the network either to the URL specified in the META refresh tag or to a different URL as the JavaScript code could modify the URL specified in the document. This bug doesn't affect users who have changed the default Message Body display setting to 'simple html' or 'plain text'. This vulnerability affects Thunderbird < 102.2.1 and Thunderbird < 91.13.1."
+CVE-2022-3032,When receiving an HTML email that contained an <code>iframe</code> element which used a <code>srcdoc</code> attribute to define the inner HTML document remote objects specified in the nested document for example images or videos were not blocked. Rather the network was accessed the objects were loaded and displayed. This vulnerability affects Thunderbird < 102.2.1 and Thunderbird < 91.13.1.
+CVE-2022-29918,Mozilla developers Gabriele Svelto Randell Jesup and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 99. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 100.
+CVE-2022-29917,Mozilla developers Andrew McCreight Gabriele Svelto Tom Ritter and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 99 and Firefox ESR 91.8. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Thunderbird < 91.9 Firefox ESR < 91.9 and Firefox < 100.
+CVE-2022-29916,Firefox behaved slightly differently for already known resources when loading CSS resources involving CSS variables. This could have been used to probe the browser history. This vulnerability affects Thunderbird < 91.9 Firefox ESR < 91.9 and Firefox < 100.
+CVE-2022-29915,The Performance API did not properly hide the fact whether a request cross-origin resource has observed redirects. This vulnerability affects Firefox < 100.
+CVE-2022-29914,When reusing existing popups Firefox would have allowed them to cover the fullscreen notification UI which could have enabled browser spoofing attacks. This vulnerability affects Thunderbird < 91.9 Firefox ESR < 91.9 and Firefox < 100.
+CVE-2022-29913,The parent process would not properly check whether the Speech Synthesis feature is enabled when receiving instructions from a child process. This vulnerability affects Thunderbird < 91.9.
+CVE-2022-29912,Requests initiated through reader mode did not properly omit cookies with a SameSite attribute. This vulnerability affects Thunderbird < 91.9 Firefox ESR < 91.9 and Firefox < 100.
+CVE-2022-29911,An improper implementation of the new iframe sandbox keyword <code>allow-top-navigation-by-user-activation</code> could lead to script execution without <code>allow-scripts</code> being present. This vulnerability affects Thunderbird < 91.9 Firefox ESR < 91.9 and Firefox < 100.
+CVE-2022-29910,When closed or sent to the background Firefox for Android would not properly record and persist HSTS settings.<br>*Note: This issue only affected Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 100.
+CVE-2022-29909,Documents in deeply-nested cross-origin browsing contexts could have obtained permissions granted to the top-level origin bypassing the existing prompt and wrongfully inheriting the top-level permissions. This vulnerability affects Thunderbird < 91.9 Firefox ESR < 91.9 and Firefox < 100.
+CVE-2022-28289,Mozilla developers and community members Nika Layzell Andrew McCreight Gabriele Svelto and the Mozilla Fuzzing Team reported memory safety bugs present in Thunderbird 91.7. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Thunderbird < 91.8 Firefox < 99 and Firefox ESR < 91.8.
+CVE-2022-28288,Mozilla developers and community members Randell Jesup Sebastian Hengst and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 98. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 99.
+CVE-2022-28287,In unusual circumstances selecting text could cause text selection caching to behave incorrectly leading to a crash. This vulnerability affects Firefox < 99.
+CVE-2022-28286,Due to a layout change iframe contents could have been rendered outside of its border. This could have led to user confusion or spoofing attacks. This vulnerability affects Thunderbird < 91.8 Firefox < 99 and Firefox ESR < 91.8.
+CVE-2022-28285,When generating the assembly code for <code>MLoadTypedArrayElementHole</code> an incorrect AliasSet was used. In conjunction with another vulnerability this could have been used for an out of bounds memory read. This vulnerability affects Thunderbird < 91.8 Firefox < 99 and Firefox ESR < 91.8.
+CVE-2022-28284,SVG's <code>&lt;use&gt;</code> element could have been used to load unexpected content that could have executed script in certain circumstances. While the specification seems to allow this other browsers do not and web developers relied on this property for script security so gecko's implementation was aligned with theirs. This vulnerability affects Firefox < 99.
+CVE-2022-28283,The sourceMapURL feature in devtools was missing security checks that would have allowed a webpage to attempt to include local files or other files that should have been inaccessible. This vulnerability affects Firefox < 99.
+CVE-2022-28282,"By using a link with <code>rel=""localization""</code> a use-after-free could have been triggered by destroying an object during JavaScript execution and then referencing the object through a freed pointer leading to a potential exploitable crash. This vulnerability affects Thunderbird < 91.8 Firefox < 99 and Firefox ESR < 91.8."
+CVE-2022-28281,If a compromised content process sent an unexpected number of WebAuthN Extensions in a Register command to the parent process an out of bounds write would have occurred leading to memory corruption and a potentially exploitable crash. This vulnerability affects Thunderbird < 91.8 Firefox < 99 and Firefox ESR < 91.8.
+CVE-2022-26486,An unexpected message in the WebGPU IPC framework could lead to a use-after-free and exploitable sandbox escape. We have had reports of attacks in the wild abusing this flaw. This vulnerability affects Firefox < 97.0.2 Firefox ESR < 91.6.1 Firefox for Android < 97.3.0 Thunderbird < 91.6.2 and Focus < 97.3.0.
+CVE-2022-26485,Removing an XSLT parameter during processing could have lead to an exploitable use-after-free. We have had reports of attacks in the wild abusing this flaw. This vulnerability affects Firefox < 97.0.2 Firefox ESR < 91.6.1 Firefox for Android < 97.3.0 Thunderbird < 91.6.2 and Focus < 97.3.0.
+CVE-2022-26387,When installing an add-on Firefox verified the signature before prompting the user; but while the user was confirming the prompt the underlying add-on file could have been modified and Firefox would not have noticed. This vulnerability affects Firefox < 98 Firefox ESR < 91.7 and Thunderbird < 91.7.
+CVE-2022-26386,Previously Firefox for macOS and Linux would download temporary files to a user-specific directory in <code>/tmp</code> but this behavior was changed to download them to <code>/tmp</code> where they could be affected by other local users. This behavior was reverted to the original user-specific directory. <br>*This bug only affects Firefox for macOS and Linux. Other operating systems are unaffected.*. This vulnerability affects Firefox ESR < 91.7 and Thunderbird < 91.7.
+CVE-2022-26385,In unusual circumstances an individual thread may outlive the thread's manager during shutdown. This could have led to a use-after-free causing a potentially exploitable crash. This vulnerability affects Firefox < 98.
+CVE-2022-26384,If an attacker could control the contents of an iframe sandboxed with <code>allow-popups</code> but not <code>allow-scripts</code> they were able to craft a link that when clicked would lead to JavaScript execution in violation of the sandbox. This vulnerability affects Firefox < 98 Firefox ESR < 91.7 and Thunderbird < 91.7.
+CVE-2022-26383,When resizing a popup after requesting fullscreen access the popup would not display the fullscreen notification. This vulnerability affects Firefox < 98 Firefox ESR < 91.7 and Thunderbird < 91.7.
+CVE-2022-26382,While the text displayed in Autofill tooltips cannot be directly read by JavaScript the text was rendered using page fonts. Side-channel attacks on the text by using specially crafted fonts could have lead to this text being inferred by the webpage. This vulnerability affects Firefox < 98.
+CVE-2022-26381,An attacker could have caused a use-after-free by forcing a text reflow in an SVG object leading to a potentially exploitable crash. This vulnerability affects Firefox < 98 Firefox ESR < 91.7 and Thunderbird < 91.7.
+CVE-2022-2505,Mozilla developers and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 102. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox ESR < 102.1 Firefox < 103 and Thunderbird < 102.1.
 CVE-2022-24713,regex is an implementation of regular expressions for the Rust language. The regex crate features built-in mitigations to prevent denial of service attacks caused by untrusted regexes or untrusted input matched by trusted regexes. Those (tunable) mitigations already provide sane defaults to prevent attacks. This guarantee is documented and it's considered part of the crate's API. Unfortunately a bug was discovered in the mitigations designed to prevent untrusted regexes to take an arbitrary amount of time during parsing and it's possible to craft regexes that bypass such mitigations. This makes it possible to perform denial of service attacks by sending specially crafted regexes to services accepting user-controlled untrusted regexes. All versions of the regex crate before or equal to 1.5.4 are affected by this issue. The fix is include starting from regex 1.5.5. All users accepting user-controlled regexes are recommended to upgrade immediately to the latest version of the regex crate. Unfortunately there is no fixed set of problematic regexes as there are practically infinite regexes that could be crafted to exploit this vulnerability. Because of this it us not recommend to deny known problematic regexes.
-CVE-2022-22764,RESERVED
-CVE-2022-22763,RESERVED
-CVE-2022-22762,RESERVED
-CVE-2022-22761,RESERVED
-CVE-2022-22760,RESERVED
-CVE-2022-22759,RESERVED
-CVE-2022-22758,RESERVED
-CVE-2022-22757,RESERVED
-CVE-2022-22756,RESERVED
-CVE-2022-22755,RESERVED
-CVE-2022-22754,RESERVED
-CVE-2022-22753,RESERVED
-CVE-2022-22752,RESERVED
-CVE-2022-22751,RESERVED
-CVE-2022-22750,RESERVED
-CVE-2022-22749,RESERVED
-CVE-2022-22748,RESERVED
-CVE-2022-22747,RESERVED
-CVE-2022-22746,RESERVED
-CVE-2022-22745,RESERVED
-CVE-2022-22744,RESERVED
-CVE-2022-22743,RESERVED
-CVE-2022-22742,RESERVED
-CVE-2022-22741,RESERVED
-CVE-2022-22740,RESERVED
-CVE-2022-22739,RESERVED
-CVE-2022-22738,RESERVED
-CVE-2022-22737,RESERVED
-CVE-2022-22736,RESERVED
-CVE-2022-2226,RESERVED
-CVE-2022-2200,RESERVED
+CVE-2022-22764,Mozilla developers Paul Adenot and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 96 and Firefox ESR 91.5. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 97 Thunderbird < 91.6 and Firefox ESR < 91.6.
+CVE-2022-22763,When a worker is shutdown it was possible to cause script to run late in the lifecycle at a point after where it should not be possible. This vulnerability affects Firefox < 96 Thunderbird < 91.6 and Firefox ESR < 91.6.
+CVE-2022-22762,Under certain circumstances a JavaScript alert (or prompt) could have been shown while another website was displayed underneath it. This could have been abused to trick the user. <br>*This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 97.
+CVE-2022-22761,Web-accessible extension pages (pages with a moz-extension:// scheme) were not correctly enforcing the frame-ancestors directive when it was used in the Web Extension's Content Security Policy. This vulnerability affects Firefox < 97 Thunderbird < 91.6 and Firefox ESR < 91.6.
+CVE-2022-22760,When importing resources using Web Workers error messages would distinguish the difference between <code>application/javascript</code> responses and non-script responses. This could have been abused to learn information cross-origin. This vulnerability affects Firefox < 97 Thunderbird < 91.6 and Firefox ESR < 91.6.
+CVE-2022-22759,If a document created a sandboxed iframe without <code>allow-scripts</code> and subsequently appended an element to the iframe's document that e.g. had a JavaScript event handler - the event handler would have run despite the iframe's sandbox. This vulnerability affects Firefox < 97 Thunderbird < 91.6 and Firefox ESR < 91.6.
+CVE-2022-22758,When clicking on a tel: link USSD codes specified after a <code>\*</code> character would be included in the phone number. On certain phones or on certain carriers if the number was dialed this could perform actions on a user's account similar to a cross-site request forgery attack.<br>*This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 97.
+CVE-2022-22757,Remote Agent used in WebDriver did not validate the Host or Origin headers. This could have allowed websites to connect back locally to the user's browser to control it. <br>*This bug only affected Firefox when WebDriver was enabled which is not the default configuration.*. This vulnerability affects Firefox < 97.
+CVE-2022-22756,If a user was convinced to drag and drop an image to their desktop or other folder the resulting object could have been changed into an executable script which would have run arbitrary code after the user clicked on it. This vulnerability affects Firefox < 97 Thunderbird < 91.6 and Firefox ESR < 91.6.
+CVE-2022-22755,By using XSL Transforms a malicious webserver could have served a user an XSL document that would continue to execute JavaScript (within the bounds of the same-origin policy) even after the tab was closed. This vulnerability affects Firefox < 97.
+CVE-2022-22754,If a user installed an extension of a particular type the extension could have auto-updated itself and while doing so bypass the prompt which grants the new version the new requested permissions. This vulnerability affects Firefox < 97 Thunderbird < 91.6 and Firefox ESR < 91.6.
+CVE-2022-22753,A Time-of-Check Time-of-Use bug existed in the Maintenance (Updater) Service that could be abused to grant Users write access to an arbitrary directory. This could have been used to escalate to SYSTEM access.<br>*This bug only affects Firefox on Windows. Other operating systems are unaffected.*. This vulnerability affects Firefox < 97 Thunderbird < 91.6 and Firefox ESR < 91.6.
+CVE-2022-22752,Mozilla developers Christian Holler and Jason Kratzer reported memory safety bugs present in Firefox 95. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 96.
+CVE-2022-22751,Mozilla developers Calixte Denizet Kershaw Chang Christian Holler Jason Kratzer Gabriele Svelto Tyson Smith Simon Giesecke and Steve Fink reported memory safety bugs present in Firefox 95 and Firefox ESR 91.4. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox ESR < 91.5 Firefox < 96 and Thunderbird < 91.5.
+CVE-2022-22750,By generally accepting and passing resource handles across processes a compromised content process might have confused higher privileged processes to interact with handles that the unprivileged process should not have access to.<br>*This bug only affects Firefox for Windows and MacOS. Other operating systems are unaffected.*. This vulnerability affects Firefox < 96.
+CVE-2022-22749,When scanning QR codes Firefox for Android would have allowed navigation to some URLs that do not point to web content.<br>*This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 96.
+CVE-2022-22748,Malicious websites could have confused Firefox into showing the wrong origin when asking to launch a program and handling an external URL protocol. This vulnerability affects Firefox ESR < 91.5 Firefox < 96 and Thunderbird < 91.5.
+CVE-2022-22747,After accepting an untrusted certificate handling an empty pkcs7 sequence as part of the certificate data could have lead to a crash. This crash is believed to be unexploitable. This vulnerability affects Firefox ESR < 91.5 Firefox < 96 and Thunderbird < 91.5.
+CVE-2022-22746,A race condition could have allowed bypassing the fullscreen notification which could have lead to a fullscreen window spoof being unnoticed.<br>*This bug only affects Firefox for Windows. Other operating systems are unaffected.*. This vulnerability affects Firefox ESR < 91.5 Firefox < 96 and Thunderbird < 91.5.
+CVE-2022-22745,Securitypolicyviolation events could have leaked cross-origin information for frame-ancestors violations. This vulnerability affects Firefox ESR < 91.5 Firefox < 96 and Thunderbird < 91.5.
+CVE-2022-22744,"The constructed curl command from the ""Copy as curl"" feature in DevTools was not properly escaped for PowerShell. This could have lead to command injection if pasted into a Powershell prompt.<br>*This bug only affects Thunderbird for Windows. Other operating systems are unaffected.*. This vulnerability affects Firefox ESR < 91.5 Firefox < 96 and Thunderbird < 91.5."
+CVE-2022-22743,When navigating from inside an iframe while requesting fullscreen access an attacker-controlled tab could have made the browser unable to leave fullscreen mode. This vulnerability affects Firefox ESR < 91.5 Firefox < 96 and Thunderbird < 91.5.
+CVE-2022-22742,When inserting text while in edit mode some characters might have lead to out-of-bounds memory access causing a potentially exploitable crash. This vulnerability affects Firefox ESR < 91.5 Firefox < 96 and Thunderbird < 91.5.
+CVE-2022-22741,When resizing a popup while requesting fullscreen access the popup would have become unable to leave fullscreen mode. This vulnerability affects Firefox ESR < 91.5 Firefox < 96 and Thunderbird < 91.5.
+CVE-2022-22740,Certain network request objects were freed too early when releasing a network request handle. This could have lead to a use-after-free causing a potentially exploitable crash. This vulnerability affects Firefox ESR < 91.5 Firefox < 96 and Thunderbird < 91.5.
+CVE-2022-22739,Malicious websites could have tricked users into accepting launching a program to handle an external URL protocol. This vulnerability affects Firefox ESR < 91.5 Firefox < 96 and Thunderbird < 91.5.
+CVE-2022-22738,Applying a CSS filter effect could have accessed out of bounds memory. This could have lead to a heap-buffer-overflow causing a potentially exploitable crash. This vulnerability affects Firefox ESR < 91.5 Firefox < 96 and Thunderbird < 91.5.
+CVE-2022-22737,Constructing audio sinks could have lead to a race condition when playing audio files and closing windows. This could have lead to a use-after-free causing a potentially exploitable crash. This vulnerability affects Firefox ESR < 91.5 Firefox < 96 and Thunderbird < 91.5.
+CVE-2022-22736,If Firefox was installed to a world-writable directory a local privilege escalation could occur when Firefox searched the current directory for system libraries. However the install directory is not world-writable by default.<br>*This bug only affects Firefox for Windows in a non-default installation. Other operating systems are unaffected.*. This vulnerability affects Firefox < 96.
+CVE-2022-2226,An OpenPGP digital signature includes information about the date when the signature was created. When displaying an email that contains a digital signature the email's date will be shown. If the dates were different then Thunderbird didn't report the email as having an invalid signature. If an attacker performed a replay attack in which an old email with old contents are resent at a later time it could lead the victim to believe that the statements in the email are current. Fixed versions of Thunderbird will require that the signature's date roughly matches the displayed date of the email. This vulnerability affects Thunderbird < 102 and Thunderbird < 91.11.
+CVE-2022-2200,If an object prototype was corrupted by an attacker they would have been able to set undesired attributes on a JavaScript object leading to privileged code execution. This vulnerability affects Firefox < 102 Firefox ESR < 91.11 Thunderbird < 102 and Thunderbird < 91.11.
 CVE-2022-1919,Use after free in Codecs in Google Chrome prior to 101.0.4951.41 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-CVE-2022-1834,RESERVED
-CVE-2022-1802,RESERVED
-CVE-2022-1529,RESERVED
-CVE-2022-1520,RESERVED
-CVE-2022-1197,RESERVED
-CVE-2022-1196,RESERVED
-CVE-2022-1097,RESERVED
-CVE-2022-0843,RESERVED
-CVE-2022-0566,RESERVED
-CVE-2022-0511,RESERVED
+CVE-2022-1834,When displaying the sender of an email and the sender name contained the Braille Pattern Blank space character multiple times Thunderbird would have displayed all the spaces. This could have been used by an attacker to send an email message with the attacker's digital signature that was shown with an arbitrary sender email address chosen by the attacker. If the sender name started with a false email address followed by many Braille space characters the attacker's email address was not visible. Because Thunderbird compared the invisible sender address with the signature's email address if the signing key or certificate was accepted by Thunderbird the email was shown as having a valid digital signature. This vulnerability affects Thunderbird < 91.10.
+CVE-2022-1802,If an attacker was able to corrupt the methods of an Array object in JavaScript via prototype pollution they could have achieved execution of attacker-controlled JavaScript code in a privileged context. This vulnerability affects Firefox ESR < 91.9.1 Firefox < 100.0.2 Firefox for Android < 100.3.0 and Thunderbird < 91.9.1.
+CVE-2022-1529,An attacker could have sent a message to the parent process where the contents were used to double-index into a JavaScript object leading to prototype pollution and ultimately attacker-controlled JavaScript executing in the privileged parent process. This vulnerability affects Firefox ESR < 91.9.1 Firefox < 100.0.2 Firefox for Android < 100.3.0 and Thunderbird < 91.9.1.
+CVE-2022-1520,When viewing an email message A which contains an attached message B where B is encrypted or digitally signed or both Thunderbird may show an incorrect encryption or signature status. After opening and viewing the attached message B when returning to the display of message A the message A might be shown with the security status of message B. This vulnerability affects Thunderbird < 91.9.
+CVE-2022-1197,When importing a revoked key that specified key compromise as the revocation reason Thunderbird did not update the existing copy of the key that was not yet revoked and the existing key was kept as non-revoked. Revocation statements that used another revocation reason or that didn't specify a revocation reason were unaffected. This vulnerability affects Thunderbird < 91.8.
+CVE-2022-1196,After a VR Process is destroyed a reference to it may have been retained and used leading to a use-after-free and potentially exploitable crash. This vulnerability affects Thunderbird < 91.8 and Firefox ESR < 91.8.
+CVE-2022-1097,<code>NSSToken</code> objects were referenced via direct points and could have been accessed in an unsafe way on different threads leading to a use-after-free and potentially exploitable crash. This vulnerability affects Thunderbird < 91.8 Firefox < 99 and Firefox ESR < 91.8.
+CVE-2022-0843,Mozilla developers Kershaw Chang Ryan VanderMeulen and Randell Jesup reported memory safety bugs present in Firefox 97. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 98.
+CVE-2022-0566,It may be possible for an attacker to craft an email message that causes Thunderbird to perform an out-of-bounds write of one byte when processing the message. This vulnerability affects Thunderbird < 91.6.1.
+CVE-2022-0511,Mozilla developers and community members Gabriele Svelto Sebastian Hengst Randell Jesup Luan Herrera Lars T Hansen and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 96. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 97.
 CVE-2021-44538,The olm_session_describe function in Matrix libolm before 3.2.7 is vulnerable to a buffer overflow. The Olm session object represents a cryptographic channel between two parties. Therefore its state is partially controllable by the remote party of the channel. Attackers can construct a crafted sequence of messages to manipulate the state of the receiver's session in such a way that for some buffer sizes a buffer overflow happens on a call to olm_session_describe. Furthermore safe buffer sizes were undocumented. The overflow content is partially controllable by the attacker and limited to ASCII spaces and digits. The known affected products are Element Web And SchildiChat Web.
 CVE-2021-43546,It was possible to recreate previous cursor spoofing attacks against users with a zoomed native cursor. This vulnerability affects Thunderbird < 91.4.0 Firefox ESR < 91.4.0 and Firefox < 95.
 CVE-2021-43545,Using the Location API in a loop could have caused severe application hangs and crashes. This vulnerability affects Thunderbird < 91.4.0 Firefox ESR < 91.4.0 and Firefox < 95.
@@ -177,12 +188,12 @@ CVE-2021-43532,The 'Copy Image Link' context menu action would copy the final im
 CVE-2021-43531,When a user loaded a Web Extensions context menu the Web Extension could access the post-redirect URL of the element clicked. If the Web Extension lacked the WebRequest permission for the hosts involved in the redirect this would be a same-origin-violation leaking data the Web Extension should have access to. This was fixed to provide the pre-redirect URL. This is related to CVE-2021-43532 but in the context of Web Extensions. This vulnerability affects Firefox < 94.
 CVE-2021-43530,A Universal XSS vulnerability was present in Firefox for Android resulting from improper sanitization when processing a URL scanned from a QR code. *This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 94.
 CVE-2021-43528,Thunderbird unexpectedly enabled JavaScript in the composition area. The JavaScript execution context was limited to this area and did not receive chrome-level privileges but could be used as a stepping stone to further an attack with other vulnerabilities. This vulnerability affects Thunderbird < 91.4.0.
-CVE-2021-4221,RESERVED
-CVE-2021-4140,RESERVED
-CVE-2021-4129,RESERVED
-CVE-2021-4128,RESERVED
-CVE-2021-4127,RESERVED
-CVE-2021-4126,RESERVED
+CVE-2021-4221,If a domain name contained a RTL character it would cause the domain to be rendered to the right of the path. This could lead to user confusion and spoofing attacks. <br>*This bug only affects Firefox for Android. Other operating systems are unaffected.*<br>*Note*: Due to a clerical error this advisory was not included in the original announcement and was added in Feburary 2022. This vulnerability affects Firefox < 92.
+CVE-2021-4140,It was possible to construct specific XSLT markup that would be able to bypass an iframe sandbox. This vulnerability affects Firefox ESR < 91.5 Firefox < 96 and Thunderbird < 91.5.
+CVE-2021-4129,Mozilla developers and community members Julian Hector Randell Jesup Gabriele Svelto Tyson Smith Christian Holler and Masayuki Nakano reported memory safety bugs present in Firefox 94. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 95 Firefox ESR < 91.4.0 and Thunderbird < 91.4.0.
+CVE-2021-4128,When transitioning in and out of fullscreen mode a graphics object was not correctly protected; resulting in memory corruption and a potentially exploitable crash.<br>*This bug only affects Firefox on MacOS. Other operating systems are unaffected.*. This vulnerability affects Firefox < 95.
+CVE-2021-4127,An out of date graphics library (Angle) likely contained vulnerabilities that could potentially be exploited. This vulnerability affects Thunderbird < 78.9 and Firefox ESR < 78.9.
+CVE-2021-4126,When receiving an OpenPGP/MIME signed email message that contains an additional outer MIME message layer for example a message footer added by a mailing list gateway Thunderbird only considered the inner signed message for the signature validity. This gave the false impression that the additional contents were also covered by the digital signature. Starting with Thunderbird version 91.4.1 only the signature that belongs to the top level MIME part will be considered for the displayed status. This vulnerability affects Thunderbird < 91.4.1.
 CVE-2021-38510,The executable file warning was not presented when downloading .inetloc files which due to a flaw in Mac OS can run commands on a user's computer.*Note: This issue only affected Mac OS operating systems. Other operating systems are unaffected.*. This vulnerability affects Firefox < 94 Thunderbird < 91.3 and Firefox ESR < 91.3.
 CVE-2021-38509,Due to an unusual sequence of attacker-controlled events a Javascript alert() dialog with arbitrary (although unstyled) contents could be displayed over top an uncontrolled webpage of the attacker's choosing. This vulnerability affects Firefox < 94 Thunderbird < 91.3 and Firefox ESR < 91.3.
 CVE-2021-38508,By displaying a form validity message in the correct location at the same time as a permission prompt (such as for geolocation) the validity message could have obscured the prompt resulting in the user potentially being tricked into granting the permission. This vulnerability affects Firefox < 94 Thunderbird < 91.3 and Firefox ESR < 91.3.
@@ -370,7 +381,7 @@ CVE-2020-16042,Uninitialized Use in V8 in Google Chrome prior to 87.0.4280.88 al
 CVE-2020-16012,Side-channel information leakage in graphics in Google Chrome prior to 87.0.4280.66 allowed a remote attacker to leak cross-origin data via a crafted HTML page.
 CVE-2020-15999,Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 CVE-2020-15969,Use after free in WebRTC in Google Chrome prior to 86.0.4240.75 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-CVE-2020-15685,RESERVED
+CVE-2020-15685,During the plaintext phase of the STARTTLS connection setup protocol commands could have been injected and evaluated within the encrypted session. This vulnerability affects Thunderbird < 78.7.
 CVE-2020-15684,Mozilla developers reported memory safety bugs present in Firefox 81. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 82.
 CVE-2020-15683,Mozilla developers and community members reported memory safety bugs present in Firefox 81 and Firefox ESR 78.3. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox ESR < 78.4 Firefox < 82 and Thunderbird < 78.4.
 CVE-2020-15682,When a link to an external protocol was clicked a prompt was presented that allowed the user to choose what application to open it in. An attacker could induce that prompt to be associated with an origin they didn't control resulting in a spoofing attack. This was fixed by changing external protocol prompts to be tab-modal while also ensuring they could not be incorrectly associated with a different origin. This vulnerability affects Firefox < 82.
