@@ -1,0 +1,9 @@
+type: dataset
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+authors:
+- family-names: "Napier"
+  given-names: "Kollin"
+  orcid: "https://orcid.org/0000-0003-0025-5524"
+title: "Mozilla products vulnerability dataset"
+url: "https://github.com/krn65/mpvd"
