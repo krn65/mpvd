@@ -1,4 +1,38 @@
 cve_id,description
+CVE-2023-25746,RESERVED
+CVE-2023-25745,RESERVED
+CVE-2023-25744,RESERVED
+CVE-2023-25743,RESERVED
+CVE-2023-25742,RESERVED
+CVE-2023-25741,RESERVED
+CVE-2023-25740,RESERVED
+CVE-2023-25739,RESERVED
+CVE-2023-25738,RESERVED
+CVE-2023-25737,RESERVED
+CVE-2023-25736,RESERVED
+CVE-2023-25735,RESERVED
+CVE-2023-25734,RESERVED
+CVE-2023-25733,RESERVED
+CVE-2023-25732,RESERVED
+CVE-2023-25731,RESERVED
+CVE-2023-25730,RESERVED
+CVE-2023-25729,RESERVED
+CVE-2023-25728,RESERVED
+CVE-2023-23606,RESERVED
+CVE-2023-23605,RESERVED
+CVE-2023-23604,RESERVED
+CVE-2023-23603,RESERVED
+CVE-2023-23602,RESERVED
+CVE-2023-23601,RESERVED
+CVE-2023-23600,RESERVED
+CVE-2023-23599,RESERVED
+CVE-2023-23598,RESERVED
+CVE-2023-23597,RESERVED
+CVE-2023-0767,RESERVED
+CVE-2023-0616,RESERVED
+CVE-2023-0430,RESERVED
+CVE-2022-46885,Mozilla developers Timothy Nikkel Ashley Hale and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 105. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 106.
+CVE-2022-46883,Mozilla developers Gabriele Svelto Yulia Startsev Andrew McCreight and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 106. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code.<br />*Note*: This advisory was added on December 13th 2022 after discovering it was inadvertently left out of the original advisory. The fix was included in the original release of Firefox 107. This vulnerability affects Firefox < 107.
 CVE-2022-46882,A use-after-free in WebGL extensions could have led to a potentially exploitable crash. This vulnerability affects Firefox < 107 Firefox ESR < 102.6 and Thunderbird < 102.6.
 CVE-2022-46881,An optimization in WebGL was incorrect in some cases and could have led to memory corruption and a potentially exploitable crash. This vulnerability affects Firefox < 106 Firefox ESR < 102.6 and Thunderbird < 102.6.
 CVE-2022-46880,A missing check related to tex units could have led to a use-after-free and potentially exploitable crash.<br />*Note*: This advisory was added on December 13th 2022 after we better understood the impact of the issue. The fix was included in the original release of Firefox 105. This vulnerability affects Firefox ESR < 102.6 Firefox < 105 and Thunderbird < 102.6.
@@ -187,6 +221,7 @@ CVE-2021-43533,When parsing internationalized domain names high bits of the char
 CVE-2021-43532,The 'Copy Image Link' context menu action would copy the final image URL after redirects. By embedding an image that triggered authentication flows - in conjunction with a Content Security Policy that stopped a redirection chain in the middle - the final image URL could be one that contained an authentication token used to takeover a user account. If a website tricked a user into copy and pasting the image link back to the page the page would be able to steal the authentication tokens. This was fixed by making the action return the original URL before any redirects. This vulnerability affects Firefox < 94.
 CVE-2021-43531,When a user loaded a Web Extensions context menu the Web Extension could access the post-redirect URL of the element clicked. If the Web Extension lacked the WebRequest permission for the hosts involved in the redirect this would be a same-origin-violation leaking data the Web Extension should have access to. This was fixed to provide the pre-redirect URL. This is related to CVE-2021-43532 but in the context of Web Extensions. This vulnerability affects Firefox < 94.
 CVE-2021-43530,A Universal XSS vulnerability was present in Firefox for Android resulting from improper sanitization when processing a URL scanned from a QR code. *This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 94.
+CVE-2021-43529,Thunderbird versions prior to 91.3.0 are vulnerable to the heap overflow described in CVE-2021-43527 when processing S/MIME messages. Thunderbird versions 91.3.0 and later will not call the vulnerable code when processing S/MIME messages that contain certificates with DER-encoded DSA or RSA-PSS signatures.
 CVE-2021-43528,Thunderbird unexpectedly enabled JavaScript in the composition area. The JavaScript execution context was limited to this area and did not receive chrome-level privileges but could be used as a stepping stone to further an attack with other vulnerabilities. This vulnerability affects Thunderbird < 91.4.0.
 CVE-2021-4221,If a domain name contained a RTL character it would cause the domain to be rendered to the right of the path. This could lead to user confusion and spoofing attacks. <br>*This bug only affects Firefox for Android. Other operating systems are unaffected.*<br>*Note*: Due to a clerical error this advisory was not included in the original announcement and was added in Feburary 2022. This vulnerability affects Firefox < 92.
 CVE-2021-4140,It was possible to construct specific XSLT markup that would be able to bypass an iframe sandbox. This vulnerability affects Firefox ESR < 91.5 Firefox < 96 and Thunderbird < 91.5.
