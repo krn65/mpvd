@@ -1,6 +1,6 @@
 # mpvd (Mozilla Products Vulnerability Dataset)
 
-### The following information is up-to-date as of March 09, 2023.
+### The following information is up-to-date as of March 16, 2023.
 - The data will be updated periodically to account for new vulnerabilities provided in security advisories for updates to Mozilla products.
 
 #### NOTE: The dataset is not 100% complete due to unavailable data or other issues encountered while scraping and parsing.
@@ -9,7 +9,7 @@
 
 ### Summary
 
-This repository contains a dataset of source code files related to the known vulnerabilities in [Mozilla products](https://www.mozilla.org/en-US/security/known-vulnerabilities/). Advisories are available for the following products: [Firefox](https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/), [Firefox ESR](https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox-esr/), [Firefox OS](https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox-os/), [Thunderbird](https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/), [Thunderbird ESR](https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird-esr/), and [SeaMonkey](https://www.mozilla.org/en-US/security/known-vulnerabilities/seamonkey/).
+This repository contains a dataset of source code files related to the known vulnerabilities in [Mozilla products](https://www.mozilla.org/en-US/security/known-vulnerabilities/). Advisories are available for the following products: [Firefox](https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/), [Firefox ESR](https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox-esr/), [Firefox for iOS](https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox-for-ios/), [Firefox OS](https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox-os/), [Mozilla VPN](https://www.mozilla.org/en-US/security/known-vulnerabilities/mozilla-vpn/), [Thunderbird](https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/), [Thunderbird ESR](https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird-esr/), and [SeaMonkey](https://www.mozilla.org/en-US/security/known-vulnerabilities/seamonkey/).
 
 Additional vulnerability data related to the security advisories as well as the associated Bug IDs are also included.
 
