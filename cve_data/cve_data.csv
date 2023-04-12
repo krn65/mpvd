@@ -1,4 +1,27 @@
 cve_id,description
+CVE-2023-29551,RESERVED
+CVE-2023-29550,RESERVED
+CVE-2023-29549,RESERVED
+CVE-2023-29548,RESERVED
+CVE-2023-29547,RESERVED
+CVE-2023-29546,RESERVED
+CVE-2023-29545,RESERVED
+CVE-2023-29544,RESERVED
+CVE-2023-29543,RESERVED
+CVE-2023-29542,RESERVED
+CVE-2023-29541,RESERVED
+CVE-2023-29540,RESERVED
+CVE-2023-29539,RESERVED
+CVE-2023-29538,RESERVED
+CVE-2023-29537,RESERVED
+CVE-2023-29536,RESERVED
+CVE-2023-29535,RESERVED
+CVE-2023-29534,RESERVED
+CVE-2023-29533,RESERVED
+CVE-2023-29532,RESERVED
+CVE-2023-29531,RESERVED
+CVE-2023-29479,RESERVED
+CVE-2023-28427,matrix-js-sdk is a Matrix messaging protocol Client-Server SDK for JavaScript. In versions prior to 24.0.0 events sent with special strings in key places can temporarily disrupt or impede the matrix-js-sdk from functioning properly potentially impacting the consumer's ability to process data safely. Note that the matrix-js-sdk can appear to be operating normally but be excluding or corrupting runtime data presented to the consumer. This vulnerability is distinct from GHSA-rfv9-x7hh-xc32 which covers a similar issue. The issue has been patched in matrix-js-sdk 24.0.0 and users are advised to upgrade. There are no known workarounds for this vulnerability.
 CVE-2023-28177,RESERVED
 CVE-2023-28176,RESERVED
 CVE-2023-28164,RESERVED
@@ -41,8 +64,10 @@ CVE-2023-23600,RESERVED
 CVE-2023-23599,RESERVED
 CVE-2023-23598,RESERVED
 CVE-2023-23597,RESERVED
+CVE-2023-1945,RESERVED
 CVE-2023-0767,RESERVED
 CVE-2023-0616,RESERVED
+CVE-2023-0547,RESERVED
 CVE-2023-0430,RESERVED
 CVE-2022-46885,Mozilla developers Timothy Nikkel Ashley Hale and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 105. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 106.
 CVE-2022-46883,Mozilla developers Gabriele Svelto Yulia Startsev Andrew McCreight and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 106. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code.<br />*Note*: This advisory was added on December 13th 2022 after discovering it was inadvertently left out of the original advisory. The fix was included in the original release of Firefox 107. This vulnerability affects Firefox < 107.
@@ -108,7 +133,7 @@ CVE-2022-36317,When visiting a website with an overly long URL the user interfac
 CVE-2022-36316,When using the Performance API an attacker was able to notice subtle differences between PerformanceEntries and thus learn whether the target URL had been subject to a redirect. This vulnerability affects Firefox < 103.
 CVE-2022-36315,When loading a script with Subresource Integrity attackers with an injection capability could trigger the reuse of previously cached entries with incorrect different integrity metadata. This vulnerability affects Firefox < 103.
 CVE-2022-36314,When opening a Windows shortcut from the local filesystem an attacker could supply a remote path that would lead to unexpected network requests from the operating system.<br>This bug only affects Firefox for Windows. Other operating systems are unaffected.*. This vulnerability affects Firefox ESR < 102.1 Firefox < 103 and Thunderbird < 102.1.
-CVE-2022-36059,RESERVED
+CVE-2022-36059,matrix-js-sdk is a Matrix messaging protocol Client-Server SDK for JavaScript. In versions prior to 19.4.0 events sent with special strings in key places can temporarily disrupt or impede the matrix-js-sdk from functioning properly potentially impacting the consumer's ability to process data safely. Note that the matrix-js-sdk can appear to be operating normally but be excluding or corrupting runtime data presented to the consumer. This issue has been fixed in matrix-js-sdk 19.4.0 and users are advised to upgrade. Users unable to upgrade may mitigate this issue by redacting applicable events waiting for the sync processor to store data and restarting the client. Alternatively redacting the applicable events and clearing all storage will often fix most perceived issues. In some cases no workarounds are possible.
 CVE-2022-34485,Mozilla developers Bryce Seager van Dyk and the Mozilla Fuzzing Team reported potential vulnerabilities present in Firefox 101. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 102.
 CVE-2022-34484,The Mozilla Fuzzing Team reported potential vulnerabilities present in Thunderbird 91.10. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 102 Firefox ESR < 91.11 Thunderbird < 102 and Thunderbird < 91.11.
 CVE-2022-34483,An attacker who could have convinced a user to drag and drop an image to a filesystem could have manipulated the resulting filename to contain an executable extension and by extension potentially tricked the user into executing malicious code. While very similar this is a separate issue from CVE-2022-34482. This vulnerability affects Firefox < 102.

@@ -467,7 +467,7 @@ CVE-2009-3376,16,,,2009-10-29,2018-10-30,9.3,None,Remote,Medium,Not required,Com
 CVE-2009-3373,119,,Exec Code Overflow,2009-10-29,2018-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
 CVE-2009-3372,,,Exec Code,2009-10-29,2018-10-30,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
 CVE-2009-3014,79,,XSS,2009-08-31,2018-10-10,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2009-3010,79,,XSS,2009-08-31,2017-08-17,4.3,None,Remote,Medium,Not required,None,Partial,None
+CVE-2009-3010,79,,XSS,2009-08-31,2023-03-31,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2009-3007,,,,2009-08-28,2017-08-17,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2009-2535,189,1,DoS,2009-07-20,2018-10-30,5.0,None,Remote,Low,Not required,None,None,Partial
 CVE-2009-2464,399,,DoS Exec Code Mem. Corr.,2009-07-22,2018-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
