@@ -1,4 +1,21 @@
 cve_id,description
+CVE-2023-37212,Memory safety bugs present in Firefox 114. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 115.
+CVE-2023-37211,Memory safety bugs present in Firefox 114 Firefox ESR 102.12 and Thunderbird 102.12. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 115 Firefox ESR < 102.13 and Thunderbird < 102.13.
+CVE-2023-37210,A website could prevent a user from exiting full-screen mode via alert and prompt calls. This could lead to user confusion and possible spoofing attacks. This vulnerability affects Firefox < 115.
+CVE-2023-37209,A use-after-free condition existed in `NotifyOnHistoryReload` where a `LoadingSessionHistoryEntry` object was freed and a reference to that object remained. This resulted in a potentially exploitable condition when the reference to that object was later reused. This vulnerability affects Firefox < 115.
+CVE-2023-37208,When opening Diagcab files Firefox did not warn the user that these files may contain malicious code. This vulnerability affects Firefox < 115 Firefox ESR < 102.13 and Thunderbird < 102.13.
+CVE-2023-37207,A website could have obscured the fullscreen notification by using a URL with a scheme handled by an external program such as a mailto URL. This could have led to user confusion and possible spoofing attacks. This vulnerability affects Firefox < 115 Firefox ESR < 102.13 and Thunderbird < 102.13.
+CVE-2023-37206,Uploading files which contain symlinks may have allowed an attacker to trick a user into submitting sensitive data to a malicious website. This vulnerability affects Firefox < 115.
+CVE-2023-37205,The use of RTL Arabic characters in the address bar may have allowed for URL spoofing. This vulnerability affects Firefox < 115.
+CVE-2023-37204,A website could have obscured the fullscreen notification by using an option element by introducing lag via an expensive computational function. This could have led to user confusion and possible spoofing attacks. This vulnerability affects Firefox < 115.
+CVE-2023-37203,Insufficient validation in the Drag and Drop API in conjunction with social engineering may have allowed an attacker to trick end-users into creating a shortcut to local system files. This could have been leveraged to execute arbitrary code. This vulnerability affects Firefox < 115.
+CVE-2023-37202,Cross-compartment wrappers wrapping a scripted proxy could have caused objects from other compartments to be stored in the main compartment resulting in a use-after-free. This vulnerability affects Firefox < 115 Firefox ESR < 102.13 and Thunderbird < 102.13.
+CVE-2023-37201,An attacker could have triggered a use-after-free condition when creating a WebRTC connection over HTTPS. This vulnerability affects Firefox < 115 Firefox ESR < 102.13 and Thunderbird < 102.13.
+CVE-2023-3482,When Firefox is configured to block storage of all cookies it was still possible to store data in localstorage by using an iframe with a source of 'about:blank'. This could have led to malicious websites storing tracking data without permission. This vulnerability affects Firefox < 115.
+CVE-2023-34417,RESERVED
+CVE-2023-34416,RESERVED
+CVE-2023-34415,RESERVED
+CVE-2023-34414,RESERVED
 CVE-2023-32216,RESERVED
 CVE-2023-32215,RESERVED
 CVE-2023-32214,RESERVED

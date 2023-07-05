@@ -40,6 +40,7 @@ cwe_id,title,description
 399,CWE CATEGORY: Resource Management Errors,Weaknesses in this category are related to improper management of system resources.
 416,CWE-416: Use After Free,"Referencing memory after it has been freed can cause a program to crash, use unexpected values, or execute code."
 427,CWE-427: Uncontrolled Search Path Element,"The product uses a fixed or controlled search path to find resources, but one or more locations in that path can be under the control of unintended actors."
+476,CWE-476: NULL Pointer Dereference,"A NULL pointer dereference occurs when the application dereferences a pointer that it expects to be valid, but is NULL, typically causing a crash or exit."
 522,CWE-522: Insufficiently Protected Credentials,"The product transmits or stores authentication credentials, but it uses an insecure method that is susceptible to unauthorized interception and/or retrieval."
 601,CWE-601: URL Redirection to Untrusted Site ('Open Redirect'),"A web application accepts a user-controlled input that specifies a link to an external site, and uses that link in a Redirect. This simplifies phishing attacks."
 617,CWE-617: Reachable Assertion,"The product contains an assert() or similar statement that can be triggered by an attacker, which leads to an application exit or other behavior that is more severe than necessary."
@@ -58,6 +59,7 @@ cwe_id,title,description
 835,CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop'),"The product contains an iteration or loop with an exit condition that cannot be reached, i.e., an infinite loop."
 843,CWE-843: Access of Resource Using Incompatible Type ('Type Confusion'),"The product allocates or initializes a resource such as a pointer, object, or variable using one type, but it later accesses that resource using a type that is incompatible with the original type."
 863,CWE-863: Incorrect Authorization,"The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check. This allows attackers to bypass intended access restrictions."
+908,CWE-908: Use of Uninitialized Resource,The product uses or accesses a resource that has not been initialized.
 909,CWE-909: Missing Initialization of Resource,The product does not initialize a critical resource.
 922,CWE-922: Insecure Storage of Sensitive Information,The product stores sensitive information without properly limiting read or write access by unauthorized actors.
 1021,CWE-1021: Improper Restriction of Rendered UI Layers or Frames,"The web application does not restrict or incorrectly restricts frame objects or UI layers that belong to another application or domain, which can lead to user confusion about which interface the user is interacting with."

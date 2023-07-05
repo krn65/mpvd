@@ -67,6 +67,7 @@ CVE-2014-1477,,,DoS Exec Code Mem. Corr.,2014-02-06,2020-08-07,6.8,None,Remote,M
 CVE-2013-6674,79,,XSS,2014-02-17,2015-08-07,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2013-6673,310,,,2013-12-11,2020-08-12,4.3,None,Remote,Medium,Not required,None,Partial,None
 CVE-2013-6671,94,,Exec Code,2013-12-11,2020-08-12,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+CVE-2013-6629,200,,+Info,2013-11-19,2023-06-21,5.0,None,Remote,Low,Not required,Partial,None,None
 CVE-2013-5619,190,,DoS Overflow,2013-12-11,2020-08-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
 CVE-2013-5618,416,,Exec Code,2013-12-11,2020-08-12,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
 CVE-2013-5616,416,,DoS Exec Code Mem. Corr.,2013-12-11,2020-08-12,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
