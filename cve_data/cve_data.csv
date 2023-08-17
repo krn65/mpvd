@@ -1,4 +1,20 @@
 cve_id,description
+CVE-2023-4058,Memory safety bugs present in Firefox 115. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 116.
+CVE-2023-4057,Memory safety bugs present in Firefox 115 Firefox ESR 115.0 and Thunderbird 115.0. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 116 and Firefox ESR < 115.1.
+CVE-2023-4056,Memory safety bugs present in Firefox 115 Firefox ESR 115.0 Firefox ESR 102.13 Thunderbird 115.0 and Thunderbird 102.13. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
+CVE-2023-4055,When the number of cookies per domain was exceeded in `document.cookie` the actual cookie jar sent to the host was no longer consistent with expected cookie jar state. This could have caused requests to be sent with some cookies missing. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
+CVE-2023-4054,When opening appref-ms files Firefox did not warn the user that these files may contain malicious code. *This bug only affects Firefox on Windows. Other operating systems are unaffected.* This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
+CVE-2023-4053,A website could have obscured the full screen notification by using a URL with a scheme handled by an external program such as a mailto URL. This could have led to user confusion and possible spoofing attacks. This vulnerability affects Firefox < 116.
+CVE-2023-4052,The Firefox updater created a directory writable by non-privileged users. When uninstalling Firefox any files in that directory would be recursively deleted with the permissions of the uninstalling user account. This could be combined with creation of a junction (a form of symbolic link) to allow arbitrary file deletion controlled by the non-privileged user. *This bug only affects Firefox on Windows. Other operating systems are unaffected.* This vulnerability affects Firefox < 116 and Firefox ESR < 115.1.
+CVE-2023-4051,A website could have obscured the full screen notification by using the file open dialog. This could have led to user confusion and possible spoofing attacks. This vulnerability affects Firefox < 116.
+CVE-2023-4050,In some cases an untrusted input stream was copied to a stack buffer without checking its size. This resulted in a potentially exploitable crash which could have led to a sandbox escape. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
+CVE-2023-4049,Race conditions in reference counting code were found through code inspection. These could have resulted in potentially exploitable use-after-free vulnerabilities. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
+CVE-2023-4048,An out-of-bounds read could have led to an exploitable crash when parsing HTML with DOMParser in low memory situations. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
+CVE-2023-4047,A bug in popup notifications delay calculation could have made it possible for an attacker to trick a user into granting permissions. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
+CVE-2023-4046,In some circumstances a stale value could have been used for a global variable in WASM JIT analysis. This resulted in incorrect compilation and a potentially exploitable crash in the content process. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
+CVE-2023-4045,Offscreen Canvas did not properly track cross-origin tainting which could have been used to access image data from another site in violation of same-origin policy. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
+CVE-2023-37456,RESERVED
+CVE-2023-37455,RESERVED
 CVE-2023-37212,Memory safety bugs present in Firefox 114. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 115.
 CVE-2023-37211,Memory safety bugs present in Firefox 114 Firefox ESR 102.12 and Thunderbird 102.12. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 115 Firefox ESR < 102.13 and Thunderbird < 102.13.
 CVE-2023-37210,A website could prevent a user from exiting full-screen mode via alert and prompt calls. This could lead to user confusion and possible spoofing attacks. This vulnerability affects Firefox < 115.
@@ -11,11 +27,13 @@ CVE-2023-37204,A website could have obscured the fullscreen notification by usin
 CVE-2023-37203,Insufficient validation in the Drag and Drop API in conjunction with social engineering may have allowed an attacker to trick end-users into creating a shortcut to local system files. This could have been leveraged to execute arbitrary code. This vulnerability affects Firefox < 115.
 CVE-2023-37202,Cross-compartment wrappers wrapping a scripted proxy could have caused objects from other compartments to be stored in the main compartment resulting in a use-after-free. This vulnerability affects Firefox < 115 Firefox ESR < 102.13 and Thunderbird < 102.13.
 CVE-2023-37201,An attacker could have triggered a use-after-free condition when creating a WebRTC connection over HTTPS. This vulnerability affects Firefox < 115 Firefox ESR < 102.13 and Thunderbird < 102.13.
+CVE-2023-3600,RESERVED
 CVE-2023-3482,When Firefox is configured to block storage of all cookies it was still possible to store data in localstorage by using an iframe with a source of 'about:blank'. This could have led to malicious websites storing tracking data without permission. This vulnerability affects Firefox < 115.
 CVE-2023-34417,RESERVED
 CVE-2023-34416,RESERVED
 CVE-2023-34415,RESERVED
 CVE-2023-34414,RESERVED
+CVE-2023-3417,Thunderbird allowed the Text Direction Override Unicode Character in filenames. An email attachment could be incorrectly shown as being a document file while in fact it was an executable file. Newer versions of Thunderbird will strip the character and show the correct file extension. This vulnerability affects Thunderbird < 115.0.1 and Thunderbird < 102.13.1.
 CVE-2023-32216,RESERVED
 CVE-2023-32215,RESERVED
 CVE-2023-32214,RESERVED
@@ -602,6 +620,7 @@ CVE-2019-7317,png_image_free in png.c in libpng 1.6.x before 1.6.37 has a use-af
 CVE-2019-5849,Out of bounds read in Skia in Google Chrome prior to 75.0.3770.80 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page.
 CVE-2019-5798,Lack of correct bounds checking in Skia in Google Chrome prior to 73.0.3683.75 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page.
 CVE-2019-5785,Incorrect convexity calculations in Skia in Google Chrome prior to 72.0.3626.81 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page.
+CVE-2019-25136,A compromised child process could have injected XBL Bindings into privileged CSS rules resulting in arbitrary code execution and a sandbox escape. This vulnerability affects Firefox < 70.
 CVE-2019-20503,usrsctp before 2019-12-20 has out-of-bounds reads in sctp_load_addresses_from_init.
 CVE-2019-17026,Incorrect alias information in IonMonkey JIT compiler for setting array elements could lead to a type confusion. We are aware of targeted attacks in the wild abusing this flaw. This vulnerability affects Firefox ESR < 68.4.1 Thunderbird < 68.4.1 and Firefox < 72.0.1.
 CVE-2019-17025,Mozilla developers reported memory safety bugs present in Firefox 71. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 72.
