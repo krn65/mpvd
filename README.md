@@ -26,7 +26,7 @@ url = {https://github.com/krn65/mpvd}
 
 ### Descriptions
 
-The `product_data` folder contains a `.csv` file for each product that provides the following data from available security advisories: `version` (of product that fixed vulnerability), `CVE ID(s)`, `advisory` (ID from Mozilla), `title`, `reporter`, `impact` (defined by Mozilla), `description`, and `Bug ID(s)`. The product security advisory data is sorted in descending order starting with the most recent version. In order to properly sort, versions lower than `10` append a `0` to the beginning of the version string (e.g. version `9` becomes `09`).
+The `product_data` folder contains a `.csv` file for each product that provides the following data from available security advisories: `version` (of product that fixed vulnerability), `CVE ID(s)`, `advisory` (ID from Mozilla), `title`, `reporter`, `impact` (defined by Mozilla), `description`, and `Bug ID(s)`. The product security advisory data is sorted in descending order starting with the most recent version.
 
 The `product_bug_ids` folder contains a `.txt` file for each product that provides a list of Bug IDs found within the security advisories for each product. There is also a file titled `all_bug_ids-unique.txt` that provides a combined list of all the Bug IDs from all products which is sorted with duplicates removed.
 
