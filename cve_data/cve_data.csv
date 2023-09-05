@@ -1,4 +1,17 @@
 cve_id,description
+CVE-2023-4585,RESERVED
+CVE-2023-4584,RESERVED
+CVE-2023-4583,RESERVED
+CVE-2023-4582,RESERVED
+CVE-2023-4581,RESERVED
+CVE-2023-4580,RESERVED
+CVE-2023-4579,RESERVED
+CVE-2023-4578,RESERVED
+CVE-2023-4577,RESERVED
+CVE-2023-4576,RESERVED
+CVE-2023-4575,RESERVED
+CVE-2023-4574,RESERVED
+CVE-2023-4573,RESERVED
 CVE-2023-4058,Memory safety bugs present in Firefox 115. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 116.
 CVE-2023-4057,Memory safety bugs present in Firefox 115 Firefox ESR 115.0 and Thunderbird 115.0. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 116 and Firefox ESR < 115.1.
 CVE-2023-4056,Memory safety bugs present in Firefox 115 Firefox ESR 115.0 Firefox ESR 102.13 Thunderbird 115.0 and Thunderbird 102.13. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
