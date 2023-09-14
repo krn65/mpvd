@@ -1,33 +1,34 @@
 cve_id,description
-CVE-2023-4585,RESERVED
-CVE-2023-4584,RESERVED
-CVE-2023-4583,RESERVED
-CVE-2023-4582,RESERVED
-CVE-2023-4581,RESERVED
-CVE-2023-4580,RESERVED
-CVE-2023-4579,RESERVED
-CVE-2023-4578,RESERVED
-CVE-2023-4577,RESERVED
-CVE-2023-4576,RESERVED
-CVE-2023-4575,RESERVED
-CVE-2023-4574,RESERVED
-CVE-2023-4573,RESERVED
+CVE-2023-4863,Heap buffer overflow in WebP in Google Chrome prior to 116.0.5845.187 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)
+CVE-2023-4585,Memory safety bugs present in Firefox 116 Firefox ESR 115.1 and Thunderbird 115.1. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 117 Firefox ESR < 115.2 and Thunderbird < 115.2.
+CVE-2023-4584,Memory safety bugs present in Firefox 116 Firefox ESR 102.14 Firefox ESR 115.1 Thunderbird 102.14 and Thunderbird 115.1. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 117 Firefox ESR < 102.15 Firefox ESR < 115.2 and Thunderbird < 115.2.
+CVE-2023-4583,When checking if the Browsing Context had been discarded in `HttpBaseChannel` if the load group was not available then it was assumed to have already been discarded which was not always the case for private channels after the private session had ended. This vulnerability affects Firefox < 117 Firefox ESR < 115.2 and Thunderbird < 115.2.
+CVE-2023-4582,Due to large allocation checks in Angle for glsl shaders being too lenient a buffer overflow could have occured when allocating too much private shader memory on mac OS. *This bug only affects Firefox on macOS. Other operating systems are unaffected.* This vulnerability affects Firefox < 117 Firefox ESR < 115.2 and Thunderbird < 115.2.
+CVE-2023-4581,Excel `.xll` add-in files did not have a blocklist entry in Firefox's executable blocklist which allowed them to be downloaded without any warning of their potential harm. This vulnerability affects Firefox < 117 Firefox ESR < 102.15 Firefox ESR < 115.2 and Thunderbird < 115.2.
+CVE-2023-4580,Push notifications stored on disk in private browsing mode were not being encrypted potentially allowing the leak of sensitive information. This vulnerability affects Firefox < 117 Firefox ESR < 115.2 and Thunderbird < 115.2.
+CVE-2023-4579,Search queries in the default search engine could appear to have been the currently navigated URL if the search query itself was a well formed URL. This could have led to a site spoofing another if it had been maliciously set as the default search engine. This vulnerability affects Firefox < 117.
+CVE-2023-4578,When calling `JS::CheckRegExpSyntax` a Syntax Error could have been set which would end in calling `convertToRuntimeErrorAndClear`. A path in the function could attempt to allocate memory when none is available which would have caused a newly created Out of Memory exception to be mishandled as a Syntax Error. This vulnerability affects Firefox < 117 Firefox ESR < 115.2 and Thunderbird < 115.2.
+CVE-2023-4577,When `UpdateRegExpStatics` attempted to access `initialStringHeap` it could already have been garbage collected prior to entering the function which could potentially have led to an exploitable crash. This vulnerability affects Firefox < 117 Firefox ESR < 115.2 and Thunderbird < 115.2.
+CVE-2023-4576,On Windows an integer overflow could occur in `RecordedSourceSurfaceCreation` which resulted in a heap buffer overflow potentially leaking sensitive data that could have led to a sandbox escape. *This bug only affects Firefox on Windows. Other operating systems are unaffected.* This vulnerability affects Firefox < 117 Firefox ESR < 102.15 Firefox ESR < 115.2 and Thunderbird < 115.2.
+CVE-2023-4575,When creating a callback over IPC for showing the File Picker window multiple of the same callbacks could have been created at a time and eventually all simultaneously destroyed as soon as one of the callbacks finished. This could have led to a use-after-free causing a potentially exploitable crash. This vulnerability affects Firefox < 117 Firefox ESR < 102.15 Firefox ESR < 115.2 and Thunderbird < 115.2.
+CVE-2023-4574,When creating a callback over IPC for showing the Color Picker window multiple of the same callbacks could have been created at a time and eventually all simultaneously destroyed as soon as one of the callbacks finished. This could have led to a use-after-free causing a potentially exploitable crash. This vulnerability affects Firefox < 117 Firefox ESR < 102.15 Firefox ESR < 115.2 and Thunderbird < 115.2.
+CVE-2023-4573,When receiving rendering data over IPC `mStream` could have been destroyed when initialized which could have led to a use-after-free causing a potentially exploitable crash. This vulnerability affects Firefox < 117 Firefox ESR < 102.15 Firefox ESR < 115.2 and Thunderbird < 115.2.
 CVE-2023-4058,Memory safety bugs present in Firefox 115. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 116.
-CVE-2023-4057,Memory safety bugs present in Firefox 115 Firefox ESR 115.0 and Thunderbird 115.0. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 116 and Firefox ESR < 115.1.
+CVE-2023-4057,Memory safety bugs present in Firefox 115 Firefox ESR 115.0 and Thunderbird 115.0. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 116 Firefox ESR < 115.1 and Thunderbird < 115.1.
 CVE-2023-4056,Memory safety bugs present in Firefox 115 Firefox ESR 115.0 Firefox ESR 102.13 Thunderbird 115.0 and Thunderbird 102.13. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
 CVE-2023-4055,When the number of cookies per domain was exceeded in `document.cookie` the actual cookie jar sent to the host was no longer consistent with expected cookie jar state. This could have caused requests to be sent with some cookies missing. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
-CVE-2023-4054,When opening appref-ms files Firefox did not warn the user that these files may contain malicious code. *This bug only affects Firefox on Windows. Other operating systems are unaffected.* This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
-CVE-2023-4053,A website could have obscured the full screen notification by using a URL with a scheme handled by an external program such as a mailto URL. This could have led to user confusion and possible spoofing attacks. This vulnerability affects Firefox < 116.
-CVE-2023-4052,The Firefox updater created a directory writable by non-privileged users. When uninstalling Firefox any files in that directory would be recursively deleted with the permissions of the uninstalling user account. This could be combined with creation of a junction (a form of symbolic link) to allow arbitrary file deletion controlled by the non-privileged user. *This bug only affects Firefox on Windows. Other operating systems are unaffected.* This vulnerability affects Firefox < 116 and Firefox ESR < 115.1.
-CVE-2023-4051,A website could have obscured the full screen notification by using the file open dialog. This could have led to user confusion and possible spoofing attacks. This vulnerability affects Firefox < 116.
+CVE-2023-4054,When opening appref-ms files Firefox did not warn the user that these files may contain malicious code. *This bug only affects Firefox on Windows. Other operating systems are unaffected.* This vulnerability affects Firefox < 116 Firefox ESR < 102.14 Firefox ESR < 115.1 Thunderbird < 102.14 and Thunderbird < 115.1.
+CVE-2023-4053,A website could have obscured the full screen notification by using a URL with a scheme handled by an external program such as a mailto URL. This could have led to user confusion and possible spoofing attacks. This vulnerability affects Firefox < 116 Firefox ESR < 115.2 and Thunderbird < 115.2.
+CVE-2023-4052,The Firefox updater created a directory writable by non-privileged users. When uninstalling Firefox any files in that directory would be recursively deleted with the permissions of the uninstalling user account. This could be combined with creation of a junction (a form of symbolic link) to allow arbitrary file deletion controlled by the non-privileged user. *This bug only affects Firefox on Windows. Other operating systems are unaffected.* This vulnerability affects Firefox < 116 Firefox ESR < 115.1 and Thunderbird < 115.1.
+CVE-2023-4051,A website could have obscured the full screen notification by using the file open dialog. This could have led to user confusion and possible spoofing attacks. This vulnerability affects Firefox < 116 Firefox ESR < 115.2 and Thunderbird < 115.2.
 CVE-2023-4050,In some cases an untrusted input stream was copied to a stack buffer without checking its size. This resulted in a potentially exploitable crash which could have led to a sandbox escape. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
 CVE-2023-4049,Race conditions in reference counting code were found through code inspection. These could have resulted in potentially exploitable use-after-free vulnerabilities. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
 CVE-2023-4048,An out-of-bounds read could have led to an exploitable crash when parsing HTML with DOMParser in low memory situations. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
 CVE-2023-4047,A bug in popup notifications delay calculation could have made it possible for an attacker to trick a user into granting permissions. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
 CVE-2023-4046,In some circumstances a stale value could have been used for a global variable in WASM JIT analysis. This resulted in incorrect compilation and a potentially exploitable crash in the content process. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
 CVE-2023-4045,Offscreen Canvas did not properly track cross-origin tainting which could have been used to access image data from another site in violation of same-origin policy. This vulnerability affects Firefox < 116 Firefox ESR < 102.14 and Firefox ESR < 115.1.
-CVE-2023-37456,RESERVED
-CVE-2023-37455,RESERVED
+CVE-2023-37456,The session restore helper crashed whenever there was no parameter sent to the message handler. This vulnerability affects Firefox for iOS < 115.
+CVE-2023-37455,The permission request prompt from the site in the background tab was overlaid on top of the site in the foreground tab. This vulnerability affects Firefox for iOS < 115.
 CVE-2023-37212,Memory safety bugs present in Firefox 114. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 115.
 CVE-2023-37211,Memory safety bugs present in Firefox 114 Firefox ESR 102.12 and Thunderbird 102.12. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 115 Firefox ESR < 102.13 and Thunderbird < 102.13.
 CVE-2023-37210,A website could prevent a user from exiting full-screen mode via alert and prompt calls. This could lead to user confusion and possible spoofing attacks. This vulnerability affects Firefox < 115.
@@ -40,97 +41,98 @@ CVE-2023-37204,A website could have obscured the fullscreen notification by usin
 CVE-2023-37203,Insufficient validation in the Drag and Drop API in conjunction with social engineering may have allowed an attacker to trick end-users into creating a shortcut to local system files. This could have been leveraged to execute arbitrary code. This vulnerability affects Firefox < 115.
 CVE-2023-37202,Cross-compartment wrappers wrapping a scripted proxy could have caused objects from other compartments to be stored in the main compartment resulting in a use-after-free. This vulnerability affects Firefox < 115 Firefox ESR < 102.13 and Thunderbird < 102.13.
 CVE-2023-37201,An attacker could have triggered a use-after-free condition when creating a WebRTC connection over HTTPS. This vulnerability affects Firefox < 115 Firefox ESR < 102.13 and Thunderbird < 102.13.
-CVE-2023-3600,RESERVED
+CVE-2023-3600,During the worker lifecycle a use-after-free condition could have occured which could have led to a potentially exploitable crash. This vulnerability affects Firefox < 115.0.2 Firefox ESR < 115.0.2 and Thunderbird < 115.0.1.
 CVE-2023-3482,When Firefox is configured to block storage of all cookies it was still possible to store data in localstorage by using an iframe with a source of 'about:blank'. This could have led to malicious websites storing tracking data without permission. This vulnerability affects Firefox < 115.
-CVE-2023-34417,RESERVED
-CVE-2023-34416,RESERVED
-CVE-2023-34415,RESERVED
-CVE-2023-34414,RESERVED
+CVE-2023-34417,Memory safety bugs present in Firefox 113. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 114.
+CVE-2023-34416,Memory safety bugs present in Firefox 113 Firefox ESR 102.11 and Thunderbird 102.12. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox ESR < 102.12 Firefox < 114 and Thunderbird < 102.12.
+CVE-2023-34415,"When choosing a site-isolated process for a document loaded from a data: URL that was the result of a redirect Firefox would load that document in the same process as the site that issued the redirect. This bypassed the site-isolation protections against Spectre-like attacks on sites that host an ""open redirect"". Firefox no longer follows HTTP redirects to data: URLs. This vulnerability affects Firefox < 114."
+CVE-2023-34414,The error page for sites with invalid TLS certificates was missing the activation-delay Firefox uses to protect prompts and permission dialogs from attacks that exploit human response time delays. If a malicious page elicited user clicks in precise locations immediately before navigating to a site with a certificate error and made the renderer extremely busy at the same time it could create a gap between when the error page was loaded and when the display actually refreshed. With the right timing the elicited clicks could land in that gap and activate the button that overrides the certificate error for that site. This vulnerability affects Firefox ESR < 102.12 Firefox < 114 and Thunderbird < 102.12.
 CVE-2023-3417,Thunderbird allowed the Text Direction Override Unicode Character in filenames. An email attachment could be incorrectly shown as being a document file while in fact it was an executable file. Newer versions of Thunderbird will strip the character and show the correct file extension. This vulnerability affects Thunderbird < 115.0.1 and Thunderbird < 102.13.1.
-CVE-2023-32216,RESERVED
-CVE-2023-32215,RESERVED
-CVE-2023-32214,RESERVED
-CVE-2023-32213,RESERVED
-CVE-2023-32212,RESERVED
-CVE-2023-32211,RESERVED
-CVE-2023-32210,RESERVED
-CVE-2023-32209,RESERVED
-CVE-2023-32208,RESERVED
-CVE-2023-32207,RESERVED
-CVE-2023-32206,RESERVED
-CVE-2023-32205,RESERVED
-CVE-2023-29551,RESERVED
-CVE-2023-29550,RESERVED
-CVE-2023-29549,RESERVED
-CVE-2023-29548,RESERVED
-CVE-2023-29547,RESERVED
-CVE-2023-29546,RESERVED
-CVE-2023-29545,RESERVED
-CVE-2023-29544,RESERVED
-CVE-2023-29543,RESERVED
-CVE-2023-29542,RESERVED
-CVE-2023-29541,RESERVED
-CVE-2023-29540,RESERVED
-CVE-2023-29539,RESERVED
-CVE-2023-29538,RESERVED
-CVE-2023-29537,RESERVED
-CVE-2023-29536,RESERVED
-CVE-2023-29535,RESERVED
-CVE-2023-29534,RESERVED
-CVE-2023-29533,RESERVED
-CVE-2023-29532,RESERVED
-CVE-2023-29531,RESERVED
+CVE-2023-32216,Memory safety bugs present in Firefox 112. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 113.
+CVE-2023-32215,Memory safety bugs present in Firefox 112 and Firefox ESR 102.10. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 113 Firefox ESR < 102.11 and Thunderbird < 102.11.
+CVE-2023-32214,Protocol handlers `ms-cxh` and `ms-cxh-full` could have been leveraged to trigger a denial of service. *Note: This attack only affects Windows. Other operating systems are not affected.* This vulnerability affects Firefox < 113 Firefox ESR < 102.11 and Thunderbird < 102.11.
+CVE-2023-32213,When reading a file an uninitialized value could have been used as read limit. This vulnerability affects Firefox < 113 Firefox ESR < 102.11 and Thunderbird < 102.11.
+CVE-2023-32212,An attacker could have positioned a <code>datalist</code> element to obscure the address bar. This vulnerability affects Firefox < 113 Firefox ESR < 102.11 and Thunderbird < 102.11.
+CVE-2023-32211,A type checking bug would have led to invalid code being compiled. This vulnerability affects Firefox < 113 Firefox ESR < 102.11 and Thunderbird < 102.11.
+CVE-2023-32210,Documents were incorrectly assuming an ordering of principal objects when ensuring we were loading an appropriately privileged principal. In certain circumstances it might have been possible to cause a document to be loaded with a higher privileged principal than intended. This vulnerability affects Firefox < 113.
+CVE-2023-32209,A maliciously crafted favicon could have led to an out of memory crash. This vulnerability affects Firefox < 113.
+CVE-2023-32208,Service workers could reveal script base URL due to dynamic `import()`. This vulnerability affects Firefox < 113.
+CVE-2023-32207,A missing delay in popup notifications could have made it possible for an attacker to trick a user into granting permissions. This vulnerability affects Firefox < 113 Firefox ESR < 102.11 and Thunderbird < 102.11.
+CVE-2023-32206,An out-of-bound read could have led to a crash in the RLBox Expat driver. This vulnerability affects Firefox < 113 Firefox ESR < 102.11 and Thunderbird < 102.11.
+CVE-2023-32205,In multiple cases browser prompts could have been obscured by popups controlled by content. These could have led to potential user confusion and spoofing attacks. This vulnerability affects Firefox < 113 Firefox ESR < 102.11 and Thunderbird < 102.11.
+CVE-2023-29551,Memory safety bugs present in Firefox 111. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox for Android < 112 Firefox < 112 and Focus for Android < 112.
+CVE-2023-29550,Memory safety bugs present in Firefox 111 and Firefox ESR 102.9. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 112 Focus for Android < 112 Firefox ESR < 102.10 Firefox for Android < 112 and Thunderbird < 102.10.
+CVE-2023-29549,Under certain circumstances a call to the <code>bind</code> function may have resulted in the incorrect realm. This may have created a vulnerability relating to JavaScript-implemented sandboxes such as SES. This vulnerability affects Firefox for Android < 112 Firefox < 112 and Focus for Android < 112.
+CVE-2023-29548,A wrong lowering instruction in the ARM64 Ion compiler resulted in a wrong optimization result. This vulnerability affects Firefox < 112 Focus for Android < 112 Firefox ESR < 102.10 Firefox for Android < 112 and Thunderbird < 102.10.
+CVE-2023-29547,When a secure cookie existed in the Firefox cookie jar an insecure cookie for the same domain could have been created when it should have silently failed. This could have led to a desynchronization in expected results when reading from the secure cookie. This vulnerability affects Firefox for Android < 112 Firefox < 112 and Focus for Android < 112.
+CVE-2023-29546,When recording the screen while in Private Browsing on Firefox for Android the address bar and keyboard were not hidden potentially leaking sensitive information. *This bug only affects Firefox for Android. Other operating systems are unaffected.* This vulnerability affects Firefox for Android < 112 and Focus for Android < 112.
+CVE-2023-29545,Similar to CVE-2023-28163 this time when choosing 'Save Link As' suggested filenames containing environment variable names would have resolved those in the context of the current user. *This bug only affects Firefox and Thunderbird on Windows. Other versions of Firefox and Thunderbird are unaffected.* This vulnerability affects Firefox < 112 Firefox ESR < 102.10 and Thunderbird < 102.10.
+CVE-2023-29544,If multiple instances of resource exhaustion occurred at the incorrect time the garbage collector could have caused memory corruption and a potentially exploitable crash. This vulnerability affects Firefox for Android < 112 Firefox < 112 and Focus for Android < 112.
+CVE-2023-29543,An attacker could have caused memory corruption and a potentially exploitable use-after-free of a pointer in a global object's debugger vector. This vulnerability affects Firefox for Android < 112 Firefox < 112 and Focus for Android < 112.
+CVE-2023-29542,A newline in a filename could have been used to bypass the file extension security mechanisms that replace malicious file extensions such as .lnk with .download. This could have led to accidental execution of malicious code. *This bug only affects Firefox and Thunderbird on Windows. Other versions of Firefox and Thunderbird are unaffected.* This vulnerability affects Firefox < 112 Firefox ESR < 102.10 and Thunderbird < 102.10.
+CVE-2023-29541,Firefox did not properly handle downloads of files ending in <code>.desktop</code> which can be interpreted to run attacker-controlled commands. <br>*This bug only affects Firefox for Linux on certain Distributions. Other operating systems are unaffected and Mozilla is unable to enumerate all affected Linux Distributions.*. This vulnerability affects Firefox < 112 Focus for Android < 112 Firefox ESR < 102.10 Firefox for Android < 112 and Thunderbird < 102.10.
+CVE-2023-29540,Using a redirect embedded into <code>sourceMappingUrls</code> could allow for navigation to external protocol links in sandboxed iframes without <code>allow-top-navigation-to-custom-protocols</code>. This vulnerability affects Firefox for Android < 112 Firefox < 112 and Focus for Android < 112.
+CVE-2023-29539,When handling the filename directive in the Content-Disposition header the filename would be truncated if the filename contained a NULL character. This could have led to reflected file download attacks potentially tricking users to install malware. This vulnerability affects Firefox < 112 Focus for Android < 112 Firefox ESR < 102.10 Firefox for Android < 112 and Thunderbird < 102.10.
+CVE-2023-29538,Under specific circumstances a WebExtension may have received a <code>jar:file:///</code> URI instead of a <code>moz-extension:///</code> URI during a load request. This leaked directory paths on the user's machine. This vulnerability affects Firefox for Android < 112 Firefox < 112 and Focus for Android < 112.
+CVE-2023-29537,Multiple race conditions in the font initialization could have led to memory corruption and execution of attacker-controlled code. This vulnerability affects Firefox for Android < 112 Firefox < 112 and Focus for Android < 112.
+CVE-2023-29536,An attacker could cause the memory manager to incorrectly free a pointer that addresses attacker-controlled memory resulting in an assertion memory corruption or a potentially exploitable crash. This vulnerability affects Firefox < 112 Focus for Android < 112 Firefox ESR < 102.10 Firefox for Android < 112 and Thunderbird < 102.10.
+CVE-2023-29535,Following a Garbage Collector compaction weak maps may have been accessed before they were correctly traced. This resulted in memory corruption and a potentially exploitable crash. This vulnerability affects Firefox < 112 Focus for Android < 112 Firefox ESR < 102.10 Firefox for Android < 112 and Thunderbird < 102.10.
+CVE-2023-29534,Different techniques existed to obscure the fullscreen notification in Firefox and Focus for Android. These could have led to potential user confusion and spoofing attacks. *This bug only affects Firefox and Focus for Android. Other versions of Firefox are unaffected.* This vulnerability affects Firefox for Android < 112 and Focus for Android < 112.
+CVE-2023-29533,A website could have obscured the fullscreen notification by using a combination of <code>window.open</code> fullscreen requests <code>window.name</code> assignments and <code>setInterval</code> calls. This could have led to user confusion and possible spoofing attacks. This vulnerability affects Firefox < 112 Focus for Android < 112 Firefox ESR < 102.10 Firefox for Android < 112 and Thunderbird < 102.10.
+CVE-2023-29532,A local attacker can trick the Mozilla Maintenance Service into applying an unsigned update file by pointing the service at an update file on a malicious SMB server. The update file can be replaced after the signature check before the use because the write-lock requested by the service does not work on a SMB server. *Note: This attack requires local system access and only affects Windows. Other operating systems are not affected.* This vulnerability affects Firefox < 112 Firefox ESR < 102.10 and Thunderbird < 102.10.
+CVE-2023-29531,An attacker could have caused an out of bounds memory access using WebGL APIs leading to memory corruption and a potentially exploitable crash. *This bug only affects Firefox and Thunderbird for macOS. Other operating systems are unaffected.* This vulnerability affects Firefox < 112 Firefox ESR < 102.10 and Thunderbird < 102.10.
 CVE-2023-29479,Ribose RNP before 0.16.3 may hang when the input is malformed.
 CVE-2023-28427,matrix-js-sdk is a Matrix messaging protocol Client-Server SDK for JavaScript. In versions prior to 24.0.0 events sent with special strings in key places can temporarily disrupt or impede the matrix-js-sdk from functioning properly potentially impacting the consumer's ability to process data safely. Note that the matrix-js-sdk can appear to be operating normally but be excluding or corrupting runtime data presented to the consumer. This vulnerability is distinct from GHSA-rfv9-x7hh-xc32 which covers a similar issue. The issue has been patched in matrix-js-sdk 24.0.0 and users are advised to upgrade. There are no known workarounds for this vulnerability.
-CVE-2023-28177,RESERVED
-CVE-2023-28176,RESERVED
-CVE-2023-28164,RESERVED
-CVE-2023-28163,RESERVED
-CVE-2023-28162,RESERVED
-CVE-2023-28161,RESERVED
-CVE-2023-28160,RESERVED
-CVE-2023-28159,RESERVED
-CVE-2023-25752,RESERVED
-CVE-2023-25751,RESERVED
-CVE-2023-25750,RESERVED
-CVE-2023-25749,RESERVED
-CVE-2023-25748,RESERVED
-CVE-2023-25746,RESERVED
-CVE-2023-25745,RESERVED
-CVE-2023-25744,RESERVED
-CVE-2023-25743,RESERVED
-CVE-2023-25742,RESERVED
-CVE-2023-25741,RESERVED
-CVE-2023-25740,RESERVED
-CVE-2023-25739,RESERVED
-CVE-2023-25738,RESERVED
-CVE-2023-25737,RESERVED
-CVE-2023-25736,RESERVED
-CVE-2023-25735,RESERVED
-CVE-2023-25734,RESERVED
-CVE-2023-25733,RESERVED
-CVE-2023-25732,RESERVED
-CVE-2023-25731,RESERVED
-CVE-2023-25730,RESERVED
-CVE-2023-25729,RESERVED
-CVE-2023-25728,RESERVED
-CVE-2023-23606,RESERVED
-CVE-2023-23605,RESERVED
-CVE-2023-23604,RESERVED
-CVE-2023-23603,RESERVED
-CVE-2023-23602,RESERVED
-CVE-2023-23601,RESERVED
-CVE-2023-23600,RESERVED
-CVE-2023-23599,RESERVED
-CVE-2023-23598,RESERVED
-CVE-2023-23597,RESERVED
-CVE-2023-1999,RESERVED
-CVE-2023-1945,RESERVED
-CVE-2023-0767,RESERVED
-CVE-2023-0616,RESERVED
-CVE-2023-0547,RESERVED
-CVE-2023-0430,RESERVED
+CVE-2023-28177,Memory safety bugs present in Firefox 110. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 111.
+CVE-2023-28176,Memory safety bugs present in Firefox 110 and Firefox ESR 102.8. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 111 Firefox ESR < 102.9 and Thunderbird < 102.9.
+CVE-2023-28164,Dragging a URL from a cross-origin iframe that was removed during the drag could have led to user confusion and website spoofing attacks. This vulnerability affects Firefox < 111 Firefox ESR < 102.9 and Thunderbird < 102.9.
+CVE-2023-28163,When downloading files through the Save As dialog on Windows with suggested filenames containing environment variable names Windows would have resolved those in the context of the current user. <br>*This bug only affects Firefox on Windows. Other versions of Firefox are unaffected.*. This vulnerability affects Firefox < 111 Firefox ESR < 102.9 and Thunderbird < 102.9.
+CVE-2023-28162,While implementing AudioWorklets some code may have casted one type to another invalid dynamic type. This could have led to a potentially exploitable crash. This vulnerability affects Firefox < 111 Firefox ESR < 102.9 and Thunderbird < 102.9.
+CVE-2023-28161,"If temporary ""one-time"" permissions such as the ability to use the Camera were granted to a document loaded using a file: URL that permission persisted in that tab for all other documents loaded from a file: URL. This is potentially dangerous if the local files came from different sources such as in a download directory. This vulnerability affects Firefox < 111."
+CVE-2023-28160,When following a redirect to a publicly accessible web extension file the URL may have been translated to the actual local path leaking potentially sensitive information. This vulnerability affects Firefox < 111.
+CVE-2023-28159,The fullscreen notification could have been hidden on Firefox for Android by using download popups resulting in potential user confusion or spoofing attacks. <br>*This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 111.
+CVE-2023-25752,When accessing throttled streams the count of available bytes needed to be checked in the calling function to be within bounds. This may have lead future code to be incorrect and vulnerable. This vulnerability affects Firefox < 111 Firefox ESR < 102.9 and Thunderbird < 102.9.
+CVE-2023-25751,Sometimes when invalidating JIT code while following an iterator the newly generated code could be overwritten incorrectly. This could lead to a potentially exploitable crash. This vulnerability affects Firefox < 111 Firefox ESR < 102.9 and Thunderbird < 102.9.
+CVE-2023-25750,Under certain circumstances a ServiceWorker's offline cache may have leaked to the file system when using private browsing mode. This vulnerability affects Firefox < 111.
+CVE-2023-25749,Android applications with unpatched vulnerabilities can be launched from a browser using Intents exposing users to these vulnerabilities. Firefox will now confirm with users that they want to launch an external application before doing so. <br>*This bug only affects Firefox for Android. Other versions of Firefox are unaffected.*. This vulnerability affects Firefox < 111.
+CVE-2023-25748,By displaying a prompt with a long description the fullscreen notification could have been hidden resulting in potential user confusion or spoofing attacks. <br>*This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 111.
+CVE-2023-25746,Memory safety bugs present in Firefox ESR 102.7. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Thunderbird < 102.8 and Firefox ESR < 102.8.
+CVE-2023-25745,Memory safety bugs present in Firefox 109. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 110.
+CVE-2023-25744,Mmemory safety bugs present in Firefox 109 and Firefox ESR 102.7. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 110 and Firefox ESR < 102.8.
+CVE-2023-25743,A lack of in app notification for entering fullscreen mode could have lead to a malicious website spoofing browser chrome.<br>*This bug only affects Firefox Focus. Other versions of Firefox are unaffected.*. This vulnerability affects Firefox < 110 and Firefox ESR < 102.8.
+CVE-2023-25742,When importing a SPKI RSA public key as ECDSA P-256 the key would be handled incorrectly causing the tab to crash. This vulnerability affects Firefox < 110 Thunderbird < 102.8 and Firefox ESR < 102.8.
+CVE-2023-25741,When dragging and dropping an image cross-origin the image's size could potentially be leaked. This behavior was shipped in 109 and caused web compatibility problems as well as this security concern so the behavior was disabled until further review. This vulnerability affects Firefox < 110.
+CVE-2023-25740,After downloading a Windows <code>.scf</code> script from the local filesystem an attacker could supply a remote path that would lead to unexpected network requests from the operating system. This also had the potential to leak NTLM credentials to the resource.<br>*This bug only affects Firefox for Windows. Other operating systems are unaffected.*. This vulnerability affects Firefox < 110.
+CVE-2023-25739,Module load requests that failed were not being checked as to whether or not they were cancelled causing a use-after-free in <code>ScriptLoadContext</code>. This vulnerability affects Firefox < 110 Thunderbird < 102.8 and Firefox ESR < 102.8.
+CVE-2023-25738,Members of the <code>DEVMODEW</code> struct set by the printer device driver weren't being validated and could have resulted in invalid values which in turn would cause the browser to attempt out of bounds access to related variables.<br>*This bug only affects Firefox on Windows. Other operating systems are unaffected.*. This vulnerability affects Firefox < 110 Thunderbird < 102.8 and Firefox ESR < 102.8.
+CVE-2023-25737,An invalid downcast from <code>nsTextNode</code> to <code>SVGElement</code> could have lead to undefined behavior. This vulnerability affects Firefox < 110 Thunderbird < 102.8 and Firefox ESR < 102.8.
+CVE-2023-25736,An invalid downcast from `nsHTMLDocument` to `nsIContent` could have lead to undefined behavior. This vulnerability affects Firefox < 110.
+CVE-2023-25735,Cross-compartment wrappers wrapping a scripted proxy could have caused objects from other compartments to be stored in the main compartment resulting in a use-after-free after unwrapping the proxy. This vulnerability affects Firefox < 110 Thunderbird < 102.8 and Firefox ESR < 102.8.
+CVE-2023-25734,After downloading a Windows <code>.url</code> shortcut from the local filesystem an attacker could supply a remote path that would lead to unexpected network requests from the operating system. This also had the potential to leak NTLM credentials to the resource.<br>*This bug only affects Firefox on Windows. Other operating systems are unaffected.*. This vulnerability affects Firefox < 110 Thunderbird < 102.8 and Firefox ESR < 102.8.
+CVE-2023-25733,The return value from `gfx::SourceSurfaceSkia::Map()` wasn't being verified which could have potentially lead to a null pointer dereference. This vulnerability affects Firefox < 110.
+CVE-2023-25732,When encoding data from an <code>inputStream</code> in <code>xpcom</code> the size of the input being encoded was not correctly calculated potentially leading to an out of bounds memory write. This vulnerability affects Firefox < 110 Thunderbird < 102.8 and Firefox ESR < 102.8.
+CVE-2023-25731,Due to URL previews in the network panel of developer tools improperly storing URLs query parameters could potentially be used to overwrite global objects in privileged code. This vulnerability affects Firefox < 110.
+CVE-2023-25730,A background script invoking <code>requestFullscreen</code> and then blocking the main thread could force the browser into fullscreen mode indefinitely resulting in potential user confusion or spoofing attacks. This vulnerability affects Firefox < 110 Thunderbird < 102.8 and Firefox ESR < 102.8.
+CVE-2023-25729,Permission prompts for opening external schemes were only shown for <code>ContentPrincipals</code> resulting in extensions being able to open them without user interaction via <code>ExpandedPrincipals</code>. This could lead to further malicious actions such as downloading files or interacting with software already installed on the system. This vulnerability affects Firefox < 110 Thunderbird < 102.8 and Firefox ESR < 102.8.
+CVE-2023-25728,The <code>Content-Security-Policy-Report-Only</code> header could allow an attacker to leak a child iframe's unredacted URI when interaction with that iframe triggers a redirect. This vulnerability affects Firefox < 110 Thunderbird < 102.8 and Firefox ESR < 102.8.
+CVE-2023-23606,Memory safety bugs present in Firefox 108. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 109.
+CVE-2023-23605,Memory safety bugs present in Firefox 108 and Firefox ESR 102.6. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 109 Thunderbird < 102.7 and Firefox ESR < 102.7.
+CVE-2023-23604,A duplicate <code>SystemPrincipal</code> object could be created when parsing a non-system html document via <code>DOMParser::ParseFromSafeString</code>. This could have lead to bypassing web security checks. This vulnerability affects Firefox < 109.
+CVE-2023-23603,Regular expressions used to filter out forbidden properties and values from style directives in calls to <code>console.log</code> weren't accounting for external URLs. Data could then be potentially exfiltrated from the browser. This vulnerability affects Firefox < 109 Thunderbird < 102.7 and Firefox ESR < 102.7.
+CVE-2023-23602,A mishandled security check when creating a WebSocket in a WebWorker caused the Content Security Policy connect-src header to be ignored. This could lead to connections to restricted origins from inside WebWorkers. This vulnerability affects Firefox < 109 Thunderbird < 102.7 and Firefox ESR < 102.7.
+CVE-2023-23601,Navigations were being allowed when dragging a URL from a cross-origin iframe into the same tab which could lead to website spoofing attacks. This vulnerability affects Firefox < 109 Thunderbird < 102.7 and Firefox ESR < 102.7.
+CVE-2023-23600,Per origin notification permissions were being stored in a way that didn't take into account what browsing context the permission was granted in. This lead to the possibility of notifications to be displayed during different browsing sessions.<br>*This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox < 109.
+CVE-2023-23599,When copying a network request from the developer tools panel as a curl command the output was not being properly sanitized and could allow arbitrary commands to be hidden within. This vulnerability affects Firefox < 109 Thunderbird < 102.7 and Firefox ESR < 102.7.
+CVE-2023-23598,Due to the Firefox GTK wrapper code's use of text/plain for drag data and GTK treating all text/plain MIMEs containing file URLs as being dragged a website could arbitrarily read a file via a call to <code>DataTransfer.setData</code>. This vulnerability affects Firefox < 109 Thunderbird < 102.7 and Firefox ESR < 102.7.
+CVE-2023-23597,A compromised web child process could disable web security opening restrictions leading to a new child process being spawned within the <code>file://</code> context. Given a reliable exploit primitive this new process could be exploited again leading to arbitrary file read. This vulnerability affects Firefox < 109.
+CVE-2023-1999,There exists a use after free/double free in libwebp. An attacker can use the ApplyFiltersAndEncode() function and loop through to free best.bw and assign best = trial pointer. The second loop will then return 0 because of an Out of memory error in VP8 encoder the pointer is still assigned to trial and the AddressSanitizer will attempt a double free.
+CVE-2023-1945,Unexpected data returned from the Safe Browsing API could have led to memory corruption and a potentially exploitable crash. This vulnerability affects Thunderbird < 102.10 and Firefox ESR < 102.10.
+CVE-2023-0767,An attacker could construct a PKCS 12 cert bundle in such a way that could allow for arbitrary memory writes via PKCS 12 Safe Bag attributes being mishandled. This vulnerability affects Firefox < 110 Thunderbird < 102.8 and Firefox ESR < 102.8.
+CVE-2023-0616,If a MIME email combines OpenPGP and OpenPGP MIME data in a certain way Thunderbird repeatedly attempts to process and display the message which could cause Thunderbird's user interface to lock up and no longer respond to the user's actions. An attacker could send a crafted message with this structure to attempt a DoS attack. This vulnerability affects Thunderbird < 102.8.
+CVE-2023-0547,OCSP revocation status of recipient certificates was not checked when sending S/Mime encrypted email and revoked certificates would be accepted. Thunderbird versions from 68 to 102.9.1 were affected by this bug. This vulnerability affects Thunderbird < 102.10.
+CVE-2023-0430,Certificate OCSP revocation status was not checked when verifying S/Mime signatures. Mail signed with a revoked certificate would be displayed as having a valid signature. Thunderbird versions from 68 to 102.7.0 were affected by this bug. This vulnerability affects Thunderbird < 102.7.1.
 CVE-2022-46885,Mozilla developers Timothy Nikkel Ashley Hale and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 105. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 106.
+CVE-2022-46884,A potential use-after-free vulnerability existed in SVG Images if the Refresh Driver was destroyed at an inopportune time. This could have lead to memory corruption or a potentially exploitable crash. *Note*: This advisory was added on December 13th 2022 after discovering it was inadvertently left out of the original advisory. The fix was included in the original release of Firefox 106. This vulnerability affects Firefox < 106.
 CVE-2022-46883,Mozilla developers Gabriele Svelto Yulia Startsev Andrew McCreight and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 106. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code.<br />*Note*: This advisory was added on December 13th 2022 after discovering it was inadvertently left out of the original advisory. The fix was included in the original release of Firefox 107. This vulnerability affects Firefox < 107.
 CVE-2022-46882,A use-after-free in WebGL extensions could have led to a potentially exploitable crash. This vulnerability affects Firefox < 107 Firefox ESR < 102.6 and Thunderbird < 102.6.
 CVE-2022-46881,An optimization in WebGL was incorrect in some cases and could have led to memory corruption and a potentially exploitable crash. This vulnerability affects Firefox < 106 Firefox ESR < 102.6 and Thunderbird < 102.6.
