@@ -1,4 +1,14 @@
 cve_id,description
+CVE-2023-5217,Heap buffer overflow in vp8 encoding in libvpx in Google Chrome prior to 117.0.5938.132 and libvpx 1.13.1 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+CVE-2023-5176,RESERVED
+CVE-2023-5175,RESERVED
+CVE-2023-5174,RESERVED
+CVE-2023-5173,RESERVED
+CVE-2023-5172,RESERVED
+CVE-2023-5171,RESERVED
+CVE-2023-5170,RESERVED
+CVE-2023-5169,RESERVED
+CVE-2023-5168,RESERVED
 CVE-2023-4863,Heap buffer overflow in WebP in Google Chrome prior to 116.0.5845.187 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)
 CVE-2023-4585,Memory safety bugs present in Firefox 116 Firefox ESR 115.1 and Thunderbird 115.1. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 117 Firefox ESR < 115.2 and Thunderbird < 115.2.
 CVE-2023-4584,Memory safety bugs present in Firefox 116 Firefox ESR 102.14 Firefox ESR 115.1 Thunderbird 102.14 and Thunderbird 115.1. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 117 Firefox ESR < 102.15 Firefox ESR < 115.2 and Thunderbird < 115.2.
