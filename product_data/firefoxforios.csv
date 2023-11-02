@@ -1,4 +1,5 @@
 firefoxforios_version,cve_id,advisory,title,reporter,impact,description,bug_id
+119,['CVE-2023-5758'],2023-48,Cross-Site Scripting (XSS) in reader mode,Irwan,high,When opening a page in reader mode the redirect URL could have caused attacker-controlled script to execute in a reflected Cross-Site Scripting (XSS) attack.,[1850019]
 115,['CVE-2023-37455'],2023-25,Media permission request prompt showing from background tab,Kazuki Nomoto,moderate,The permission request prompt from the site in the background tab was overlaid on top of the site in the foreground tab.,[1786934]
 115,['CVE-2023-37456'],2023-25,Browser crashed when session restore was called with an empty body,Artem Chaykin,low,The session restore helper crashed whenever there was no parameter sent to the message handler.,[1795496]
 102,['CVE-2022-31746'],2022-27,Privileged internal URL protection could be bypassed through referrer header.,Muneaki Nishimura,moderate,Internal URLs are protected by a secret UUID key which could have been leaked to web page through the Referrer header.,[1654416]
