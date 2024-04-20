@@ -1,4 +1,6 @@
 firefoxforios_version,cve_id,advisory,title,reporter,impact,description,bug_id
+124,['CVE-2024-31393'],2024-17,Javascript URLs would load when dragged to address bar,Muneaki Nishimura,moderate,Dragging Javascript URLs to the address bar could cause them to be loaded bypassing restrictions and security protections,[1879739]
+124,['CVE-2024-31392'],2024-17,Firefox on iOS would show pages with mixed content secure,Chaykin Artem,low,If an insecure element was added to a page after a delay Firefox would not replace the secure icon with a mixed content security status,[1875925]
 123,['CVE-2024-26283'],2024-08,Address bar spoofing using Firefox custom open URL scheme,Muneaki Nishimura,moderate,An attacker could have executed unauthorized scripts on top origin sites using a JavaScript URI when opening an external URL with a custom Firefox scheme.,[1850158]
 123,['CVE-2024-26282'],2024-08,UXSS through a canonical element,Muneaki Nishimura,moderate,Using an AMP url with a canonical element an attacker could have executed JavaScript from an opened bookmarked page.,[1863788]
 123,['CVE-2024-26281'],2024-08,QR code scanner allowed executing a JavaScript URI,James Lee,moderate,Upon scanning a JavaScript URI with the QR code scanner an attacker could have executed unauthorized scripts on the current top origin sites in the URL bar.,[1868005]
