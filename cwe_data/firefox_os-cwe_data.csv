@@ -1,6 +1,6 @@
 cwe_id,title,description
 79,CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.
-119,CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer,"The product performs operations on a memory buffer, but it can read from or write to a memory location that is outside of the intended boundary of the buffer."
+119,CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer,"The product performs operations on a memory buffer, but it reads from or writes to a memory location outside the buffer's intended boundary. This may result in read or write operations on unexpected memory locations that could be linked to other variables, data structures, or internal program data."
 189,CWE CATEGORY: Numeric Errors,Weaknesses in this category are related to improper calculation or conversion of numbers.
 200,CWE-200: Exposure of Sensitive Information to an Unauthorized Actor,The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.
 264,"CWE CATEGORY: Permissions, Privileges, and Access Controls","Weaknesses in this category are related to the management of permissions, privileges, and other security features that are used to perform access control."
