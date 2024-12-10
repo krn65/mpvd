@@ -1,7 +1,10 @@
 cwe_id,title,description
 16,CWE CATEGORY: Configuration,Weaknesses in this category are typically introduced during the configuration of the software.
-17,CWE CATEGORY: DEPRECATED: Code,"This entry has been deprecated. It was originally used for organizing the Development View (CWE-699) and some other views, but it introduced unnecessary complexity and depth to the resulting tree."
-20,CWE-20: Improper Input Validation,"The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly."
+17,CWE CATEGORY: DEPRECATED: Code,"This entry has been deprecated.  It was originally used for organizing the Development View (CWE-699) and some other views, but it introduced unnecessary complexity and depth to the resulting tree."
+20,CWE-20: Improper Input Validation,"The product receives input or data, but it does
+        not validate or incorrectly validates that the input has the
+        properties that are required to process the data safely and
+        correctly."
 22,CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),"The product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location that is outside of the restricted directory."
 59,CWE-59: Improper Link Resolution Before File Access ('Link Following'),"The product attempts to access a file based on the filename, but it does not properly prevent that filename from identifying a link or shortcut that resolves to an unintended resource."
 74,CWE-74: Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),"The product constructs all or part of a command, data structure, or record using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify how it is parsed or interpreted when it is sent to a downstream component."
@@ -12,7 +15,13 @@ cwe_id,title,description
 120,CWE-120: Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'),"The product copies an input buffer to an output buffer without verifying that the size of the input buffer is less than the size of the output buffer, leading to a buffer overflow."
 125,CWE-125: Out-of-bounds Read,"The product reads data past the end, or before the beginning, of the intended buffer."
 189,CWE CATEGORY: Numeric Errors,Weaknesses in this category are related to improper calculation or conversion of numbers.
-190,CWE-190: Integer Overflow or Wraparound,"The product performs a calculation that can produce an integer overflow or wraparound when the logic assumes that the resulting value will always be larger than the original value. This occurs when an integer value is incremented to a value that is too large to store in the associated representation. When this occurs, the value may become a very small or negative number."
+190,CWE-190: Integer Overflow or Wraparound,"The product performs a calculation that can
+         produce an integer overflow or wraparound when the logic
+         assumes that the resulting value will always be larger than
+         the original value. This occurs when an integer value is
+         incremented to a value that is too large to store in the
+         associated representation. When this occurs, the value may
+         become a very small or negative number."
 199,CWE CATEGORY: Information Management Errors,Weaknesses in this category are related to improper handling of sensitive information.
 200,CWE-200: Exposure of Sensitive Information to an Unauthorized Actor,The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.
 254,CWE CATEGORY: 7PK - Security Features,"Software security is not security software. Here we're concerned with topics like authentication, access control, confidentiality, cryptography, and privilege management."
@@ -27,7 +36,7 @@ cwe_id,title,description
 346,CWE-346: Origin Validation Error,The product does not properly verify that the source of data or communication is valid.
 347,CWE-347: Improper Verification of Cryptographic Signature,"The product does not verify, or incorrectly verifies, the cryptographic signature for data."
 352,CWE-352: Cross-Site Request Forgery (CSRF),"The web application does not, or can not, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request."
-362,CWE-362: Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),"The product contains a code sequence that can run concurrently with other code, and the code sequence requires temporary, exclusive access to a shared resource, but a timing window exists in which the shared resource can be modified by another code sequence that is operating concurrently."
+362,CWE-362: Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),"The product contains a concurrent code sequence that requires temporary, exclusive access to a shared resource, but a timing window exists in which the shared resource can be modified by another code sequence operating concurrently."
 399,CWE CATEGORY: Resource Management Errors,Weaknesses in this category are related to improper management of system resources.
 400,CWE-400: Uncontrolled Resource Consumption,"The product does not properly control the allocation and maintenance of a limited resource, thereby enabling an actor to influence the amount of resources consumed, eventually leading to the exhaustion of available resources."
 416,CWE-416: Use After Free,"The product reuses or references memory after it has been freed. At some point afterward, the memory may be allocated again and saved in another pointer, while the original pointer references a location somewhere within the new allocation. Any operations using the original pointer are no longer valid because the memory ""belongs"" to the code that operates on the new pointer."
