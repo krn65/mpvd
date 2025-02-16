@@ -1,7 +1,7 @@
 # mpvd (Mozilla Products Vulnerability Dataset)
 
 ### Update
-- The following information is up-to-date as of January 11, 2025.
+- The following information is up-to-date as of February 15, 2025.
 - The data will be updated periodically to account for new vulnerabilities provided in security advisories for updates to Mozilla products.
 
 ### Disclaimer
