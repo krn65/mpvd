@@ -1,7 +1,7 @@
 # mpvd (Mozilla Products Vulnerability Dataset)
 
 ### Update
-- The following information is up-to-date as of February 15, 2025.
+- The following information is up-to-date as of February 28, 2026.
 - The data will be updated periodically to account for new vulnerabilities provided in security advisories for updates to Mozilla products.
 
 ### Disclaimer
@@ -39,4 +39,4 @@ The `source_code-vulnerable.7z` file contains a folder of `"vulnerable"` (older)
 
 Each source code filename is labeled as `bug_id`-`revision_id`-`status`-`original_filename`.`extension`. The `bug_id` refers to the Bugzilla entry. The `revision_id` refers to the commit ([Phabricator](https://phabricator.services.mozilla.com/)) or revision ([Mercurial](https://hg.mozilla.org/)) ID for the files related to the Bugzilla entry of the Bug ID. The `status` refers to either `vulnerable` (old) or `fixed` (new) source code. The `original_filename` represents the name of the file that was changed. When writing the file, the filename was adjusted by replacing backslashes (`\`) with underscores (`_`). The `extension` refers to the file extension.
 
-Both `.7z` files contain `8,502` source code files from all Mozilla products with a variety of file extensions. Only `2,659` of the total `3,466` unique Bug IDs are represented from the downloaded source code files. Only instances of source code files that have content (not empty) for both the `fixed` and `vulnerable` versions are included in the dataset. For example, if a source code file was created or deleted between a revision (current and parent), then that file is ignored. As stated earlier, this is due to unavailable data or other issues encountered while scraping or parsing the associated product security advisory data. Only Bugzilla entries that are public, have a status of `Closed`, and available attachments (table of revisions) are considered.
+Both `.7z` files contain `8,502` source code files from all Mozilla products with a variety of file extensions. Only `2,659` of the total `4,415` unique Bug IDs are represented from the downloaded source code files. Only instances of source code files that have content (not empty) for both the `fixed` and `vulnerable` versions are included in the dataset. For example, if a source code file was created or deleted between a revision (current and parent), then that file is ignored. As stated earlier, this is due to unavailable data or other issues encountered while scraping or parsing the associated product security advisory data. Only Bugzilla entries that are public, have a status of `Closed`, and available attachments (table of revisions) are considered.

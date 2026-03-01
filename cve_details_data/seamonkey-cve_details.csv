@@ -1,682 +1,519 @@
-cve_id,cwe_id,number_exploits,vulnerability_types,publish_date,update_date,score,gained_access_level,access,complexity,authentication,confidentiality,integrity,availability
-CVE-2015-4000,310,,,2015-05-21,2023-02-09,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2015-0818,264,,Exec Code Bypass,2015-03-24,2016-12-22,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2015-0817,17,,Exec Code,2015-03-24,2017-01-03,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2014-8642,310,,+Info,2015-01-14,2018-10-30,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2014-8641,,,Exec Code,2015-01-14,2017-09-08,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2014-8640,362,,DoS,2015-01-14,2018-10-30,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2014-8639,,,,2015-01-14,2017-09-08,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2014-8638,352,,Bypass CSRF,2015-01-14,2017-09-08,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2014-8637,200,,+Info,2015-01-14,2017-09-08,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2014-8636,94,,Exec Code,2015-01-14,2017-09-08,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2014-8635,,,DoS Exec Code Mem. Corr.,2015-01-14,2017-01-03,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2014-8634,,,DoS Exec Code Mem. Corr.,2015-01-14,2017-09-08,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2014-8632,284,,Bypass,2014-12-11,2016-12-22,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2014-8631,284,,Bypass,2014-12-11,2016-12-22,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2014-2018,79,,XSS,2014-02-17,2016-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2014-1594,20,,Exec Code,2014-12-11,2016-12-24,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2014-1593,119,,Exec Code Overflow,2014-12-11,2016-12-24,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2014-1592,,,Exec Code,2014-12-11,2016-12-24,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2014-1591,199,,+Info,2014-12-11,2016-12-22,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2014-1590,20,,DoS,2014-12-11,2016-12-24,4.3,None,Remote,Medium,Not required,None,None,Partial
-CVE-2014-1589,284,,Bypass,2014-12-11,2016-12-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2014-1588,,,DoS Exec Code Mem. Corr.,2014-12-11,2016-12-22,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2014-1587,20,,DoS Exec Code Mem. Corr.,2014-12-11,2016-12-24,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2014-1568,310,,,2014-09-25,2017-08-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2014-1532,416,,DoS Exec Code Mem. Corr.,2014-04-30,2020-08-06,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2014-1531,416,,DoS Exec Code Mem. Corr.,2014-04-30,2020-08-07,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2014-1530,79,,XSS,2014-04-30,2020-08-07,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2014-1529,269,,Exec Code Bypass,2014-04-30,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2014-1526,269,,Bypass,2014-04-30,2020-08-14,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2014-1525,787,,DoS Exec Code Mem. Corr.,2014-04-30,2020-08-14,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2014-1524,120,,DoS Exec Code Overflow,2014-04-30,2020-08-06,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2014-1523,787,,DoS Overflow,2014-04-30,2020-08-07,4.3,None,Remote,Medium,Not required,None,None,Partial
-CVE-2014-1522,125,,DoS Exec Code Mem. Corr.,2014-04-30,2020-08-14,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2014-1519,,,DoS Exec Code Mem. Corr.,2014-04-30,2020-08-14,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2014-1518,,,DoS Exec Code Mem. Corr.,2014-04-30,2020-08-07,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2014-1514,787,,DoS Exec Code,2014-03-19,2020-08-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2014-1513,787,,DoS Exec Code,2014-03-19,2020-08-11,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2014-1512,416,,Exec Code,2014-03-19,2020-08-10,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2014-1511,269,,Bypass,2014-03-19,2020-08-05,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2014-1510,269,,Exec Code,2014-03-19,2020-08-03,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2014-1509,120,,Exec Code Overflow,2014-03-19,2020-08-03,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2014-1508,125,,DoS Bypass +Info,2014-03-19,2020-08-03,6.4,None,Remote,Low,Not required,Partial,None,Partial
-CVE-2014-1505,200,,Bypass +Info,2014-03-19,2020-08-05,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2014-1504,264,,XSS,2014-03-19,2020-08-10,2.6,None,Remote,High,Not required,None,Partial,None
-CVE-2014-1502,346,,Bypass,2014-03-19,2020-08-14,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2014-1500,400,,DoS,2014-03-19,2020-08-14,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2014-1499,,,,2014-03-19,2020-08-14,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2014-1498,347,,DoS,2014-03-19,2020-08-14,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2014-1497,125,,DoS +Info,2014-03-19,2020-08-06,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2014-1496,269,,+Priv,2014-03-19,2020-08-05,1.9,None,Local,Medium,Not required,None,Partial,None
-CVE-2014-1494,,,DoS Exec Code Mem. Corr.,2014-03-19,2020-08-14,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2014-1493,119,,DoS Exec Code Overflow Mem. Corr.,2014-03-19,2020-08-11,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2014-1491,326,,Bypass,2014-02-06,2020-07-31,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2014-1490,362,,DoS,2014-02-06,2020-07-31,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2014-1488,,,Exec Code,2014-02-06,2020-08-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2014-1487,346,,Bypass +Info,2014-02-06,2020-08-11,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2014-1486,416,,Exec Code,2014-02-06,2020-08-07,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2014-1485,,,Exec Code,2014-02-06,2020-08-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2014-1483,1021,,Bypass +Info,2014-02-06,2020-10-23,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2014-1482,787,,DoS Exec Code,2014-02-06,2020-08-11,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2014-1481,,,Bypass,2014-02-06,2020-08-11,5.0,None,Remote,Low,Not required,None,Partial,None
-CVE-2014-1480,1021,,,2014-02-06,2020-08-21,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2014-1479,,,Bypass,2014-02-06,2020-08-10,5.0,None,Remote,Low,Not required,None,Partial,None
-CVE-2014-1478,787,,DoS Exec Code Mem. Corr.,2014-02-06,2020-08-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2014-1477,,,DoS Exec Code Mem. Corr.,2014-02-06,2020-08-07,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2013-6674,79,,XSS,2014-02-17,2015-08-07,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2013-6673,310,,,2013-12-11,2020-08-12,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2013-6671,94,,Exec Code,2013-12-11,2020-08-12,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-6629,200,,+Info,2013-11-19,2023-06-21,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2013-5619,190,,DoS Overflow,2013-12-11,2020-08-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2013-5618,416,,Exec Code,2013-12-11,2020-08-12,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-5616,416,,DoS Exec Code Mem. Corr.,2013-12-11,2020-08-12,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2013-5615,,,,2013-12-11,2020-08-12,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2013-5614,1021,,Bypass,2013-12-11,2020-08-21,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2013-5613,416,,DoS Exec Code Mem. Corr.,2013-12-11,2020-08-12,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-5612,79,,XSS,2013-12-11,2020-08-21,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2013-5610,787,,DoS Exec Code Mem. Corr.,2013-12-11,2020-08-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-5609,,,DoS Exec Code Mem. Corr.,2013-12-11,2020-08-12,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-5607,189,,DoS Overflow,2013-11-20,2018-01-09,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2013-5604,119,,DoS Exec Code Overflow,2013-10-30,2018-10-30,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-5603,,,DoS Exec Code Mem. Corr.,2013-10-30,2018-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-5602,119,,DoS Exec Code Overflow Mem. Corr.,2013-10-30,2018-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-5601,,,Exec Code,2013-10-30,2018-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-5600,,,Exec Code,2013-10-30,2018-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-5599,,,DoS Exec Code Mem. Corr.,2013-10-30,2018-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-5597,,,DoS Exec Code Mem. Corr.,2013-10-30,2018-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-5596,119,,DoS Exec Code Overflow,2013-10-30,2018-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2013-5595,119,,Overflow,2013-10-30,2017-09-19,4.3,None,Remote,Medium,Not required,None,None,Partial
-CVE-2013-5593,20,,,2013-10-30,2018-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2013-5591,,,DoS Exec Code Mem. Corr.,2013-10-30,2018-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-5590,,,DoS Exec Code Mem. Corr.,2013-10-30,2018-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-2566,326,,,2013-03-15,2020-11-23,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2013-1738,399,,Exec Code,2013-09-18,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-1737,264,,Bypass,2013-09-18,2017-09-19,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2013-1736,119,,DoS Exec Code Overflow Mem. Corr.,2013-09-18,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-1735,20,,Exec Code,2013-09-18,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-1732,119,,Exec Code Overflow,2013-09-18,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-1730,119,,DoS Exec Code Overflow,2013-09-18,2017-09-19,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2013-1728,119,,Overflow +Info,2013-09-18,2017-09-19,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2013-1726,264,,+Priv,2013-09-18,2017-09-19,6.2,None,Local,High,Not required,Complete,Complete,Complete
-CVE-2013-1725,119,,Exec Code Overflow,2013-09-18,2017-09-19,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2013-1724,399,,DoS Exec Code Mem. Corr.,2013-09-18,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-1723,119,,DoS Overflow,2013-09-18,2017-09-19,4.3,None,Remote,Medium,Not required,None,None,Partial
-CVE-2013-1722,399,,DoS Exec Code Mem. Corr.,2013-09-18,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-1721,119,,Exec Code Overflow,2013-09-18,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-1720,119,,DoS Exec Code Overflow,2013-09-18,2017-09-19,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2013-1719,119,,DoS Exec Code Overflow Mem. Corr.,2013-09-18,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-1718,119,,DoS Exec Code Overflow Mem. Corr.,2013-09-18,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-1717,264,,,2013-08-07,2017-09-19,5.4,None,Remote,High,Not required,Complete,None,None
-CVE-2013-1714,264,,XSS Bypass,2013-08-07,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2013-1713,264,,XSS,2013-08-07,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2013-1711,79,,XSS Bypass,2013-08-07,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2013-1710,20,,Exec Code XSS,2013-08-07,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-1709,79,,XSS,2013-08-07,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2013-1708,,,DoS,2013-08-07,2017-09-19,4.3,None,Remote,Medium,Not required,None,None,Partial
-CVE-2013-1705,119,,DoS Exec Code Overflow,2013-08-07,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-1704,399,,DoS Exec Code Mem. Corr.,2013-08-07,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-1702,,,DoS Exec Code Mem. Corr.,2013-08-07,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-1701,,,DoS Exec Code Mem. Corr.,2013-08-07,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-0800,,,Exec Code,2013-04-03,2021-03-11,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2013-0797,,,+Priv,2013-04-03,2017-09-19,6.9,None,Local,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0795,264,,Exec Code Bypass,2013-04-03,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-0794,,,,2013-04-03,2017-09-19,5.8,None,Remote,Medium,Not required,Partial,Partial,None
-CVE-2013-0793,79,,XSS,2013-04-03,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2013-0792,200,,DoS Mem. Corr. +Info,2013-04-03,2017-09-19,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2013-0791,119,,DoS Overflow Mem. Corr.,2013-04-03,2022-12-21,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2013-0789,,,DoS Exec Code Mem. Corr.,2013-04-03,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-0788,,,DoS Exec Code Mem. Corr.,2013-04-03,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-0787,399,,Exec Code,2013-03-11,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0784,,,DoS Exec Code Mem. Corr.,2013-02-19,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0783,,,DoS Exec Code Mem. Corr.,2013-02-19,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0782,787,,Exec Code Overflow,2013-02-19,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0781,416,,DoS Exec Code Mem. Corr.,2013-02-19,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0780,416,,DoS Exec Code Overflow Mem. Corr.,2013-02-19,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0779,125,,DoS Exec Code,2013-02-19,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0778,125,,DoS Exec Code,2013-02-19,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0777,416,,DoS Exec Code Mem. Corr.,2013-02-19,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0776,295,,,2013-02-19,2020-08-06,4.0,None,Remote,High,Not required,Partial,Partial,None
-CVE-2013-0775,416,,Exec Code,2013-02-19,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0774,,,,2013-02-19,2020-08-06,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2013-0773,,,Exec Code +Info,2013-02-19,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0772,119,,DoS Overflow +Info,2013-02-19,2020-08-06,5.8,None,Remote,Medium,Not required,Partial,None,Partial
-CVE-2013-0771,787,,Exec Code Overflow,2013-01-13,2020-08-11,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0770,,,DoS Exec Code Mem. Corr.,2013-01-13,2020-08-12,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0769,,,DoS Exec Code Mem. Corr.,2013-01-13,2020-08-11,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0768,787,,Exec Code Overflow,2013-01-13,2020-08-07,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0767,125,,DoS Exec Code,2013-01-13,2020-08-07,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2013-0766,416,,DoS Exec Code Mem. Corr.,2013-01-13,2020-08-07,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0765,,,Bypass,2013-02-19,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0764,326,,Exec Code,2013-01-13,2020-08-07,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0763,416,,DoS Exec Code Mem. Corr.,2013-01-13,2020-08-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0762,416,,DoS Exec Code Mem. Corr.,2013-01-13,2020-08-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0761,416,,DoS Exec Code Mem. Corr.,2013-01-13,2020-08-07,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0760,120,,Exec Code Overflow,2013-01-13,2020-08-11,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0759,287,,,2013-01-13,2020-08-04,5.0,None,Remote,Low,Not required,None,Partial,None
-CVE-2013-0758,94,,Exec Code,2013-01-13,2020-08-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0757,20,,Exec Code,2013-01-13,2020-08-11,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0756,416,,Exec Code,2013-01-13,2020-08-10,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0755,416,,Exec Code,2013-01-13,2020-08-10,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0754,416,,Exec Code,2013-01-13,2020-08-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0753,416,,Exec Code,2013-01-13,2020-08-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0752,119,,DoS Exec Code Overflow Mem. Corr.,2013-01-13,2020-08-10,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0751,264,,XSS +Info,2013-01-13,2017-09-19,5.8,None,Remote,Medium,Not required,Partial,Partial,None
-CVE-2013-0750,190,,Exec Code Overflow,2013-01-13,2020-08-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0749,,,DoS Exec Code Mem. Corr.,2013-01-13,2020-08-07,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0748,200,,Bypass +Info,2013-01-13,2020-08-04,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2013-0747,20,,,2013-01-13,2020-08-10,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2013-0746,,,DoS Exec Code,2013-01-13,2020-08-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0745,94,,Exec Code,2013-01-13,2020-08-10,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2013-0744,416,,DoS Exec Code Mem. Corr.,2013-01-13,2020-08-04,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-5843,,,DoS Exec Code Mem. Corr.,2012-11-21,2020-08-13,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-5842,,,DoS Exec Code Mem. Corr.,2012-11-21,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-5841,79,,XSS,2012-11-21,2020-08-06,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-5840,416,,DoS Exec Code Mem. Corr.,2012-11-21,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-5839,787,,Exec Code Overflow,2012-11-21,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-5838,119,,DoS Exec Code Overflow Mem. Corr.,2012-11-21,2020-08-13,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-5836,94,,DoS Exec Code,2012-11-21,2020-08-13,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2012-5835,190,,DoS Exec Code Overflow,2012-11-21,2020-08-06,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-5833,119,,DoS Exec Code Overflow Mem. Corr.,2012-11-21,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-5829,787,,Exec Code Overflow,2012-11-21,2020-08-14,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-5354,,,,2012-10-10,2020-08-26,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2012-4218,416,,DoS Exec Code Mem. Corr.,2012-11-21,2020-08-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-4217,416,,DoS Exec Code Mem. Corr.,2012-11-21,2020-08-13,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-4216,416,,DoS Exec Code Mem. Corr.,2012-11-21,2020-08-13,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-4215,416,,DoS Exec Code Mem. Corr.,2012-11-21,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-4214,416,,DoS Exec Code Mem. Corr.,2012-11-21,2020-08-13,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-4213,416,,DoS Exec Code Mem. Corr.,2012-11-21,2020-08-12,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-4212,416,,DoS Exec Code Mem. Corr.,2012-11-21,2020-08-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-4209,79,,XSS,2012-11-21,2020-08-13,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-4208,200,,Bypass +Info,2012-11-21,2020-08-12,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2012-4207,79,,XSS,2012-11-21,2020-08-13,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-4205,352,,+Info CSRF,2012-11-21,2020-08-21,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2012-4204,119,,DoS Exec Code Overflow Mem. Corr.,2012-11-21,2020-08-13,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-4202,787,,Exec Code Overflow,2012-11-21,2020-08-06,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-4201,79,,XSS,2012-11-21,2020-08-14,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-4196,74,,Bypass,2012-10-29,2020-08-12,6.4,None,Remote,Low,Not required,Partial,Partial,None
-CVE-2012-4195,79,,Exec Code XSS,2012-10-29,2020-08-12,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-4194,79,,XSS,2012-10-29,2020-08-12,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-4193,346,,Exec Code Bypass,2012-10-12,2020-08-14,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2012-4192,264,,Bypass,2012-10-12,2017-09-19,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2012-4191,787,,DoS Exec Code Mem. Corr.,2012-10-12,2020-08-14,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-4188,119,,Exec Code Overflow,2012-10-10,2020-08-13,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-4187,119,,DoS Exec Code Overflow Mem. Corr.,2012-10-10,2020-08-10,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-4186,119,,Exec Code Overflow,2012-10-10,2020-08-11,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-4185,119,,DoS Exec Code Overflow Mem. Corr.,2012-10-10,2020-08-10,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-4184,79,,Exec Code XSS,2012-10-10,2020-08-13,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-4183,416,,DoS Exec Code Mem. Corr.,2012-10-10,2020-08-11,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-4182,416,,DoS Exec Code Mem. Corr.,2012-10-10,2020-08-13,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-4181,416,,DoS Exec Code Mem. Corr.,2012-10-10,2020-08-07,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-4180,119,,Exec Code Overflow,2012-10-10,2020-08-10,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-4179,416,,DoS Exec Code Mem. Corr.,2012-10-10,2020-08-13,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-3995,125,,DoS Exec Code,2012-10-10,2020-08-13,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-3994,79,,XSS,2012-10-10,2020-08-07,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-3993,269,,Exec Code,2012-10-10,2020-08-13,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-3992,79,,XSS,2012-10-10,2020-08-10,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-3991,264,,Bypass,2012-10-10,2020-08-11,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-3990,416,,Exec Code,2012-10-10,2020-08-13,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-3989,119,,DoS Exec Code Overflow,2012-10-10,2020-08-27,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-3988,416,,Exec Code,2012-10-10,2020-08-12,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-3986,20,,Bypass,2012-10-10,2020-08-10,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-3985,79,,XSS,2012-10-10,2020-08-26,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-3984,,,,2012-10-10,2020-08-26,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2012-3983,119,,DoS Exec Code Overflow Mem. Corr.,2012-10-10,2020-08-27,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-3982,,,DoS Exec Code Mem. Corr.,2012-10-10,2020-08-10,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-3978,264,,Bypass,2012-08-29,2017-09-19,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2012-3976,200,,+Info,2012-08-29,2020-08-26,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2012-3975,200,,+Info,2012-08-29,2017-09-19,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2012-3972,200,,+Info,2012-08-29,2020-09-09,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2012-3971,119,,DoS Exec Code Overflow Mem. Corr.,2012-08-29,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-3970,399,,DoS Exec Code Mem. Corr.,2012-08-29,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-3969,189,,Exec Code Overflow,2012-08-29,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-3968,416,,Exec Code,2012-08-29,2020-08-28,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-3966,119,,DoS Exec Code Overflow Mem. Corr.,2012-08-29,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-3964,399,,DoS Exec Code Mem. Corr.,2012-08-29,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-3963,416,,Exec Code,2012-08-29,2020-08-26,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-3962,,,Exec Code,2012-08-29,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-3961,416,,DoS Exec Code Mem. Corr.,2012-08-29,2020-08-28,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-3960,416,,DoS Exec Code Mem. Corr.,2012-08-29,2020-08-26,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-3959,416,,DoS Exec Code Mem. Corr.,2012-08-29,2020-08-26,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-3958,399,,DoS Exec Code Mem. Corr.,2012-08-29,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-3957,787,,Exec Code Overflow,2012-08-29,2020-08-28,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-3956,416,,DoS Exec Code Mem. Corr.,2012-08-29,2020-08-28,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-3105,119,,DoS Exec Code Overflow Mem. Corr.,2012-06-05,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-1976,416,,DoS Exec Code Mem. Corr.,2012-08-29,2020-08-26,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-1975,416,,DoS Exec Code Mem. Corr.,2012-08-29,2020-08-28,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-1974,416,,DoS Exec Code Mem. Corr.,2012-08-29,2020-08-26,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-1973,416,,DoS Exec Code Mem. Corr.,2012-08-29,2020-08-26,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-1972,416,,DoS Exec Code Mem. Corr.,2012-08-29,2020-08-28,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-1971,,,DoS Exec Code Mem. Corr.,2012-08-29,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-1970,119,,DoS Exec Code Overflow Mem. Corr.,2012-08-29,2020-08-28,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-1967,,,Exec Code,2012-07-18,2017-12-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-1964,,,,2012-07-18,2017-12-29,4.0,None,Remote,High,Not required,Partial,Partial,None
-CVE-2012-1963,264,,,2012-07-18,2017-12-29,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2012-1962,399,,DoS Exec Code Mem. Corr.,2012-07-18,2017-12-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-1961,20,,,2012-07-18,2017-12-29,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-1960,200,,+Info,2012-07-18,2017-12-29,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2012-1959,264,,Bypass,2012-07-18,2017-12-29,5.0,None,Remote,Low,Not required,None,Partial,None
-CVE-2012-1958,399,,Exec Code,2012-07-18,2017-12-29,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-1957,79,,XSS,2012-07-18,2017-12-29,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-1956,79,,XSS,2012-08-29,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-1955,,,,2012-07-18,2017-12-29,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2012-1954,399,,DoS Exec Code Mem. Corr.,2012-07-18,2017-12-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-1953,119,,DoS Exec Code Overflow,2012-07-18,2017-12-29,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-1952,399,,Exec Code,2012-07-18,2017-12-29,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-1951,399,,DoS Exec Code Mem. Corr.,2012-07-18,2017-12-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-1949,,,DoS Exec Code Mem. Corr.,2012-07-18,2017-12-29,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-1948,,,DoS Exec Code Mem. Corr.,2012-07-18,2017-12-29,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-1947,119,,Exec Code Overflow,2012-06-05,2018-01-05,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-1946,399,,Exec Code,2012-06-05,2017-12-29,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-1945,200,,+Info,2012-06-05,2017-12-29,2.9,None,Local Network,Medium,Not required,Partial,None,None
-CVE-2012-1944,79,,XSS,2012-06-05,2017-12-29,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-1941,119,,Exec Code Overflow,2012-06-05,2017-12-29,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-1940,399,,DoS Exec Code Mem. Corr.,2012-06-05,2018-01-05,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-1938,,,DoS Exec Code Mem. Corr.,2012-06-05,2020-08-28,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-1937,,,DoS Exec Code Mem. Corr.,2012-06-05,2018-01-05,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-0479,,,,2012-04-25,2018-01-18,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-0478,264,,Exec Code,2012-04-25,2017-12-29,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-0477,79,,XSS,2012-04-25,2018-01-18,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-0475,264,,Bypass,2012-04-25,2017-12-19,2.6,None,Remote,High,Not required,None,Partial,None
-CVE-2012-0474,79,,XSS,2012-04-25,2017-12-29,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-0473,189,,+Info,2012-04-25,2017-12-29,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2012-0472,119,,DoS Exec Code Overflow Mem. Corr.,2012-04-25,2017-12-29,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-0471,79,,XSS,2012-04-25,2018-01-18,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-0470,119,,DoS Exec Code Overflow,2012-04-25,2018-01-18,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-0469,399,,Exec Code,2012-04-25,2017-12-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-0468,119,,DoS Exec Code Overflow Mem. Corr.,2012-04-25,2017-12-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-0467,,,DoS Exec Code Mem. Corr.,2012-04-25,2018-01-18,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-0464,399,,Exec Code,2012-03-14,2018-01-18,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2012-0463,20,,DoS Exec Code Mem. Corr.,2012-03-14,2018-01-11,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2012-0462,,,DoS Exec Code Mem. Corr.,2012-03-14,2018-01-18,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2012-0461,,,DoS Exec Code Mem. Corr.,2012-03-14,2018-01-18,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2012-0460,264,,,2012-03-14,2018-01-18,6.4,None,Remote,Low,Not required,None,Partial,Partial
-CVE-2012-0459,264,,DoS Exec Code,2012-03-14,2018-01-18,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2012-0458,264,,Exec Code,2012-03-14,2018-01-18,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2012-0457,399,,Exec Code,2012-03-14,2018-01-18,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-0456,200,,+Info,2012-03-14,2018-01-18,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2012-0455,79,,XSS,2012-03-14,2018-01-18,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-0452,399,,DoS Exec Code,2012-02-11,2018-01-10,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2012-0451,94,,XSS Bypass,2012-03-14,2018-01-18,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-0449,119,,DoS Exec Code Overflow Mem. Corr.,2012-02-01,2020-08-28,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-0447,200,,+Info,2012-02-01,2017-09-19,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2012-0446,79,,XSS,2012-02-01,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2012-0445,264,,Bypass,2012-02-01,2017-09-19,5.0,None,Remote,Low,Not required,None,Partial,None
-CVE-2012-0444,119,,DoS Exec Code Overflow Mem. Corr.,2012-02-01,2020-08-28,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-0443,,,DoS Exec Code Mem. Corr.,2012-02-01,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2012-0442,,,DoS Exec Code Mem. Corr.,2012-02-01,2020-08-28,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2012-0441,119,,DoS Overflow,2012-06-05,2018-01-18,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2011-3866,264,,,2011-09-29,2018-11-29,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2011-3671,399,,Exec Code,2012-06-18,2012-06-19,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2011-3670,200,,+Info,2012-02-01,2017-12-29,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2011-3665,399,,DoS,2011-12-21,2017-09-19,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2011-3663,200,,+Info,2011-12-21,2017-09-19,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2011-3661,399,,DoS Exec Code,2011-12-21,2017-09-19,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2011-3660,,,DoS Exec Code Mem. Corr.,2011-12-21,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-3659,416,,Exec Code,2012-02-01,2020-08-28,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2011-3658,399,,DoS,2011-12-21,2017-12-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2011-3232,94,,DoS Exec Code,2011-09-29,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2011-3079,399,,,2012-05-01,2018-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-3062,682,,DoS,2012-03-30,2020-04-14,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2011-3005,119,,DoS Exec Code Overflow,2011-09-29,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2011-3004,20,,+Priv,2011-09-29,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2011-3003,119,,DoS Exec Code Overflow,2011-09-29,2018-11-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-3002,119,,DoS Exec Code Overflow,2011-09-29,2018-11-29,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2011-3001,264,,Bypass,2011-09-29,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2011-3000,94,,Http R.Spl.,2011-09-29,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2011-2999,264,,Bypass,2011-09-29,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2011-2997,,,DoS Exec Code Mem. Corr.,2011-09-29,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-2995,,,DoS Exec Code Mem. Corr.,2011-09-29,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-2993,264,,+Priv Bypass,2011-08-18,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2011-2992,119,,DoS Exec Code Overflow Mem. Corr.,2011-08-18,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-2991,119,,DoS Exec Code Overflow Mem. Corr.,2011-08-18,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-2990,255,,+Info,2011-08-18,2017-09-19,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2011-2989,119,,DoS Exec Code Overflow Mem. Corr.,2011-08-18,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-2988,119,,DoS Exec Code Overflow,2011-08-18,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-2987,119,,Exec Code Overflow,2011-08-18,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-2986,200,,Bypass +Info,2011-08-18,2017-09-19,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2011-2985,,,DoS Exec Code Mem. Corr.,2011-08-18,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-2984,94,,Exec Code,2011-08-18,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-2983,200,,Bypass +Info,2011-08-18,2017-09-19,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2011-2982,,,DoS Exec Code Mem. Corr.,2011-08-18,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-2981,16,,Exec Code Bypass,2011-08-18,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2011-2378,94,,Exec Code,2011-08-18,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-2377,119,,DoS Exec Code Overflow Mem. Corr.,2011-06-30,2017-09-19,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2011-2373,399,,Exec Code,2011-06-30,2017-09-19,7.6,None,Remote,High,Not required,Complete,Complete,Complete
-CVE-2011-2372,264,,Bypass,2011-09-29,2017-09-19,3.5,None,Remote,Medium,???,None,Partial,None
-CVE-2011-2371,189,,Exec Code Overflow,2011-06-30,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-2363,399,,DoS Exec Code,2011-06-30,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-2362,264,,Bypass,2011-06-30,2017-09-19,5.0,None,Remote,Low,Not required,None,Partial,None
-CVE-2011-1712,200,,+Info,2011-04-15,2017-09-19,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2011-1187,200,,Bypass +Info,2011-03-11,2020-06-03,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2011-0085,399,,Exec Code,2011-06-30,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0084,94,,Exec Code,2011-08-18,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0083,399,,DoS Exec Code,2011-06-30,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0080,,,DoS Exec Code Mem. Corr.,2011-05-07,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0078,,,DoS Exec Code Mem. Corr.,2011-05-07,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0077,,,DoS Exec Code Mem. Corr.,2011-05-07,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0075,,,DoS Exec Code Mem. Corr.,2011-05-07,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0074,,,DoS Exec Code Mem. Corr.,2011-05-07,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0073,20,,Exec Code,2011-05-07,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0072,,,DoS Exec Code Mem. Corr.,2011-05-07,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0070,,,DoS Exec Code Mem. Corr.,2011-05-07,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0069,,,DoS Exec Code Mem. Corr.,2011-05-07,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0067,20,,,2011-05-07,2017-09-19,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2011-0066,399,,Exec Code,2011-05-07,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0065,399,,Exec Code,2011-05-07,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0061,119,,DoS Exec Code Overflow,2011-03-02,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2011-0059,352,,CSRF,2011-03-02,2017-09-19,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2011-0057,399,,Exec Code,2011-03-02,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0056,119,,Exec Code Overflow,2011-03-02,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0055,399,,Exec Code,2011-03-02,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0054,119,,Exec Code Overflow,2011-03-02,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0053,,,DoS Exec Code Mem. Corr.,2011-03-02,2017-09-19,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2011-0051,20,,,2011-03-02,2017-09-19,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2010-5074,362,,Exec Code +Info,2011-12-07,2017-09-19,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2010-3778,119,,DoS Exec Code Overflow Mem. Corr.,2010-12-10,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3776,119,,DoS Exec Code Overflow Mem. Corr.,2010-12-10,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3775,,,,2010-12-10,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3774,20,,,2010-12-10,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2010-3773,,,,2010-12-10,2017-09-19,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2010-3772,189,,Exec Code,2010-12-10,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3771,,,Exec Code,2010-12-10,2017-09-19,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2010-3770,79,,XSS,2010-12-10,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2010-3768,20,,Exec Code,2010-12-10,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3767,189,,Exec Code Overflow,2010-12-10,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3766,399,,Exec Code,2010-12-10,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3765,119,3,Exec Code Overflow Mem. Corr.,2010-10-28,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3400,310,,,2010-09-15,2017-09-19,5.8,None,Remote,Medium,Not required,Partial,Partial,None
-CVE-2010-3183,119,,DoS Exec Code Overflow,2010-10-21,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3182,,,+Priv,2010-10-21,2017-09-19,6.9,None,Local,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3181,,,+Priv,2010-10-21,2017-09-19,6.9,None,Local,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3180,399,,Exec Code,2010-10-21,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3179,119,,DoS Exec Code Overflow Mem. Corr.,2010-10-21,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3178,264,,Bypass,2010-10-21,2017-09-19,5.8,None,Remote,Medium,Not required,Partial,Partial,None
-CVE-2010-3177,79,,XSS,2010-10-21,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2010-3176,,,DoS Exec Code Mem. Corr.,2010-10-21,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3174,,,DoS Exec Code Mem. Corr.,2010-10-21,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3173,310,,,2010-10-21,2017-09-19,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2010-3170,310,,,2010-10-21,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2010-3169,,,DoS Exec Code Mem. Corr.,2010-09-09,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3168,119,,DoS Exec Code Overflow,2010-09-09,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3167,119,,Exec Code Overflow,2010-09-09,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3166,119,,Exec Code Overflow,2010-09-09,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-3131,,2,Exec Code,2010-08-26,2018-10-10,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-2769,79,,XSS,2010-09-09,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2010-2768,79,,XSS Bypass,2010-09-09,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2010-2767,399,,DoS Exec Code,2010-09-09,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-2766,94,,Exec Code,2010-09-09,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-2765,189,,Exec Code Overflow,2010-09-09,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-2764,264,,,2010-09-09,2017-09-19,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2010-2763,79,,XSS Bypass,2010-09-09,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2010-2760,399,,Exec Code,2010-09-09,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-2754,200,,+Info,2010-07-30,2017-09-19,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2010-2753,189,,Exec Code Overflow,2010-07-30,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-2752,189,,Exec Code Overflow,2010-07-30,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-2751,264,,,2010-07-30,2017-09-19,2.6,None,Remote,High,Not required,None,Partial,None
-CVE-2010-1990,399,,DoS,2010-05-20,2018-10-10,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2010-1585,20,,,2010-04-28,2018-10-10,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-1214,189,,Exec Code Overflow,2010-07-30,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-1213,20,,Bypass +Info,2010-07-30,2017-09-19,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2010-1211,,,DoS Exec Code Mem. Corr.,2010-07-30,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-1209,399,,Exec Code,2010-07-30,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-1208,399,,Exec Code,2010-07-30,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-1206,264,,,2010-06-25,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2010-1205,120,,Exec Code Overflow,2010-06-30,2020-08-14,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2010-1202,,,DoS Exec Code Mem. Corr.,2010-06-24,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-1201,,,DoS Exec Code Mem. Corr.,2010-06-24,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-1200,,,DoS Exec Code Mem. Corr.,2010-06-24,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-1199,189,1,Exec Code Overflow,2010-06-24,2018-10-10,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-1198,399,,Exec Code,2010-06-24,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-1197,79,,XSS,2010-06-24,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2010-1196,189,,Exec Code Overflow,2010-06-24,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-1125,200,,+Info,2010-03-26,2018-10-10,5.8,None,Remote,Medium,Not required,Partial,Partial,None
-CVE-2010-0654,200,,+Info,2010-02-18,2017-09-19,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2010-0183,399,,Exec Code,2010-06-24,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-0182,20,,Bypass,2010-04-05,2018-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2010-0181,20,,DoS,2010-04-05,2018-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
-CVE-2010-0179,94,,,2010-04-05,2018-10-30,5.1,None,Remote,High,Not required,Partial,Partial,Partial
-CVE-2010-0178,94,,,2010-04-05,2018-10-30,7.6,None,Remote,High,Not required,Complete,Complete,Complete
-CVE-2010-0177,399,,DoS Exec Code,2010-04-05,2018-10-30,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-0176,399,,Exec Code,2010-04-05,2018-10-30,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-0175,399,,DoS Exec Code,2010-04-05,2018-10-30,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-0174,,,DoS Exec Code Mem. Corr.,2010-04-05,2018-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2010-0173,,,DoS Exec Code Mem. Corr.,2010-04-05,2018-10-30,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-0171,79,,XSS,2010-03-25,2018-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2010-0169,,,,2010-03-25,2018-10-30,5.0,None,Remote,Low,Not required,None,Partial,None
-CVE-2010-0167,119,,DoS Exec Code Overflow Mem. Corr.,2010-03-25,2018-10-30,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2010-0163,,,DoS Exec Code,2010-03-23,2017-09-19,4.3,None,Remote,Medium,Not required,None,None,Partial
-CVE-2010-0162,79,,XSS Bypass,2010-02-22,2017-09-19,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2010-0160,399,,DoS Exec Code Mem. Corr.,2010-02-22,2018-10-10,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2010-0159,,,DoS Exec Code Mem. Corr.,2010-02-22,2018-11-16,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2009-4630,200,,+Info,2010-01-29,2010-01-31,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2009-4629,200,,+Info,2010-01-29,2010-02-02,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2009-3988,264,,XSS Bypass,2010-02-22,2017-09-19,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2009-3987,200,,+Info,2009-12-17,2017-09-19,7.8,None,Remote,Low,Not required,Complete,None,None
-CVE-2009-3986,94,,,2009-12-17,2017-09-19,7.6,None,Remote,High,Not required,Complete,Complete,Complete
-CVE-2009-3985,,,,2009-12-17,2017-09-19,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2009-3984,,,,2009-12-17,2017-09-19,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2009-3983,,,,2009-12-17,2017-09-19,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2009-3982,,,DoS Exec Code Mem. Corr.,2009-12-17,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-3981,,,DoS Exec Code Mem. Corr.,2009-12-17,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-3980,399,,DoS Exec Code Mem. Corr.,2009-12-17,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-3979,,,DoS Exec Code Mem. Corr.,2009-12-17,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-3389,189,,DoS Exec Code Overflow,2009-12-17,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-3388,399,,DoS Exec Code,2009-12-17,2017-09-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-3385,264,,+Info,2010-03-23,2017-09-19,7.1,None,Remote,Medium,Not required,Complete,None,None
-CVE-2009-3376,16,,,2009-10-29,2018-10-30,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-3373,119,,Exec Code Overflow,2009-10-29,2018-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2009-3372,,,Exec Code,2009-10-29,2018-10-30,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-3014,79,,XSS,2009-08-31,2018-10-10,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2009-3010,79,,XSS,2009-08-31,2023-03-31,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2009-3007,,,,2009-08-28,2017-08-17,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2009-2535,189,1,DoS,2009-07-20,2018-10-30,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2009-2464,399,,DoS Exec Code Mem. Corr.,2009-07-22,2018-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2009-2408,20,,,2009-07-30,2018-10-03,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2009-2210,,,DoS Exec Code,2009-06-25,2018-10-30,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-1841,94,,,2009-06-12,2018-10-30,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-1840,264,,Bypass,2009-06-12,2017-09-29,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-1838,94,,,2009-06-12,2018-10-30,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-1836,287,,,2009-06-12,2018-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2009-1835,200,,+Info,2009-06-12,2018-10-30,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2009-1834,20,,,2009-06-12,2018-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2009-1833,94,,DoS Exec Code Mem. Corr.,2009-06-12,2018-10-30,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-1832,94,,DoS Exec Code Mem. Corr.,2009-06-12,2018-10-30,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-1571,94,,Exec Code,2010-02-22,2018-10-10,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2009-1392,94,,DoS Exec Code Mem. Corr.,2009-06-12,2018-10-30,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-1312,16,,XSS,2009-04-22,2018-10-10,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2009-1311,200,,+Info,2009-04-22,2018-10-30,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2009-1309,16,,XSS,2009-04-22,2018-10-03,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2009-1308,79,,XSS,2009-04-22,2023-02-13,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2009-1307,20,,Bypass,2009-04-22,2018-10-03,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2009-1306,16,,XSS,2009-04-22,2018-10-03,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2009-1305,399,,DoS Mem. Corr.,2009-04-22,2018-10-03,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2009-1304,399,,DoS Mem. Corr.,2009-04-22,2018-10-03,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2009-1303,16,,DoS Mem. Corr.,2009-04-22,2018-10-30,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2009-1302,399,,DoS Mem. Corr.,2009-04-22,2018-10-03,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2009-0777,20,,,2009-03-05,2017-09-29,5.8,None,Remote,Medium,Not required,None,Partial,Partial
-CVE-2009-0776,200,,Bypass +Info,2009-03-05,2018-10-03,7.1,None,Remote,Medium,Not required,Complete,None,None
-CVE-2009-0775,399,,Exec Code,2009-03-05,2017-09-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2009-0774,399,,DoS Exec Code,2009-03-05,2018-10-03,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-0773,399,,DoS Exec Code Mem. Corr.,2009-03-05,2017-09-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2009-0772,399,,DoS Exec Code Mem. Corr.,2009-03-05,2018-10-03,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2009-0771,399,,DoS Exec Code Mem. Corr.,2009-03-05,2023-02-13,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2009-0689,119,,DoS Exec Code Overflow,2009-07-01,2018-11-02,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2009-0652,,,,2009-02-20,2018-10-03,5.8,None,Remote,Medium,Not required,None,Partial,Partial
-CVE-2009-0357,264,,+Info,2009-02-04,2017-09-29,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2009-0356,59,,Exec Code Bypass,2009-02-04,2023-02-13,5.1,None,Remote,High,Not required,Partial,Partial,Partial
-CVE-2009-0353,399,,DoS Exec Code Mem. Corr.,2009-02-04,2017-09-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2009-0352,399,,DoS Exec Code Mem. Corr.,2009-02-04,2018-10-03,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2008-6961,200,,+Info,2009-08-13,2018-10-30,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2008-5913,,,,2009-01-20,2017-09-29,4.9,None,Remote,Medium,???,Partial,Partial,None
-CVE-2008-5513,79,,XSS Bypass,2008-12-17,2023-02-13,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2008-5512,264,,,2008-12-17,2018-11-02,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2008-5511,79,,XSS Bypass,2008-12-17,2023-02-13,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2008-5510,,,Bypass,2008-12-17,2018-11-08,5.0,None,Remote,Low,Not required,None,Partial,None
-CVE-2008-5508,20,,,2008-12-17,2018-11-08,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2008-5507,200,,Bypass +Info,2008-12-17,2018-11-08,6.0,None,Remote,Medium,???,Partial,Partial,Partial
-CVE-2008-5506,264,,Bypass,2008-12-17,2018-11-08,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2008-5503,,,,2008-12-17,2018-10-03,2.6,None,Remote,High,Not required,Partial,None,None
-CVE-2008-5502,399,,DoS Mem. Corr.,2008-12-17,2018-11-08,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2008-5501,,,DoS,2008-12-17,2018-11-08,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2008-5500,399,,DoS Overflow Mem. Corr.,2008-12-17,2018-11-08,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2008-5052,399,,DoS Mem. Corr.,2008-11-13,2018-11-02,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2008-5024,91,,,2008-11-13,2018-11-02,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2008-5023,20,,Exec Code Bypass,2008-11-13,2018-11-02,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2008-5022,287,,Bypass,2008-11-13,2018-11-02,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2008-5021,399,,DoS Exec Code,2008-11-13,2018-11-02,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2008-5018,399,,DoS,2008-11-13,2018-11-02,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2008-5017,189,,DoS Overflow,2008-11-13,2018-11-02,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2008-5016,399,,DoS,2008-11-13,2023-02-13,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2008-5014,20,,DoS Exec Code,2008-11-13,2018-11-02,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2008-5013,399,,Exec Code,2008-11-13,2018-10-30,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2008-5012,200,,Bypass +Info,2008-11-13,2023-02-13,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2008-4070,119,,DoS Exec Code Overflow,2008-09-27,2017-09-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2008-4069,200,,+Info,2008-09-24,2017-09-29,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2008-4068,22,,Dir. Trav. Bypass +Info,2008-09-24,2018-11-01,7.8,None,Remote,Low,Not required,Complete,None,None
-CVE-2008-4065,79,,Exec Code XSS Bypass,2008-09-24,2018-11-01,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2008-4062,399,,DoS Exec Code Mem. Corr.,2008-09-24,2018-11-01,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2008-4061,189,,DoS Exec Code Overflow Mem. Corr.,2008-09-24,2018-11-01,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2008-4060,264,,Exec Code,2008-09-24,2017-09-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2008-4058,264,,Exec Code,2008-09-24,2018-11-01,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2008-3837,,,,2008-09-24,2018-11-01,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2008-3835,264,,Exec Code Bypass,2008-09-24,2017-09-29,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2008-2811,399,,DoS Exec Code Overflow,2008-07-07,2018-10-11,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2008-2810,264,,Bypass,2008-07-07,2018-10-11,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2008-2809,20,,,2008-07-08,2018-10-11,4.0,None,Remote,High,Not required,None,Partial,Partial
-CVE-2008-2807,200,,+Info,2008-07-07,2018-10-11,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2008-2806,20,,Bypass,2008-07-07,2018-10-11,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2008-2805,20,,,2008-07-07,2018-10-11,5.0,None,Remote,Low,Not required,None,Partial,None
-CVE-2008-2803,264,,Exec Code,2008-07-07,2018-10-11,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2008-2802,264,,Exec Code,2008-07-07,2018-10-11,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2008-2801,287,,Exec Code,2008-07-07,2018-10-11,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2008-2800,79,,XSS Bypass,2008-07-07,2018-10-11,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2008-2799,399,,DoS Exec Code,2008-07-07,2018-10-11,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2008-2798,399,,DoS Exec Code,2008-07-07,2018-10-11,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2008-2785,189,,Exec Code Overflow,2008-06-19,2018-10-11,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2008-1380,399,,DoS,2008-04-17,2023-02-13,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2008-1241,59,,,2008-03-27,2018-10-11,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2008-1240,,,,2008-03-28,2018-10-11,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2008-1238,287,,Bypass CSRF,2008-03-27,2023-02-13,5.0,None,Remote,Low,Not required,None,Partial,None
-CVE-2008-1237,399,,DoS Exec Code,2008-03-27,2018-10-11,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2008-1236,399,,DoS Exec Code,2008-03-27,2018-10-11,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2008-1235,,,Exec Code,2008-03-27,2018-10-11,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2008-1234,79,,XSS,2008-03-27,2018-10-11,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2008-1233,94,,Exec Code,2008-03-27,2018-10-11,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2008-0593,200,,Bypass +Info,2008-02-09,2018-10-15,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2008-0592,,,DoS,2008-02-09,2018-10-15,4.3,None,Remote,Medium,Not required,None,None,Partial
-CVE-2008-0420,200,,DoS +Info,2008-02-12,2018-10-15,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2008-0419,399,,DoS Mem. Corr.,2008-02-08,2018-10-15,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2008-0418,22,,Dir. Trav.,2008-02-08,2018-10-15,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2008-0416,79,,XSS,2008-02-12,2023-02-13,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2008-0415,79,,XSS,2008-02-08,2018-10-15,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2008-0414,20,,,2008-02-08,2023-02-13,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2008-0413,399,,DoS Mem. Corr.,2008-02-08,2018-10-15,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2008-0412,399,,DoS Mem. Corr.,2008-02-08,2018-10-15,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2008-0017,119,,DoS Exec Code Overflow Mem. Corr.,2008-11-13,2018-10-26,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2008-0016,119,,Exec Code Overflow,2008-09-24,2017-09-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2007-6589,79,,XSS,2007-12-28,2017-09-29,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2007-5960,22,,Dir. Trav. Bypass CSRF,2007-11-26,2023-02-13,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2007-5959,,,DoS Exec Code Mem. Corr.,2007-11-26,2018-10-15,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2007-5947,79,,XSS,2007-11-14,2018-10-15,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2007-5340,20,,DoS Mem. Corr.,2007-10-21,2023-02-13,4.3,None,Remote,Medium,Not required,None,None,Partial
-CVE-2007-5339,20,,DoS Mem. Corr.,2007-10-21,2023-02-13,4.3,None,Remote,Medium,Not required,None,None,Partial
-CVE-2007-5338,264,,,2007-10-21,2018-10-15,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2007-5334,16,,,2007-10-21,2018-10-15,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2007-4879,,,,2007-09-13,2018-10-30,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2007-4841,20,,Exec Code,2007-09-12,2019-10-09,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2007-3954,79,,Exec Code XSS,2007-07-24,2021-07-23,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2007-3844,,,XSS,2007-08-08,2018-10-15,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2007-3511,,,Bypass,2007-07-03,2018-10-15,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2007-2871,,,,2007-06-01,2018-10-16,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2007-2870,,,XSS Bypass,2007-06-01,2018-10-16,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2007-2868,94,,DoS Exec Code Mem. Corr.,2007-06-01,2018-10-16,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2007-2867,119,,DoS Overflow,2007-06-01,2018-10-16,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2007-2292,20,,,2007-04-26,2021-07-23,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2007-1362,20,,DoS,2007-06-01,2018-10-16,4.3,None,Remote,Medium,Not required,None,None,Partial
-CVE-2007-1095,,,,2007-02-26,2018-10-16,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2007-1092,,,Exec Code Mem. Corr.,2007-02-26,2018-10-16,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2007-0996,,,XSS,2007-02-27,2018-10-16,5.8,None,Remote,Medium,Not required,Partial,Partial,None
-CVE-2007-0995,79,,XSS Bypass,2007-02-26,2018-10-16,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2007-0994,94,,Exec Code Bypass,2007-03-06,2019-10-09,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2007-0981,264,,Bypass,2007-02-16,2018-10-16,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2007-0780,79,,XSS,2007-02-26,2019-10-09,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2007-0779,,,,2007-02-26,2018-10-16,6.4,None,Remote,Low,Not required,Partial,Partial,None
-CVE-2007-0778,200,,+Info,2007-02-26,2019-10-09,5.4,None,Remote,High,Not required,Complete,None,None
-CVE-2007-0777,119,,DoS Exec Code Overflow Mem. Corr.,2007-02-26,2019-10-09,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2007-0776,119,,Exec Code Overflow,2007-02-26,2018-10-16,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2007-0775,,,DoS Exec Code,2007-02-26,2018-10-16,3.7,None,Local,High,Not required,Partial,Partial,Partial
-CVE-2007-0009,119,,Exec Code Overflow,2007-02-26,2019-10-09,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2007-0008,189,,Exec Code Overflow,2007-02-26,2018-10-16,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2006-6505,,,Exec Code Overflow,2006-12-20,2018-10-17,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2006-6504,94,,Exec Code Mem. Corr.,2006-12-20,2018-10-17,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2006-6503,254,,XSS Bypass,2006-12-20,2018-10-17,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2006-6502,,,DoS,2006-12-20,2018-10-17,7.1,None,Remote,Medium,Not required,None,None,Complete
-CVE-2006-6501,264,,+Priv,2006-12-20,2018-10-17,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2006-6500,119,,DoS Exec Code Overflow,2006-12-20,2019-10-09,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2006-6499,,,DoS,2006-12-20,2019-10-09,4.3,None,Remote,Medium,Not required,None,None,Partial
-CVE-2006-6498,,,DoS Exec Code Mem. Corr.,2006-12-20,2018-10-17,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2006-6497,,,DoS Exec Code Mem. Corr.,2006-12-20,2018-10-17,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2006-5748,,,DoS Exec Code Mem. Corr.,2006-11-08,2018-10-17,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2006-5747,,,Exec Code,2006-11-08,2018-10-17,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-5633,,,DoS Exec Code,2006-10-31,2018-10-17,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2006-5464,,,DoS,2006-11-08,2018-10-17,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2006-5463,,,Exec Code,2006-11-08,2018-10-17,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-5462,,,,2006-11-08,2017-10-11,6.4,None,Remote,Low,Not required,Partial,Partial,None
-CVE-2006-4571,,,DoS Exec Code,2006-09-15,2018-10-17,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
-CVE-2006-4570,,,Bypass,2006-09-15,2017-10-11,2.6,None,Remote,High,Not required,None,Partial,None
-CVE-2006-4568,79,,XSS Bypass,2006-09-15,2018-10-17,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2006-4566,,,DoS,2006-09-15,2018-10-17,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2006-4565,119,,DoS Exec Code Overflow,2006-09-15,2018-10-17,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2006-4340,20,,,2006-09-15,2023-02-13,4.0,None,Remote,High,Not required,Partial,Partial,None
-CVE-2006-3812,,,,2006-07-29,2018-10-17,2.6,None,Remote,High,Not required,None,Partial,None
-CVE-2006-3811,,,DoS Exec Code Overflow Mem. Corr.,2006-07-27,2018-10-17,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-3810,,,XSS,2006-07-27,2018-10-17,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2006-3809,,,Exec Code +Priv,2006-07-27,2018-10-17,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-3808,,,Exec Code,2006-07-27,2018-10-17,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-3807,,,Exec Code,2006-07-27,2018-10-17,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-3806,189,,Exec Code Overflow,2006-07-27,2018-10-17,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-3805,,,Exec Code,2006-07-27,2018-10-17,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-3804,,,DoS Overflow,2006-07-27,2018-10-17,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2006-3803,,,Exec Code,2006-07-27,2018-10-17,5.1,None,Remote,High,Not required,Partial,Partial,Partial
-CVE-2006-3802,,,XSS,2006-07-27,2018-10-17,5.8,None,Remote,Medium,Not required,Partial,Partial,None
-CVE-2006-3801,,,Exec Code,2006-07-27,2018-10-17,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-3677,16,,Exec Code,2006-07-27,2018-10-18,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-3113,,,DoS Exec Code Mem. Corr.,2006-07-27,2018-10-18,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-2894,20,,,2006-06-07,2018-10-18,4.0,None,Remote,High,Not required,Partial,Partial,None
-CVE-2006-2782,20,,,2006-06-02,2018-10-18,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2006-2781,119,,DoS Exec Code Overflow,2006-06-02,2018-10-18,6.4,None,Remote,Low,Not required,None,Partial,Partial
-CVE-2006-2777,,,Exec Code,2006-06-02,2018-10-18,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-1742,,,Mem. Corr.,2006-04-14,2018-10-18,5.0,None,Remote,Low,Not required,None,Partial,None
-CVE-2006-1741,79,,XSS,2006-04-14,2018-10-18,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2006-1740,,,,2006-04-14,2018-10-18,2.6,None,Remote,High,Not required,None,Partial,None
-CVE-2006-1739,119,,DoS Exec Code Overflow,2006-04-14,2018-10-18,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2006-1738,,,DoS,2006-04-14,2018-10-18,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2006-1737,189,,DoS Exec Code Overflow,2006-04-14,2018-10-18,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2006-1736,,,,2006-04-14,2018-10-18,2.6,None,Remote,High,Not required,None,Partial,None
-CVE-2006-1735,264,,Exec Code,2006-04-14,2018-10-18,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2006-1734,,,Exec Code,2006-04-14,2018-10-18,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2006-1733,264,,Exec Code,2006-04-14,2018-10-18,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
-CVE-2006-1732,,,XSS Bypass,2006-04-14,2018-10-18,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2006-1731,79,,XSS,2006-04-14,2018-10-18,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2006-1730,189,,Exec Code Overflow,2006-04-14,2018-10-18,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2006-1729,20,,,2006-04-14,2018-10-18,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2006-1728,,,Exec Code,2006-04-14,2018-10-18,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2006-1727,,,+Priv,2006-04-14,2018-10-18,7.6,None,Remote,High,Not required,Complete,Complete,Complete
-CVE-2006-1726,264,,Exec Code Bypass,2006-04-14,2018-10-18,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2006-1725,264,,,2006-04-14,2018-10-18,2.6,None,Remote,High,Not required,None,Partial,None
-CVE-2006-1724,,,DoS Exec Code,2006-04-14,2018-10-18,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-1723,,,DoS Exec Code,2006-04-14,2018-10-18,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-1531,,,DoS Exec Code,2006-04-14,2018-10-18,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-1530,,,DoS Exec Code,2006-04-14,2018-10-18,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-1529,,,DoS Exec Code,2006-04-14,2018-10-18,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2006-0749,399,,DoS Exec Code Mem. Corr.,2006-04-14,2018-10-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2006-0748,399,,Exec Code,2006-04-14,2018-10-19,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
-CVE-2006-0299,,,,2006-02-02,2018-10-19,6.4,None,Remote,Low,Not required,Partial,Partial,None
-CVE-2006-0298,20,,DoS,2006-02-02,2018-10-19,5.8,None,Remote,Medium,Not required,Partial,None,Partial
-CVE-2006-0297,,,Exec Code Overflow,2006-02-02,2018-10-19,5.1,None,Remote,High,Not required,Partial,Partial,Partial
-CVE-2006-0296,,,,2006-02-02,2018-10-19,5.0,None,Remote,Low,Not required,None,Partial,None
-CVE-2006-0295,,,Exec Code Mem. Corr.,2006-02-02,2018-10-19,5.1,None,Remote,High,Not required,Partial,Partial,Partial
-CVE-2006-0294,,,Exec Code,2006-02-02,2018-10-19,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2002-2437,264,,+Info,2011-12-07,2012-03-08,5.0,None,Remote,Low,Not required,Partial,None,None
-CVE-2002-2436,200,,+Info,2011-12-07,2017-08-29,4.3,None,Remote,Medium,Not required,Partial,None,None
+cve_id,cwe_id,epss_score,epss_percentile,cvss_base_score,cvss_base_severity,cvss_vector,attack_vector,attack_complexity,privileges_required,user_interaction,scope,confidentiality,integrity,availability,cvss_exploitability_score,cvss_impact_score,cvss_score_source,cvss_first_seen,publish_date,update_date,source,vuln_category
+CVE-2015-7180,119,3.21%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 07:43:44.879,mozilla,Buffer Overflow
+CVE-2015-7179,119,2.12%,~ 84 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 07:43:44.855,mozilla,Buffer Overflow
+CVE-2015-7178,119,1.52%,~ 81 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 07:43:44.922,mozilla,Buffer Overflow
+CVE-2015-7177,119,3.21%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 07:43:44.826,mozilla,Buffer Overflow
+CVE-2015-7176,119,5.71%,~ 90 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 07:43:44.881,mozilla,Buffer Overflow
+CVE-2015-7175,119,3.21%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 07:43:44.923,mozilla,Buffer Overflow
+CVE-2015-7174,119,3.21%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 07:43:44.855,mozilla,Buffer Overflow
+CVE-2015-4522,119,3.21%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.617,mozilla,Buffer Overflow
+CVE-2015-4521,119,3.21%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.773,mozilla,Buffer Overflow
+CVE-2015-4520,254,0.59%,~ 69 %,6.4,MEDIUM,AV:N/AC:L/Au:N/C:P/I:P/A:N,,,,,,,,,10.0,4.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.566,mozilla,
+CVE-2015-4519,200,0.44%,~ 63 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.507,mozilla,
+CVE-2015-4517,119,3.21%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.458,mozilla,Buffer Overflow
+CVE-2015-4516,254,1.35%,~ 80 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.529,mozilla,
+CVE-2015-4512,119,2.01%,~ 83 %,6.4,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:P,,,,,,,,,10.0,4.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.799,mozilla,Out-of-Bounds
+CVE-2015-4511,119,3.96%,~ 88 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.616,mozilla,Buffer Overflow
+CVE-2015-4510,362,2.51%,~ 85 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.291,mozilla,Use After Free
+CVE-2015-4509,,4.94%,~ 89 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.404,mozilla,Use After Free
+CVE-2015-4508,254,0.70%,~ 72 %,2.6,LOW,AV:N/AC:H/Au:N/C:N/I:P/A:N,,,,,,,,,4.9,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.941,mozilla,Spoofing
+CVE-2015-4507,,1.20%,~ 79 %,5.1,MEDIUM,AV:N/AC:H/Au:N/C:P/I:P/A:P,,,,,,,,,4.9,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.191,mozilla,
+CVE-2015-4506,119,7.97%,~ 92 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.615,mozilla,Buffer Overflow
+CVE-2015-4504,119,2.10%,~ 84 %,6.4,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:P,,,,,,,,,10.0,4.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.610,mozilla,Out-of-Bounds
+CVE-2015-4503,200,0.57%,~ 68 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.613,mozilla,
+CVE-2015-4502,254,0.78%,~ 73 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.484,mozilla,
+CVE-2015-4501,119,2.92%,~ 86 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.456,mozilla,Memory Corruption
+CVE-2015-4500,119,3.17%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.387,mozilla,Memory Corruption
+CVE-2015-4498,254,0.58%,~ 68 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-29 19:00:00.000,2024-08-06 06:18:11.986,mozilla,
+CVE-2015-4497,,3.04%,~ 86 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-29 19:00:00.000,2024-08-06 06:18:11.935,mozilla,Use After Free
+CVE-2015-4496,189,1.51%,~ 81 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.977,mozilla,Buffer Overflow
+CVE-2015-4493,119,7.31%,~ 92 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.481,mozilla,Buffer Overflow
+CVE-2015-4492,,2.31%,~ 84 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.542,mozilla,Use After Free
+CVE-2015-4491,189,4.30%,~ 89 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.566,mozilla,Buffer Overflow
+CVE-2015-4490,79,0.34%,~ 56 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.636,mozilla,Cross Site Scripting
+CVE-2015-4489,119,2.20%,~ 84 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.587,mozilla,
+CVE-2015-4488,,1.90%,~ 83 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.116,mozilla,
+CVE-2015-4487,119,2.68%,~ 86 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.063,mozilla,
+CVE-2015-4486,119,1.67%,~ 82 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.178,mozilla,Buffer Overflow
+CVE-2015-4485,119,7.60%,~ 92 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.557,mozilla,Buffer Overflow
+CVE-2015-4484,119,0.85%,~ 75 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:N/A:P,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.299,mozilla,
+CVE-2015-4483,264,0.30%,~ 53 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.179,mozilla,
+CVE-2015-4482,119,0.09%,~ 26 %,4.6,MEDIUM,AV:L/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,3.9,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.042,mozilla,Out-of-Bounds
+CVE-2015-4481,362,0.16%,~ 37 %,3.3,LOW,AV:L/AC:M/Au:N/C:N/I:P/A:P,,,,,,,,,3.4,4.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.089,mozilla,
+CVE-2015-4480,189,2.28%,~ 84 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.043,mozilla,Buffer Overflow
+CVE-2015-4479,189,2.25%,~ 84 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.307,mozilla,Buffer Overflow
+CVE-2015-4478,200,0.66%,~ 71 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:P/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.315,mozilla,
+CVE-2015-4477,,2.91%,~ 86 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.162,mozilla,Use After Free
+CVE-2015-4475,119,1.25%,~ 79 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.081,mozilla,Out-of-Bounds
+CVE-2015-4474,,2.21%,~ 84 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.147,mozilla,Memory Corruption
+CVE-2015-4473,119,3.65%,~ 88 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.058,mozilla,Memory Corruption
+CVE-2015-4000,310,93.90%,~ 100 %,3.7,LOW,CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N,Network,High,None,None,Unchanged,None,Low,None,2.2,1.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2015-05-21 00:00:00.000,2024-08-06 06:04:02.725,mitre,
+CVE-2015-2742,200,0.56%,~ 68 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.476,mozilla,
+CVE-2015-2741,310,0.43%,~ 62 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.454,mozilla,
+CVE-2015-2740,119,3.49%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.471,mozilla,Information Disclosure
+CVE-2015-2739,119,1.05%,~ 77 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.416,mozilla,Information Disclosure
+CVE-2015-2738,17,1.25%,~ 79 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.469,mozilla,Information Disclosure
+CVE-2015-2737,17,1.25%,~ 79 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.482,mozilla,Information Disclosure
+CVE-2015-2736,17,1.19%,~ 79 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.549,mozilla,Information Disclosure
+CVE-2015-2735,17,1.19%,~ 79 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.438,mozilla,Information Disclosure
+CVE-2015-2734,17,1.25%,~ 79 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.466,mozilla,Information Disclosure
+CVE-2015-2733,,2.67%,~ 86 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.697,mozilla,Use After Free
+CVE-2015-2731,,0.95%,~ 76 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.497,mozilla,Use After Free
+CVE-2015-2730,310,0.23%,~ 45 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.084,mozilla,
+CVE-2015-2729,119,0.41%,~ 61 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.595,mozilla,
+CVE-2015-2728,,1.07%,~ 77 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.406,mozilla,Memory Corruption
+CVE-2015-2727,20,1.08%,~ 78 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.506,mozilla,
+CVE-2015-2726,119,1.25%,~ 79 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.493,mozilla,Memory Corruption
+CVE-2015-2725,119,1.63%,~ 82 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.187,mozilla,Memory Corruption
+CVE-2015-2724,119,0.91%,~ 76 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.499,mozilla,Memory Corruption
+CVE-2015-2722,,2.31%,~ 85 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.437,mozilla,Use After Free
+CVE-2015-2721,310,0.61%,~ 69 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.535,mozilla,
+CVE-2015-2720,17,0.08%,~ 23 %,4.4,MEDIUM,AV:L/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,3.4,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.542,mozilla,
+CVE-2015-2718,200,0.12%,~ 31 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.482,mozilla,
+CVE-2015-2717,189,2.42%,~ 85 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.418,mozilla,Out-of-Bounds
+CVE-2015-2716,119,5.61%,~ 90 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:37.933,mozilla,Buffer Overflow
+CVE-2015-2715,362,1.38%,~ 80 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.561,mozilla,Use After Free
+CVE-2015-2713,,1.75%,~ 82 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.447,mozilla,Use After Free
+CVE-2015-2712,119,3.88%,~ 88 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.135,mozilla,Out-of-Bounds
+CVE-2015-2711,200,0.52%,~ 66 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.461,mozilla,
+CVE-2015-2710,119,2.42%,~ 85 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.446,mozilla,Buffer Overflow
+CVE-2015-2709,,1.08%,~ 78 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.425,mozilla,Memory Corruption
+CVE-2015-2708,,1.33%,~ 80 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.136,mozilla,Memory Corruption
+CVE-2015-2706,362,1.13%,~ 78 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-24 23:00:00.000,2024-08-06 05:24:38.086,mozilla,Memory Corruption
+CVE-2015-0836,,1.49%,~ 81 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:10.603,mozilla,Memory Corruption
+CVE-2015-0835,,1.51%,~ 81 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:11.134,mozilla,Memory Corruption
+CVE-2015-0833,,0.05%,~ 16 %,6.9,MEDIUM,AV:L/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,3.4,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:11.160,mozilla,
+CVE-2015-0832,254,0.12%,~ 31 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:P/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:11.059,mozilla,
+CVE-2015-0831,,2.02%,~ 83 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:10.736,mozilla,Use After Free
+CVE-2015-0830,399,0.94%,~ 76 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:N/A:P,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:10.190,mozilla,
+CVE-2015-0829,119,2.18%,~ 84 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:11.031,mozilla,Buffer Overflow
+CVE-2015-0828,,1.36%,~ 80 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:10.801,mozilla,
+CVE-2015-0827,119,1.00%,~ 77 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:10.843,mozilla,Out-of-Bounds
+CVE-2015-0826,119,0.70%,~ 72 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:10.553,mozilla,Out-of-Bounds
+CVE-2015-0825,119,0.66%,~ 71 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:10.399,mozilla,
+CVE-2015-0824,119,1.59%,~ 81 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:N/A:P,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:11.030,mozilla,
+CVE-2015-0822,200,0.64%,~ 70 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:11.050,mozilla,Information Disclosure
+CVE-2015-0821,264,1.34%,~ 80 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:11.045,mozilla,
+CVE-2015-0820,284,0.34%,~ 56 %,2.6,LOW,AV:N/AC:H/Au:N/C:N/I:P/A:N,,,,,,,,,4.9,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:10.738,mozilla,
+CVE-2015-0818,264,1.73%,~ 82 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-03-24 00:00:00.000,2024-08-06 04:26:11.047,mozilla,Privilege Escalation
+CVE-2015-0817,17,1.35%,~ 80 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-03-24 00:00:00.000,2024-08-06 04:26:11.225,mozilla,
+CVE-2015-0816,264,85.37%,~ 99 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:P/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:10.591,mozilla,
+CVE-2015-0815,,1.25%,~ 79 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:11.210,mozilla,Memory Corruption
+CVE-2015-0814,,1.88%,~ 83 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:10.627,mozilla,Memory Corruption
+CVE-2015-0813,,2.84%,~ 86 %,5.1,MEDIUM,AV:N/AC:H/Au:N/C:P/I:P/A:P,,,,,,,,,4.9,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:11.047,mozilla,Use After Free
+CVE-2015-0811,119,0.77%,~ 73 %,6.4,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:P,,,,,,,,,10.0,4.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:10.145,mozilla,Out-of-Bounds
+CVE-2015-0810,20,0.40%,~ 60 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:10.164,mozilla,
+CVE-2015-0808,17,0.70%,~ 72 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:N/A:P,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:10.158,mozilla,
+CVE-2015-0807,352,0.14%,~ 34 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:10.737,mozilla,
+CVE-2015-0806,17,1.67%,~ 82 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:11.056,mozilla,Memory Corruption
+CVE-2015-0805,17,1.67%,~ 82 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:11.119,mozilla,Memory Corruption
+CVE-2015-0804,264,1.67%,~ 82 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:11.323,mozilla,Use After Free
+CVE-2015-0803,264,1.67%,~ 82 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:10.179,mozilla,Use After Free
+CVE-2015-0802,264,80.39%,~ 99 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:P/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:11.024,mozilla,Privilege Escalation
+CVE-2015-0801,264,1.19%,~ 79 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:10.191,mozilla,
+CVE-2015-0799,20,0.11%,~ 29 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-08 10:00:00.000,2024-08-06 04:26:10.878,mozilla,
+CVE-2015-0797,,7.61%,~ 92 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 04:26:10.193,mozilla,Buffer Overflow
+CVE-2014-8642,310,0.66%,~ 71 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-01-14 11:00:00.000,2024-08-06 13:26:02.038,mozilla,
+CVE-2014-8641,,1.52%,~ 81 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-01-14 11:00:00.000,2024-08-06 13:26:02.418,mozilla,
+CVE-2014-8640,362,1.14%,~ 78 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:N/A:P,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-01-14 11:00:00.000,2024-08-06 13:26:02.156,mozilla,Information Disclosure
+CVE-2014-8639,,1.84%,~ 83 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-01-14 11:00:00.000,2024-08-06 13:26:01.364,mozilla,
+CVE-2014-8638,352,0.50%,~ 65 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-01-14 11:00:00.000,2024-08-06 13:26:02.578,mozilla,
+CVE-2014-8637,200,0.49%,~ 65 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-01-14 11:00:00.000,2024-08-06 13:26:02.255,mozilla,Information Disclosure
+CVE-2014-8636,94,83.61%,~ 99 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-01-14 11:00:00.000,2024-08-06 13:26:02.238,mozilla,Privilege Escalation
+CVE-2014-8635,,1.51%,~ 81 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-01-14 11:00:00.000,2024-08-06 13:26:02.528,mozilla,Memory Corruption
+CVE-2014-8634,,1.75%,~ 82 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-01-14 11:00:00.000,2024-08-06 13:26:02.335,mozilla,Memory Corruption
+CVE-2014-8632,284,0.21%,~ 43 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 13:26:02.195,mozilla,
+CVE-2014-8631,284,0.22%,~ 44 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 13:26:01.899,mozilla,
+CVE-2014-1594,20,1.69%,~ 82 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 09:50:09.592,mozilla,
+CVE-2014-1593,119,2.11%,~ 84 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 09:42:36.539,mozilla,Buffer Overflow
+CVE-2014-1592,,1.77%,~ 82 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 09:42:36.623,mozilla,Use After Free
+CVE-2014-1591,199,0.27%,~ 50 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 09:42:36.657,mozilla,
+CVE-2014-1590,20,1.00%,~ 77 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:N/A:P,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 09:42:36.608,mozilla,Denial of Service
+CVE-2014-1589,284,0.30%,~ 53 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 09:42:36.632,mozilla,
+CVE-2014-1588,,1.68%,~ 82 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 09:42:36.614,mozilla,Memory Corruption
+CVE-2014-1587,20,1.64%,~ 82 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 09:42:36.640,mozilla,Memory Corruption
+CVE-2014-1586,,0.69%,~ 72 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-10-15 10:00:00.000,2024-08-06 09:42:36.667,mozilla,
+CVE-2014-1585,,0.69%,~ 72 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-10-15 10:00:00.000,2024-08-06 09:42:36.648,mozilla,
+CVE-2014-1584,310,0.68%,~ 71 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-10-15 10:00:00.000,2024-08-06 09:42:36.662,mozilla,
+CVE-2014-1582,310,0.88%,~ 75 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-10-15 10:00:00.000,2024-08-06 09:42:36.642,mozilla,
+CVE-2014-1581,,2.31%,~ 84 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-10-15 10:00:00.000,2024-08-06 09:42:36.648,mozilla,Use After Free
+CVE-2014-1580,200,0.46%,~ 64 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-10-15 10:00:00.000,2024-08-06 09:42:36.526,mozilla,Information Disclosure
+CVE-2014-1578,119,1.64%,~ 82 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-10-15 10:00:00.000,2024-08-06 09:42:36.668,mozilla,Out-of-Bounds
+CVE-2014-1577,,1.29%,~ 79 %,6.4,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:P,,,,,,,,,10.0,4.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-10-15 10:00:00.000,2024-08-06 09:42:36.631,mozilla,Memory Corruption
+CVE-2014-1576,119,4.67%,~ 89 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-10-15 10:00:00.000,2024-08-06 09:42:36.219,mozilla,Buffer Overflow
+CVE-2014-1575,264,1.99%,~ 83 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-10-15 10:00:00.000,2024-08-06 09:42:36.637,mozilla,Memory Corruption
+CVE-2014-1574,,1.64%,~ 82 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-10-15 10:00:00.000,2024-08-06 09:42:36.627,mozilla,Memory Corruption
+CVE-2014-1568,310,40.04%,~ 97 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-09-25 17:00:00.000,2024-08-06 09:42:36.192,mozilla,
+CVE-2014-1567,,2.25%,~ 84 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-09-03 10:00:00.000,2024-08-06 09:42:36.651,mozilla,Use After Free
+CVE-2014-1566,264,0.63%,~ 70 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-09-03 10:00:00.000,2024-08-06 09:42:36.374,mozilla,
+CVE-2014-1565,119,0.80%,~ 74 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-09-03 10:00:00.000,2024-08-06 09:42:36.620,mozilla,Out-of-Bounds
+CVE-2014-1564,824,14.29%,~ 94 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-09-03 10:00:00.000,2024-08-06 09:42:36.511,mozilla,Information Disclosure
+CVE-2014-1563,416,1.44%,~ 80 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-09-03 10:00:00.000,2024-08-06 09:42:36.731,mozilla,Use After Free
+CVE-2014-1562,119,1.27%,~ 79 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-09-03 10:00:00.000,2024-08-06 09:42:36.635,mozilla,Memory Corruption
+CVE-2014-1554,119,1.27%,~ 79 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-09-03 10:00:00.000,2024-08-06 09:42:36.498,mozilla,Memory Corruption
+CVE-2014-1553,119,0.55%,~ 68 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-09-03 10:00:00.000,2024-08-06 09:42:36.187,mozilla,Memory Corruption
+CVE-2014-1543,119,3.40%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-06-11 10:00:00.000,2024-08-06 09:42:36.555,mozilla,Buffer Overflow
+CVE-2014-1542,119,4.72%,~ 89 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-06-11 10:00:00.000,2024-08-06 09:42:36.270,mozilla,Buffer Overflow
+CVE-2014-1541,,2.64%,~ 85 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-06-11 10:00:00.000,2024-08-06 09:42:36.251,mozilla,Use After Free
+CVE-2014-1540,,1.27%,~ 79 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-06-11 10:00:00.000,2024-08-06 09:42:36.257,mozilla,Use After Free
+CVE-2014-1538,,3.60%,~ 88 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-06-11 10:00:00.000,2024-08-06 09:42:36.298,mozilla,Use After Free
+CVE-2014-1537,,3.33%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-06-11 10:00:00.000,2024-08-06 09:42:36.206,mozilla,Use After Free
+CVE-2014-1536,,1.35%,~ 80 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-06-11 10:00:00.000,2024-08-06 09:42:36.285,mozilla,Use After Free
+CVE-2014-1534,119,3.24%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-06-11 10:00:00.000,2024-08-06 09:42:36.249,mozilla,Memory Corruption
+CVE-2014-1533,,3.20%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-06-11 10:00:00.000,2024-08-06 09:42:36.182,mozilla,Memory Corruption
+CVE-2014-1532,416,4.89%,~ 89 %,9.8,CRITICAL,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Network,Low,None,None,Unchanged,High,High,High,3.9,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-04-30 10:00:00.000,2024-08-06 09:42:36.282,mozilla,Use After Free
+CVE-2014-1531,416,5.09%,~ 90 %,8.8,HIGH,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Network,Low,None,Required,Unchanged,High,High,High,2.8,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-04-30 10:00:00.000,2024-08-06 09:42:36.209,mozilla,Use After Free
+CVE-2014-1530,79,0.86%,~ 75 %,6.1,MEDIUM,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N,Network,Low,None,Required,Changed,Low,Low,None,2.8,2.7,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-04-30 10:00:00.000,2024-08-06 09:42:36.223,mozilla,Cross Site Scripting
+CVE-2014-1529,269,1.32%,~ 80 %,8.8,HIGH,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Network,Low,None,Required,Unchanged,High,High,High,2.8,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-04-30 10:00:00.000,2024-08-06 09:42:36.171,mozilla,Privilege Escalation
+CVE-2014-1528,119,1.26%,~ 79 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-04-30 10:00:00.000,2024-08-06 09:42:36.423,mozilla,Out-of-Bounds
+CVE-2014-1526,269,0.70%,~ 72 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-04-30 10:00:00.000,2024-08-06 09:42:36.213,mozilla,Privilege Escalation
+CVE-2014-1525,416,1.86%,~ 83 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-04-30 10:00:00.000,2024-08-06 09:42:36.177,mozilla,Use After Free
+CVE-2014-1524,120,6.41%,~ 91 %,9.8,CRITICAL,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Network,Low,None,None,Unchanged,High,High,High,3.9,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-04-30 10:00:00.000,2024-08-06 09:42:36.208,mozilla,Memory Corruption
+CVE-2014-1523,787,0.54%,~ 67 %,6.5,MEDIUM,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H,Network,Low,None,Required,Unchanged,None,None,High,2.8,3.6,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-04-30 10:00:00.000,2024-08-06 09:42:36.194,mozilla,Out-of-Bounds
+CVE-2014-1522,125,0.76%,~ 73 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-04-30 10:00:00.000,2024-08-06 09:42:36.181,mozilla,Memory Corruption
+CVE-2014-1519,,2.19%,~ 84 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-04-30 10:00:00.000,2024-08-06 09:42:36.181,mozilla,Memory Corruption
+CVE-2014-1518,,2.82%,~ 86 %,8.8,HIGH,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Network,Low,None,Required,Unchanged,High,High,High,2.8,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-04-30 10:00:00.000,2024-08-06 09:42:36.283,mozilla,Memory Corruption
+CVE-2014-1514,787,4.17%,~ 88 %,9.8,CRITICAL,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Network,Low,None,None,Unchanged,High,High,High,3.9,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.390,mozilla,Out-of-Bounds
+CVE-2014-1513,787,1.60%,~ 81 %,8.8,HIGH,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Network,Low,None,Required,Unchanged,High,High,High,2.8,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.222,mozilla,Out-of-Bounds
+CVE-2014-1512,416,17.91%,~ 95 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.221,mozilla,Memory Corruption
+CVE-2014-1511,269,72.53%,~ 99 %,9.8,CRITICAL,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Network,Low,None,None,Unchanged,High,High,High,3.9,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.250,mozilla,Privilege Escalation
+CVE-2014-1510,269,73.09%,~ 99 %,9.8,CRITICAL,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Network,Low,None,None,Unchanged,High,High,High,3.9,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.189,mozilla,Privilege Escalation
+CVE-2014-1509,120,0.81%,~ 74 %,8.8,HIGH,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Network,Low,None,Required,Unchanged,High,High,High,2.8,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.199,mozilla,Memory Corruption
+CVE-2014-1508,125,0.99%,~ 77 %,9.1,CRITICAL,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H,Network,Low,None,None,Unchanged,High,None,High,3.9,5.2,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.374,mozilla,Out-of-Bounds
+CVE-2014-1505,200,0.58%,~ 68 %,7.5,HIGH,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,Network,Low,None,None,Unchanged,High,None,None,3.9,3.6,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.333,mozilla,Information Disclosure
+CVE-2014-1504,264,0.61%,~ 69 %,2.6,LOW,AV:N/AC:H/Au:N/C:N/I:P/A:N,,,,,,,,,4.9,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.266,mozilla,Cross Site Scripting
+CVE-2014-1502,346,0.28%,~ 51 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.169,mozilla,
+CVE-2014-1500,400,2.26%,~ 84 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:N/A:P,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.283,mozilla,Denial of Service
+CVE-2014-1499,,0.61%,~ 69 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.271,mozilla,Spoofing
+CVE-2014-1498,347,0.55%,~ 68 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:N/A:P,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.168,mozilla,Denial of Service
+CVE-2014-1497,125,0.50%,~ 66 %,8.8,HIGH,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Network,Low,None,Required,Unchanged,High,High,High,2.8,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.202,mozilla,Out-of-Bounds
+CVE-2014-1496,269,0.06%,~ 20 %,5.5,MEDIUM,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N,Local,Low,None,Required,Unchanged,None,High,None,1.8,3.6,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.129,mozilla,
+CVE-2014-1495,,,,,,,,,,,,,,,,,,,,,,Memory Corruption
+CVE-2014-1494,,0.56%,~ 68 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.247,mozilla,Memory Corruption
+CVE-2014-1493,119,1.47%,~ 81 %,9.8,CRITICAL,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Network,Low,None,None,Unchanged,High,High,High,3.9,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.268,mozilla,Memory Corruption
+CVE-2014-1492,20,1.19%,~ 79 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-25 01:00:00.000,2024-08-06 09:42:36.122,mozilla,
+CVE-2014-1491,326,0.61%,~ 69 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-02-06 02:00:00.000,2024-08-06 09:42:36.031,mozilla,
+CVE-2014-1490,362,1.59%,~ 81 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-02-06 02:00:00.000,2024-08-06 09:42:36.290,mozilla,
+CVE-2014-1488,,1.09%,~ 78 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-02-06 02:00:00.000,2024-08-06 09:42:36.230,mozilla,
+CVE-2014-1487,346,0.61%,~ 69 %,7.5,HIGH,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,Network,Low,None,None,Unchanged,High,None,None,3.9,3.6,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-02-06 02:00:00.000,2024-08-06 09:42:35.982,mozilla,
+CVE-2014-1486,416,10.82%,~ 93 %,9.8,CRITICAL,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Network,Low,None,None,Unchanged,High,High,High,3.9,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-02-06 02:00:00.000,2024-08-06 09:42:36.212,mozilla,Use After Free
+CVE-2014-1485,,0.96%,~ 76 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-02-06 02:00:00.000,2024-08-06 09:42:35.979,mozilla,
+CVE-2014-1483,1021,0.28%,~ 51 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-02-06 02:00:00.000,2024-08-06 09:42:35.635,mozilla,Information Disclosure
+CVE-2014-1482,787,2.74%,~ 86 %,8.8,HIGH,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Network,Low,None,Required,Unchanged,High,High,High,2.8,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-02-06 02:00:00.000,2024-08-06 09:42:35.543,mozilla,
+CVE-2014-1481,,2.58%,~ 85 %,7.5,HIGH,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N,Network,Low,None,None,Unchanged,None,High,None,3.9,3.6,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-02-06 02:00:00.000,2024-08-06 09:42:35.868,mozilla,
+CVE-2014-1480,1021,0.52%,~ 66 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-02-06 02:00:00.000,2024-08-06 09:42:35.492,mozilla,Spoofing
+CVE-2014-1479,,1.47%,~ 81 %,7.5,HIGH,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N,Network,Low,None,None,Unchanged,None,High,None,3.9,3.6,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-02-06 02:00:00.000,2024-08-06 09:42:35.791,mozilla,
+CVE-2014-1478,787,1.23%,~ 79 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-02-06 02:00:00.000,2024-08-06 09:42:35.438,mozilla,Memory Corruption
+CVE-2014-1477,,0.85%,~ 75 %,9.8,CRITICAL,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Network,Low,None,None,Unchanged,High,High,High,3.9,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-02-06 02:00:00.000,2024-08-06 09:42:35.412,mozilla,Memory Corruption
+CVE-2013-6674,79,47.53%,~ 98 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-02-17 22:00:00.000,2024-08-06 17:46:22.408,mozilla,
+CVE-2013-6673,310,0.55%,~ 67 %,5.9,MEDIUM,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N,Network,High,None,None,Unchanged,None,High,None,2.2,3.6,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-12-11 15:00:00.000,2024-08-06 17:46:22.836,mozilla,
+CVE-2013-6672,200,0.93%,~ 76 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-12-11 15:00:00.000,2024-08-06 17:46:22.175,mozilla,Information Disclosure
+CVE-2013-6671,94,10.40%,~ 93 %,9.8,CRITICAL,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Network,Low,None,None,Unchanged,High,High,High,3.9,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-12-11 15:00:00.000,2024-08-06 17:46:22.682,mozilla,
+CVE-2013-6630,189,1.83%,~ 83 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2013-11-15 20:00:00.000,2024-08-06 17:46:22.221,mitre,
+CVE-2013-6629,200,0.21%,~ 43 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2013-11-15 20:00:00.000,2024-08-06 17:46:22.170,mitre,
+CVE-2013-5619,190,1.73%,~ 82 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-12-11 15:00:00.000,2024-08-06 17:15:21.507,mozilla,Out-of-Bounds
+CVE-2013-5618,416,10.38%,~ 93 %,9.8,CRITICAL,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Network,Low,None,None,Unchanged,High,High,High,3.9,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-12-11 15:00:00.000,2024-08-06 17:15:21.442,mozilla,Use After Free
+CVE-2013-5616,416,2.87%,~ 86 %,9.8,CRITICAL,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Network,Low,None,None,Unchanged,High,High,High,3.9,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-12-11 15:00:00.000,2024-08-06 17:15:21.432,mozilla,Use After Free
+CVE-2013-5615,,2.01%,~ 83 %,9.8,CRITICAL,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Network,Low,None,None,Unchanged,High,High,High,3.9,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-12-11 15:00:00.000,2024-08-06 17:15:21.503,mozilla,
+CVE-2013-5614,1021,0.28%,~ 51 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-12-11 15:00:00.000,2024-08-06 17:15:21.472,mozilla,
+CVE-2013-5613,416,11.06%,~ 93 %,9.8,CRITICAL,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Network,Low,None,None,Unchanged,High,High,High,3.9,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-12-11 15:00:00.000,2024-08-06 17:15:21.465,mozilla,Use After Free
+CVE-2013-5612,79,0.74%,~ 73 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-12-11 15:00:00.000,2024-08-06 17:15:21.506,mozilla,Cross Site Scripting
+CVE-2013-5610,787,0.88%,~ 75 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-12-11 15:00:00.000,2024-08-06 17:15:21.418,mozilla,Memory Corruption
+CVE-2013-5609,,2.75%,~ 86 %,9.8,CRITICAL,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Network,Low,None,None,Unchanged,High,High,High,3.9,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-12-11 15:00:00.000,2024-08-06 17:15:21.492,mozilla,Memory Corruption
+CVE-2013-5607,189,1.59%,~ 81 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-11-20 11:00:00.000,2024-08-06 17:15:21.405,mozilla,
+CVE-2013-5606,264,0.66%,~ 71 %,5.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:N,,,,,,,,,8.6,4.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-11-16 15:00:00.000,2024-08-06 17:15:21.522,mozilla,
+CVE-2013-5605,20,2.79%,~ 86 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-11-16 15:00:00.000,2024-08-06 17:15:21.377,mozilla,Buffer Overflow
+CVE-2013-5604,119,6.86%,~ 91 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-10-30 10:00:00.000,2024-08-06 17:15:21.510,mozilla,
+CVE-2013-5603,,5.27%,~ 90 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-10-30 10:00:00.000,2024-08-06 17:15:21.512,mozilla,Use After Free
+CVE-2013-5602,119,3.23%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-10-30 10:00:00.000,2024-08-06 17:15:21.408,mozilla,Memory Corruption
+CVE-2013-5601,,2.69%,~ 86 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-10-30 10:00:00.000,2024-08-06 17:15:21.550,mozilla,Use After Free
+CVE-2013-5600,,2.69%,~ 86 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-10-30 10:00:00.000,2024-08-06 17:15:21.438,mozilla,Use After Free
+CVE-2013-5599,,2.69%,~ 86 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-10-30 10:00:00.000,2024-08-06 17:15:21.453,mozilla,Use After Free
+CVE-2013-5597,,3.63%,~ 88 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-10-30 10:00:00.000,2024-08-06 17:15:21.584,mozilla,Use After Free
+CVE-2013-5596,119,1.77%,~ 82 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-10-30 10:00:00.000,2024-08-06 17:15:21.420,mozilla,
+CVE-2013-5595,119,2.58%,~ 85 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:N/A:P,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-10-30 10:00:00.000,2024-08-06 17:15:21.440,mozilla,Buffer Overflow
+CVE-2013-5593,20,0.48%,~ 65 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-10-30 10:00:00.000,2024-08-06 17:15:21.516,mozilla,Spoofing
+CVE-2013-5592,,2.66%,~ 86 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-10-30 10:00:00.000,2024-08-06 17:15:21.434,mozilla,Memory Corruption
+CVE-2013-5591,,3.45%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-10-30 10:00:00.000,2024-08-06 17:15:21.464,mozilla,Memory Corruption
+CVE-2013-5590,,2.06%,~ 84 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-10-30 10:00:00.000,2024-08-06 17:15:21.675,mozilla,Memory Corruption
+CVE-2013-2566,326,90.40%,~ 100 %,5.9,MEDIUM,CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N,Network,High,None,None,Unchanged,High,None,None,2.2,3.6,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2013-03-14 22:00:00.000,2024-08-06 15:44:32.649,mitre,
+CVE-2013-1741,189,2.60%,~ 85 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-11-16 15:00:00.000,2024-08-06 15:13:32.534,mozilla,
+CVE-2013-1739,,2.87%,~ 86 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:N/A:P,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-10-22 22:00:00.000,2024-08-06 15:13:32.238,mozilla,Memory Corruption
+CVE-2013-1738,399,3.36%,~ 87 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-09-18 10:00:00.000,2024-08-06 15:13:32.273,mozilla,Use After Free
+CVE-2013-1737,264,0.42%,~ 61 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-09-18 10:00:00.000,2024-08-06 15:13:32.377,mozilla,
+CVE-2013-1736,119,3.73%,~ 88 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-09-18 10:00:00.000,2024-08-06 15:13:32.191,mozilla,Memory Corruption
+CVE-2013-1735,20,4.50%,~ 89 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-09-18 10:00:00.000,2024-08-06 15:13:32.178,mozilla,Memory Corruption
+CVE-2013-1732,119,33.16%,~ 97 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-09-18 10:00:00.000,2024-08-06 15:13:32.443,mozilla,Buffer Overflow
+CVE-2013-1730,119,0.73%,~ 72 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-09-18 10:00:00.000,2024-08-06 15:13:32.358,mozilla,
+CVE-2013-1728,119,0.77%,~ 73 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-09-18 10:00:00.000,2024-08-06 15:13:32.323,mozilla,
+CVE-2013-1726,264,0.11%,~ 29 %,6.2,MEDIUM,AV:L/AC:H/Au:N/C:C/I:C/A:C,,,,,,,,,1.9,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-09-18 10:00:00.000,2024-08-06 15:13:31.665,mozilla,
+CVE-2013-1725,119,2.86%,~ 86 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-09-18 10:00:00.000,2024-08-06 15:13:32.609,mozilla,Memory Corruption
+CVE-2013-1724,399,3.16%,~ 87 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-09-18 10:00:00.000,2024-08-06 15:13:32.749,mozilla,Use After Free
+CVE-2013-1723,119,1.80%,~ 82 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:N/A:P,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-09-18 10:00:00.000,2024-08-06 15:13:32.026,mozilla,
+CVE-2013-1722,399,3.86%,~ 88 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-09-18 10:00:00.000,2024-08-06 15:13:32.395,mozilla,Use After Free
+CVE-2013-1721,119,0.64%,~ 70 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-09-18 10:00:00.000,2024-08-06 15:13:31.635,mozilla,Buffer Overflow
+CVE-2013-1720,119,1.94%,~ 83 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-09-18 10:00:00.000,2024-08-06 15:13:32.495,mozilla,
+CVE-2013-1719,119,2.38%,~ 85 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-09-18 10:00:00.000,2024-08-06 15:13:32.221,mozilla,Memory Corruption
+CVE-2013-1718,119,1.56%,~ 81 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-09-18 10:00:00.000,2024-08-06 15:13:32.284,mozilla,Memory Corruption
+CVE-2013-1717,264,0.57%,~ 68 %,5.4,MEDIUM,AV:N/AC:H/Au:N/C:C/I:N/A:N,,,,,,,,,4.9,6.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-08-07 01:00:00.000,2024-08-06 15:13:31.688,mozilla,
+CVE-2013-1715,,0.17%,~ 38 %,6.9,MEDIUM,AV:L/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,3.4,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-08-07 01:00:00.000,2024-08-06 15:13:32.492,mozilla,
+CVE-2013-1714,264,1.08%,~ 78 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-08-07 01:00:00.000,2024-08-06 15:13:32.319,mozilla,Cross Site Scripting
+CVE-2013-1713,264,0.47%,~ 64 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-08-07 01:00:00.000,2024-08-06 15:13:32.704,mozilla,Cross Site Scripting
+CVE-2013-1712,,0.17%,~ 38 %,6.9,MEDIUM,AV:L/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,3.4,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-08-07 01:00:00.000,2024-08-06 15:13:32.523,mozilla,Privilege Escalation
+CVE-2013-1711,79,1.86%,~ 83 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-08-07 01:00:00.000,2024-08-06 15:13:32.669,mozilla,Cross Site Scripting
+CVE-2013-1710,20,71.91%,~ 99 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-08-07 01:00:00.000,2024-08-06 15:13:31.636,mozilla,Cross Site Scripting
+CVE-2013-1709,79,0.52%,~ 66 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-08-07 01:00:00.000,2024-08-06 15:13:31.649,mozilla,Cross Site Scripting
+CVE-2013-1708,,5.28%,~ 90 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:N/A:P,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-08-07 01:00:00.000,2024-08-06 15:13:31.693,mozilla,Denial of Service
+CVE-2013-1707,119,0.05%,~ 15 %,7.2,HIGH,AV:L/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,3.9,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-08-07 01:00:00.000,2024-08-06 15:13:32.315,mozilla,Buffer Overflow
+CVE-2013-1706,119,0.05%,~ 15 %,7.2,HIGH,AV:L/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,3.9,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-08-07 01:00:00.000,2024-08-06 15:13:31.565,mozilla,Buffer Overflow
+CVE-2013-1705,119,5.28%,~ 90 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-08-07 01:00:00.000,2024-08-06 15:13:32.209,mozilla,Use After Free
+CVE-2013-1704,399,4.70%,~ 89 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-08-07 01:00:00.000,2024-08-06 15:13:31.616,mozilla,Use After Free
+CVE-2013-1702,,1.73%,~ 82 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-08-07 01:00:00.000,2024-08-06 15:13:32.272,mozilla,Memory Corruption
+CVE-2013-1701,,3.55%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-08-07 01:00:00.000,2024-08-06 15:13:31.594,mozilla,Memory Corruption
+CVE-2013-1699,310,0.37%,~ 58 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:P/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-06-26 01:00:00.000,2024-08-06 15:13:32.179,mozilla,Spoofing
+CVE-2013-1697,264,2.64%,~ 85 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-06-26 01:00:00.000,2024-08-06 15:13:32.298,mozilla,
+CVE-2013-1696,264,0.43%,~ 62 %,4.0,MEDIUM,AV:N/AC:H/Au:N/C:P/I:P/A:N,,,,,,,,,4.9,4.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-06-26 01:00:00.000,2024-08-06 15:13:32.755,mozilla,
+CVE-2013-1695,264,0.16%,~ 37 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-06-26 01:00:00.000,2024-08-06 15:13:31.687,mozilla,
+CVE-2013-1694,20,2.92%,~ 86 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-06-26 01:00:00.000,2024-08-06 15:13:31.704,mozilla,
+CVE-2013-1693,264,0.62%,~ 70 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-06-26 01:00:00.000,2024-08-06 15:13:31.729,mozilla,Information Disclosure
+CVE-2013-1692,264,1.01%,~ 77 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-06-26 01:00:00.000,2024-08-06 15:13:31.648,mozilla,
+CVE-2013-1690,119,49.62%,~ 98 %,8.8,HIGH,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Network,Low,None,Required,Unchanged,High,High,High,,,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-06-26 01:00:00.000,2025-10-22 00:05:41.588,mozilla,
+CVE-2013-1687,264,2.64%,~ 85 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-06-26 01:00:00.000,2024-08-06 15:13:32.816,mozilla,Cross Site Scripting
+CVE-2013-1686,399,2.45%,~ 85 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-06-26 01:00:00.000,2024-08-06 15:13:32.674,mozilla,Memory Corruption
+CVE-2013-1685,399,0.78%,~ 73 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-06-26 01:00:00.000,2024-08-06 15:13:32.393,mozilla,Memory Corruption
+CVE-2013-1684,399,0.78%,~ 73 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-06-26 01:00:00.000,2024-08-06 15:13:31.970,mozilla,Memory Corruption
+CVE-2013-1683,,1.76%,~ 82 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-06-26 01:00:00.000,2024-08-06 15:13:32.316,mozilla,Memory Corruption
+CVE-2013-1682,,1.76%,~ 82 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-06-26 01:00:00.000,2024-08-06 15:13:32.796,mozilla,Memory Corruption
+CVE-2013-0800,,2.80%,~ 86 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-04-03 10:00:00.000,2024-08-06 14:41:47.183,mozilla,Out-of-Bounds
+CVE-2013-0797,,0.17%,~ 38 %,6.9,MEDIUM,AV:L/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,3.4,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-04-03 10:00:00.000,2024-08-06 14:41:47.110,mozilla,Privilege Escalation
+CVE-2013-0796,,2.88%,~ 86 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-04-03 10:00:00.000,2024-08-06 14:41:47.129,mozilla,
+CVE-2013-0795,264,2.01%,~ 83 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-04-03 10:00:00.000,2024-08-06 14:41:47.132,mozilla,Privilege Escalation
+CVE-2013-0794,,0.62%,~ 70 %,5.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:N,,,,,,,,,8.6,4.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-04-03 10:00:00.000,2024-08-06 14:41:47.296,mozilla,
+CVE-2013-0793,79,1.50%,~ 81 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-04-03 10:00:00.000,2024-08-06 14:41:47.294,mozilla,Cross Site Scripting
+CVE-2013-0792,200,0.94%,~ 76 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-04-03 10:00:00.000,2024-08-06 14:41:47.271,mozilla,Memory Corruption
+CVE-2013-0791,119,1.02%,~ 77 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:N/A:P,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-04-03 10:00:00.000,2024-08-06 14:41:47.091,mozilla,Memory Corruption
+CVE-2013-0790,,5.02%,~ 90 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-04-03 10:00:00.000,2024-08-06 14:41:47.319,mozilla,Memory Corruption
+CVE-2013-0789,,1.88%,~ 83 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-04-03 10:00:00.000,2024-08-06 14:41:47.128,mozilla,Memory Corruption
+CVE-2013-0788,,1.88%,~ 83 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-04-03 10:00:00.000,2024-08-06 14:41:47.068,mozilla,Memory Corruption
+CVE-2013-0787,399,5.37%,~ 90 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-03-11 10:00:00.000,2024-08-06 14:41:47.266,mozilla,Use After Free
+CVE-2013-0784,,0.90%,~ 75 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-02-19 23:00:00.000,2024-08-06 14:41:47.132,mozilla,Memory Corruption
+CVE-2013-0783,,1.21%,~ 79 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-02-19 23:00:00.000,2024-08-06 14:41:47.149,mozilla,Memory Corruption
+CVE-2013-0782,787,2.89%,~ 86 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-02-19 23:00:00.000,2024-08-06 14:41:47.105,mozilla,Use After Free
+CVE-2013-0781,416,1.56%,~ 81 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-02-19 23:00:00.000,2024-08-06 14:41:47.120,mozilla,Use After Free
+CVE-2013-0780,416,2.15%,~ 84 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-02-19 23:00:00.000,2024-08-06 14:41:47.259,mozilla,Use After Free
+CVE-2013-0779,125,1.40%,~ 80 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-02-19 23:00:00.000,2024-08-06 14:41:47.097,mozilla,Use After Free
+CVE-2013-0778,125,1.56%,~ 81 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-02-19 23:00:00.000,2024-08-06 14:41:47.076,mozilla,Use After Free
+CVE-2013-0777,416,1.40%,~ 80 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-02-19 23:00:00.000,2024-08-06 14:41:47.070,mozilla,Use After Free
+CVE-2013-0776,295,0.65%,~ 71 %,4.0,MEDIUM,AV:N/AC:H/Au:N/C:P/I:P/A:N,,,,,,,,,4.9,4.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-02-19 23:00:00.000,2024-08-06 14:41:47.175,mozilla,Spoofing
+CVE-2013-0775,416,0.91%,~ 76 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-02-19 23:00:00.000,2024-08-06 14:41:47.024,mozilla,Use After Free
+CVE-2013-0774,,0.55%,~ 68 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-02-19 23:00:00.000,2024-08-06 14:41:47.126,mozilla,
+CVE-2013-0773,,1.52%,~ 81 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-02-19 23:00:00.000,2024-08-06 14:41:47.210,mozilla,
+CVE-2013-0772,119,1.29%,~ 79 %,5.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:P,,,,,,,,,8.6,4.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-02-19 23:00:00.000,2024-08-06 14:41:47.379,mozilla,Out-of-Bounds
+CVE-2013-0771,787,3.15%,~ 87 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.077,mozilla,Use After Free
+CVE-2013-0770,,0.94%,~ 76 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.150,mozilla,Memory Corruption
+CVE-2013-0769,,1.15%,~ 78 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.194,mozilla,Memory Corruption
+CVE-2013-0768,787,4.81%,~ 89 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.138,mozilla,Buffer Overflow
+CVE-2013-0767,125,1.91%,~ 83 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.139,mozilla,Use After Free
+CVE-2013-0766,416,2.85%,~ 86 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.143,mozilla,Use After Free
+CVE-2013-0765,,0.78%,~ 73 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-02-19 23:00:00.000,2024-08-06 14:41:47.068,mozilla,
+CVE-2013-0764,326,1.50%,~ 81 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.059,mozilla,
+CVE-2013-0763,416,1.11%,~ 78 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.301,mozilla,Use After Free
+CVE-2013-0762,416,2.67%,~ 86 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.115,mozilla,Use After Free
+CVE-2013-0761,416,1.71%,~ 82 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.070,mozilla,Use After Free
+CVE-2013-0760,120,3.15%,~ 87 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.092,mozilla,Use After Free
+CVE-2013-0759,287,1.37%,~ 80 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:P/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.076,mozilla,Spoofing
+CVE-2013-0758,94,87.37%,~ 99 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.082,mozilla,Privilege Escalation
+CVE-2013-0757,20,74.57%,~ 99 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.102,mozilla,
+CVE-2013-0756,416,1.38%,~ 80 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.356,mozilla,Use After Free
+CVE-2013-0755,416,2.67%,~ 86 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.135,mozilla,Use After Free
+CVE-2013-0754,416,2.83%,~ 86 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.269,mozilla,Use After Free
+CVE-2013-0753,416,88.06%,~ 99 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.369,mozilla,Use After Free
+CVE-2013-0752,119,2.83%,~ 86 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:41:47.128,mozilla,Memory Corruption
+CVE-2013-0751,264,0.52%,~ 66 %,5.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:N,,,,,,,,,8.6,4.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:33:05.666,mozilla,Cross Site Scripting
+CVE-2013-0750,190,3.81%,~ 88 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:33:05.865,mozilla,Memory Corruption
+CVE-2013-0749,,1.22%,~ 79 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:33:05.812,mozilla,Memory Corruption
+CVE-2013-0748,200,0.32%,~ 55 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:33:05.621,mozilla,
+CVE-2013-0747,20,2.30%,~ 84 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:33:05.822,mozilla,
+CVE-2013-0746,,2.63%,~ 85 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:33:05.798,mozilla,
+CVE-2013-0745,94,3.15%,~ 87 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:33:05.506,mozilla,
+CVE-2013-0744,416,13.45%,~ 94 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2013-01-13 20:00:00.000,2024-08-06 14:33:05.571,mozilla,Use After Free
+CVE-2012-5843,,1.53%,~ 81 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 21:21:28.467,mitre,Memory Corruption
+CVE-2012-5842,,1.10%,~ 78 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 21:21:26.952,mitre,Memory Corruption
+CVE-2012-5841,79,0.91%,~ 76 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 21:21:26.931,mitre,Cross Site Scripting
+CVE-2012-5840,416,2.34%,~ 85 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 21:21:26.951,mitre,Use After Free
+CVE-2012-5839,787,2.83%,~ 86 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 21:21:28.308,mitre,Use After Free
+CVE-2012-5838,119,1.02%,~ 77 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 21:21:26.688,mitre,Memory Corruption
+CVE-2012-5836,94,1.38%,~ 80 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 21:21:26.688,mitre,
+CVE-2012-5835,190,0.89%,~ 75 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 21:21:28.009,mitre,Memory Corruption
+CVE-2012-5833,119,1.43%,~ 80 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 21:21:27.120,mitre,Memory Corruption
+CVE-2012-5830,416,0.86%,~ 75 %,8.8,HIGH,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Network,Low,None,Required,Unchanged,High,High,High,2.8,5.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 21:21:26.942,mitre,Memory Corruption
+CVE-2012-5829,787,4.57%,~ 89 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 21:21:27.115,mitre,Use After Free
+CVE-2012-4930,310,0.24%,~ 46 %,2.6,LOW,AV:N/AC:H/Au:N/C:P/I:N/A:N,,,,,,,,,4.9,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-09-15 18:00:00.000,2024-08-06 20:50:18.230,mitre,Information Disclosure
+CVE-2012-4218,416,1.53%,~ 81 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 20:28:07.621,mitre,Use After Free
+CVE-2012-4217,416,2.14%,~ 84 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 20:28:07.588,mitre,Use After Free
+CVE-2012-4216,416,4.11%,~ 88 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 20:28:07.584,mitre,Use After Free
+CVE-2012-4215,416,2.34%,~ 85 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 20:28:07.597,mitre,Use After Free
+CVE-2012-4214,416,2.34%,~ 85 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 20:28:07.639,mitre,Use After Free
+CVE-2012-4213,416,2.14%,~ 84 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 20:28:07.583,mitre,Use After Free
+CVE-2012-4212,416,1.53%,~ 81 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 20:28:07.596,mitre,Use After Free
+CVE-2012-4209,79,2.07%,~ 84 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 20:28:07.601,mitre,Cross Site Scripting
+CVE-2012-4208,200,0.58%,~ 68 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 20:28:07.605,mitre,
+CVE-2012-4207,79,1.28%,~ 79 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 20:28:07.618,mitre,Cross Site Scripting
+CVE-2012-4205,352,0.80%,~ 74 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 20:28:07.580,mitre,
+CVE-2012-4204,119,2.25%,~ 84 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 20:28:07.581,mitre,Memory Corruption
+CVE-2012-4202,787,2.64%,~ 85 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 20:28:07.553,mitre,Buffer Overflow
+CVE-2012-4201,79,1.96%,~ 83 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-11-21 11:00:00.000,2024-08-06 20:28:07.572,mitre,Cross Site Scripting
+CVE-2012-4196,74,0.96%,~ 76 %,6.4,MEDIUM,AV:N/AC:L/Au:N/C:P/I:P/A:N,,,,,,,,,10.0,4.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-29 18:00:00.000,2024-08-06 20:28:07.586,mitre,
+CVE-2012-4195,79,0.96%,~ 76 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-29 18:00:00.000,2024-08-06 20:28:07.605,mitre,
+CVE-2012-4194,79,1.36%,~ 80 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-29 18:00:00.000,2024-08-06 20:28:07.620,mitre,
+CVE-2012-4193,346,1.41%,~ 80 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-12 10:00:00.000,2024-08-06 20:28:07.579,mitre,
+CVE-2012-4192,264,0.87%,~ 75 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-12 10:00:00.000,2024-08-06 20:28:07.548,mitre,
+CVE-2012-4191,787,1.68%,~ 82 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-12 10:00:00.000,2024-08-06 20:28:07.521,mitre,Memory Corruption
+CVE-2012-4190,119,8.53%,~ 92 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-12 10:00:00.000,2024-08-06 20:28:07.633,mitre,Memory Corruption
+CVE-2012-4188,119,55.61%,~ 98 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:28:07.581,mitre,Memory Corruption
+CVE-2012-4187,119,24.84%,~ 96 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:28:07.557,mitre,Memory Corruption
+CVE-2012-4186,119,55.61%,~ 98 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:28:07.558,mitre,Memory Corruption
+CVE-2012-4185,119,5.22%,~ 90 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:28:07.584,mitre,Memory Corruption
+CVE-2012-4184,79,1.10%,~ 78 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:28:07.586,mitre,
+CVE-2012-4183,416,2.72%,~ 86 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:28:07.544,mitre,Use After Free
+CVE-2012-4182,416,4.75%,~ 89 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:28:07.550,mitre,Use After Free
+CVE-2012-4181,416,3.50%,~ 87 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:28:07.581,mitre,Use After Free
+CVE-2012-4180,119,9.49%,~ 93 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:28:07.550,mitre,Use After Free
+CVE-2012-4179,416,6.07%,~ 91 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:28:07.529,mitre,Use After Free
+CVE-2012-3995,125,2.02%,~ 83 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:21:04.039,mitre,Use After Free
+CVE-2012-3994,79,0.93%,~ 76 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:21:04.251,mitre,Cross Site Scripting
+CVE-2012-3993,269,80.84%,~ 99 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:21:04.342,mitre,
+CVE-2012-3992,79,1.14%,~ 78 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:21:04.216,mitre,Spoofing
+CVE-2012-3991,264,1.42%,~ 80 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:21:04.358,mitre,
+CVE-2012-3990,416,6.07%,~ 91 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:21:04.208,mitre,Use After Free
+CVE-2012-3989,119,0.85%,~ 75 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:21:04.109,mitre,
+CVE-2012-3988,416,3.99%,~ 88 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:21:04.248,mitre,Use After Free
+CVE-2012-3986,20,0.84%,~ 74 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:21:04.183,mitre,
+CVE-2012-3985,79,0.92%,~ 76 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:21:04.211,mitre,Cross Site Scripting
+CVE-2012-3984,,1.95%,~ 83 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:21:04.074,mitre,Spoofing
+CVE-2012-3983,119,0.77%,~ 73 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:21:04.076,mitre,Memory Corruption
+CVE-2012-3982,,1.27%,~ 79 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-10-10 17:00:00.000,2024-08-06 20:21:04.246,mitre,Memory Corruption
+CVE-2012-3978,264,1.29%,~ 79 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.063,mitre,
+CVE-2012-3976,200,0.78%,~ 73 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.174,mitre,
+CVE-2012-3975,200,0.92%,~ 76 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.135,mitre,
+CVE-2012-3974,399,0.12%,~ 31 %,6.9,MEDIUM,AV:L/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,3.4,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.121,mitre,
+CVE-2012-3972,200,4.55%,~ 89 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.217,mitre,Out-of-Bounds
+CVE-2012-3971,119,3.14%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.068,mitre,Memory Corruption
+CVE-2012-3970,399,2.74%,~ 86 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.253,mitre,Use After Free
+CVE-2012-3969,189,5.07%,~ 90 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.257,mitre,Use After Free
+CVE-2012-3968,416,1.85%,~ 83 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.272,mitre,Memory Corruption
+CVE-2012-3967,787,0.59%,~ 69 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.119,mitre,Memory Corruption
+CVE-2012-3966,119,3.66%,~ 88 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.215,mitre,Memory Corruption
+CVE-2012-3964,399,2.13%,~ 84 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.323,mitre,Use After Free
+CVE-2012-3963,416,2.31%,~ 85 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.061,mitre,Use After Free
+CVE-2012-3962,,4.22%,~ 89 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.157,mitre,Use After Free
+CVE-2012-3961,416,2.09%,~ 84 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.212,mitre,Use After Free
+CVE-2012-3960,416,2.31%,~ 85 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.035,mitre,Use After Free
+CVE-2012-3959,416,3.93%,~ 88 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.157,mitre,Use After Free
+CVE-2012-3958,399,2.13%,~ 84 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.452,mitre,Use After Free
+CVE-2012-3957,787,2.96%,~ 86 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.192,mitre,Use After Free
+CVE-2012-3956,416,2.31%,~ 85 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 20:21:04.051,mitre,Use After Free
+CVE-2012-3105,119,3.22%,~ 87 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-06-05 23:00:00.000,2024-08-06 19:50:05.516,mitre,Memory Corruption
+CVE-2012-1976,416,3.17%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 19:17:27.410,mitre,Use After Free
+CVE-2012-1975,416,3.31%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 19:17:27.624,mitre,Use After Free
+CVE-2012-1974,416,3.31%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 19:17:27.098,mitre,Use After Free
+CVE-2012-1973,416,4.25%,~ 89 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 19:17:27.077,mitre,Use After Free
+CVE-2012-1972,416,3.31%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 19:17:27.296,mitre,Use After Free
+CVE-2012-1971,,2.15%,~ 84 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 19:17:27.272,mitre,Memory Corruption
+CVE-2012-1970,119,0.87%,~ 75 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 19:17:27.261,mitre,Memory Corruption
+CVE-2012-1967,,3.40%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-07-18 10:00:00.000,2024-08-06 19:17:27.258,mitre,
+CVE-2012-1964,,0.90%,~ 75 %,4.0,MEDIUM,AV:N/AC:H/Au:N/C:P/I:P/A:N,,,,,,,,,4.9,4.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-07-18 10:00:00.000,2024-08-06 19:17:27.146,mitre,
+CVE-2012-1963,264,1.49%,~ 81 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-07-18 10:00:00.000,2024-08-06 19:17:27.277,mitre,
+CVE-2012-1962,399,3.40%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-07-18 10:00:00.000,2024-08-06 19:17:27.057,mitre,Memory Corruption
+CVE-2012-1961,20,1.17%,~ 78 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-07-18 10:00:00.000,2024-08-06 19:17:27.266,mitre,
+CVE-2012-1960,200,0.54%,~ 67 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-07-18 10:00:00.000,2024-08-06 19:17:27.254,mitre,Out-of-Bounds
+CVE-2012-1959,264,0.93%,~ 76 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:P/A:N,,,,,,,,,10.0,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-07-18 10:00:00.000,2024-08-06 19:17:27.307,mitre,
+CVE-2012-1958,399,3.87%,~ 88 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-07-18 10:00:00.000,2024-08-06 19:17:27.375,mitre,Use After Free
+CVE-2012-1957,79,1.00%,~ 77 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-07-18 10:00:00.000,2024-08-06 19:17:27.171,mitre,Cross Site Scripting
+CVE-2012-1956,79,0.74%,~ 73 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-08-29 10:00:00.000,2024-08-06 19:17:27.097,mitre,Cross Site Scripting
+CVE-2012-1955,,2.58%,~ 85 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-07-18 10:00:00.000,2024-08-06 19:17:27.221,mitre,Spoofing
+CVE-2012-1954,399,5.00%,~ 90 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-07-18 10:00:00.000,2024-08-06 19:17:27.129,mitre,Memory Corruption
+CVE-2012-1953,119,1.42%,~ 80 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-07-18 10:00:00.000,2024-08-06 19:17:27.137,mitre,Memory Corruption
+CVE-2012-1952,399,1.28%,~ 79 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-07-18 10:00:00.000,2024-08-06 19:17:27.237,mitre,Memory Corruption
+CVE-2012-1951,399,3.40%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-07-18 10:00:00.000,2024-08-06 19:17:27.088,mitre,Memory Corruption
+CVE-2012-1949,,3.75%,~ 88 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-07-18 10:00:00.000,2024-08-06 19:17:27.063,mitre,Memory Corruption
+CVE-2012-1948,,3.10%,~ 87 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-07-18 10:00:00.000,2024-08-06 19:17:27.251,mitre,Memory Corruption
+CVE-2012-1947,119,6.78%,~ 91 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-06-05 23:00:00.000,2024-08-06 19:17:27.208,mitre,Use After Free
+CVE-2012-1946,399,1.45%,~ 81 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-06-05 23:00:00.000,2024-08-06 19:17:27.092,mitre,Use After Free
+CVE-2012-1945,200,0.19%,~ 41 %,2.9,LOW,AV:A/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,5.5,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-06-05 23:00:00.000,2024-08-06 19:17:27.106,mitre,Information Disclosure
+CVE-2012-1944,79,0.70%,~ 72 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-06-05 23:00:00.000,2024-08-06 19:17:27.112,mitre,Cross Site Scripting
+CVE-2012-1943,,0.05%,~ 16 %,6.9,MEDIUM,AV:L/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,3.4,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-06-05 23:00:00.000,2024-08-06 19:17:27.163,mitre,Privilege Escalation
+CVE-2012-1942,264,0.04%,~ 14 %,7.2,HIGH,AV:L/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,3.9,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-06-05 23:00:00.000,2024-08-06 19:17:27.014,mitre,Privilege Escalation
+CVE-2012-1941,119,6.29%,~ 91 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-06-05 23:00:00.000,2024-08-06 19:17:27.045,mitre,Use After Free
+CVE-2012-1940,399,3.03%,~ 86 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-06-05 23:00:00.000,2024-08-06 19:17:27.221,mitre,Use After Free
+CVE-2012-1939,119,3.61%,~ 88 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-06-05 23:00:00.000,2024-08-06 19:17:27.066,mitre,Memory Corruption
+CVE-2012-1938,,1.25%,~ 79 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-06-05 23:00:00.000,2024-08-06 19:17:27.043,mitre,Memory Corruption
+CVE-2012-1937,,1.72%,~ 82 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-06-05 23:00:00.000,2024-08-06 19:17:27.049,mitre,Memory Corruption
+CVE-2012-0479,,0.78%,~ 73 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-04-25 10:00:00.000,2024-08-06 18:23:31.213,mitre,Spoofing
+CVE-2012-0478,264,0.75%,~ 73 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-04-25 10:00:00.000,2024-08-06 18:23:31.189,mitre,
+CVE-2012-0477,79,0.72%,~ 72 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-04-25 10:00:00.000,2024-08-06 18:23:31.102,mitre,Cross Site Scripting
+CVE-2012-0475,264,0.29%,~ 52 %,2.6,LOW,AV:N/AC:H/Au:N/C:N/I:P/A:N,,,,,,,,,4.9,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-04-25 10:00:00.000,2024-08-06 18:23:31.021,mitre,
+CVE-2012-0474,79,0.69%,~ 71 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-04-25 10:00:00.000,2024-08-06 18:23:31.066,mitre,Cross Site Scripting
+CVE-2012-0473,189,0.71%,~ 72 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-04-25 10:00:00.000,2024-08-06 18:23:30.999,mitre,
+CVE-2012-0472,119,1.52%,~ 81 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-04-25 10:00:00.000,2024-08-06 18:23:31.010,mitre,Memory Corruption
+CVE-2012-0471,79,0.72%,~ 72 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-04-25 10:00:00.000,2024-08-06 18:23:31.025,mitre,Cross Site Scripting
+CVE-2012-0470,119,5.85%,~ 90 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-04-25 10:00:00.000,2024-08-06 18:23:31.022,mitre,
+CVE-2012-0469,399,11.65%,~ 94 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-04-25 10:00:00.000,2024-08-06 18:23:31.062,mitre,Use After Free
+CVE-2012-0468,119,2.46%,~ 85 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-04-25 10:00:00.000,2024-08-06 18:23:31.047,mitre,Memory Corruption
+CVE-2012-0467,,2.40%,~ 85 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-04-25 10:00:00.000,2024-08-06 18:23:31.021,mitre,Memory Corruption
+CVE-2012-0464,399,2.12%,~ 84 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-03-14 19:00:00.000,2024-08-06 18:23:30.994,mitre,Memory Corruption
+CVE-2012-0463,20,4.35%,~ 89 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-03-14 19:00:00.000,2024-08-06 18:23:31.019,mitre,Memory Corruption
+CVE-2012-0462,,1.98%,~ 83 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-03-14 19:00:00.000,2024-08-06 18:23:31.041,mitre,Memory Corruption
+CVE-2012-0461,,1.57%,~ 81 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-03-14 19:00:00.000,2024-08-06 18:23:31.034,mitre,Memory Corruption
+CVE-2012-0460,264,1.80%,~ 83 %,6.4,MEDIUM,AV:N/AC:L/Au:N/C:N/I:P/A:P,,,,,,,,,10.0,4.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-03-14 19:00:00.000,2024-08-06 18:23:31.056,mitre,Spoofing
+CVE-2012-0459,264,3.44%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-03-14 19:00:00.000,2024-08-06 18:23:31.010,mitre,
+CVE-2012-0458,264,2.78%,~ 86 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-03-14 19:00:00.000,2024-08-06 18:23:31.026,mitre,
+CVE-2012-0457,399,9.64%,~ 93 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-03-14 19:00:00.000,2024-08-06 18:23:31.006,mitre,Use After Free
+CVE-2012-0456,200,1.08%,~ 77 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-03-14 19:00:00.000,2024-08-06 18:23:31.011,mitre,Use After Free
+CVE-2012-0455,79,1.55%,~ 81 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-03-14 19:00:00.000,2024-08-06 18:23:30.984,mitre,Cross Site Scripting
+CVE-2012-0454,399,2.50%,~ 85 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-03-14 19:00:00.000,2024-08-06 18:23:31.073,mitre,Use After Free
+CVE-2012-0452,399,1.80%,~ 83 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-02-11 02:00:00.000,2024-08-06 18:23:31.063,mitre,
+CVE-2012-0451,94,0.21%,~ 43 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-03-14 19:00:00.000,2024-08-06 18:23:30.980,mitre,Cross Site Scripting
+CVE-2012-0450,264,0.07%,~ 22 %,2.1,LOW,AV:L/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,3.9,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-02-01 16:00:00.000,2024-08-06 18:23:31.099,mitre,
+CVE-2012-0449,119,10.94%,~ 93 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-02-01 16:00:00.000,2024-08-06 18:23:31.035,mitre,Memory Corruption
+CVE-2012-0447,200,0.60%,~ 69 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-02-01 16:00:00.000,2024-08-06 18:23:31.002,mitre,Information Disclosure
+CVE-2012-0446,79,0.43%,~ 62 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-02-01 16:00:00.000,2024-08-06 18:23:31.012,mitre,Cross Site Scripting
+CVE-2012-0445,264,0.54%,~ 67 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:P/A:N,,,,,,,,,10.0,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-02-01 16:00:00.000,2024-08-06 18:23:31.045,mitre,
+CVE-2012-0444,119,8.57%,~ 92 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-02-01 16:00:00.000,2024-08-06 18:23:31.006,mitre,Memory Corruption
+CVE-2012-0443,,2.62%,~ 85 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-02-01 16:00:00.000,2024-08-06 18:23:31.018,mitre,Memory Corruption
+CVE-2012-0442,,1.44%,~ 80 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-02-01 16:00:00.000,2024-08-06 18:23:31.011,mitre,Memory Corruption
+CVE-2012-0441,119,3.58%,~ 88 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:N/A:P,,,,,,,,,10.0,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-06-05 23:00:00.000,2024-08-06 18:23:31.031,mitre,
+CVE-2011-3671,399,1.75%,~ 82 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-06-18 19:00:00.000,2024-09-16 20:12:45.339,mitre,Use After Free
+CVE-2011-3670,200,0.73%,~ 72 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-02-01 16:00:00.000,2024-08-06 23:46:02.636,mitre,
+CVE-2011-3665,399,3.71%,~ 88 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-12-21 02:00:00.000,2024-08-06 23:46:03.039,mitre,
+CVE-2011-3664,,1.15%,~ 78 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-12-21 02:00:00.000,2024-08-06 23:46:01.356,mitre,
+CVE-2011-3663,200,0.96%,~ 76 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-12-21 02:00:00.000,2024-08-06 23:46:02.953,mitre,
+CVE-2011-3661,399,4.53%,~ 89 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-12-21 02:00:00.000,2024-08-06 23:46:02.571,mitre,
+CVE-2011-3660,,3.75%,~ 88 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-12-21 02:00:00.000,2024-08-06 23:46:01.330,mitre,Memory Corruption
+CVE-2011-3659,416,76.08%,~ 99 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-02-01 16:00:00.000,2024-08-06 23:46:01.402,mitre,Use After Free
+CVE-2011-3658,399,75.88%,~ 99 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-12-21 02:00:00.000,2024-08-06 23:46:01.401,mitre,Out-of-Bounds
+CVE-2011-3655,94,0.94%,~ 76 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-11-09 11:00:00.000,2024-08-06 23:46:01.385,mitre,
+CVE-2011-3654,119,19.73%,~ 95 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-11-09 11:00:00.000,2024-08-06 23:46:01.379,mitre,Memory Corruption
+CVE-2011-3653,200,0.23%,~ 46 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-11-09 11:00:00.000,2024-08-06 23:46:01.990,mitre,
+CVE-2011-3652,119,3.93%,~ 88 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-11-09 11:00:00.000,2024-08-06 23:46:01.356,mitre,Memory Corruption
+CVE-2011-3651,,3.31%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-11-09 11:00:00.000,2024-08-06 23:46:01.382,mitre,Memory Corruption
+CVE-2011-3650,119,1.27%,~ 79 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-11-09 11:00:00.000,2024-08-06 23:46:01.358,mitre,Memory Corruption
+CVE-2011-3649,200,0.26%,~ 49 %,2.6,LOW,AV:N/AC:H/Au:N/C:P/I:N/A:N,,,,,,,,,4.9,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-11-09 11:00:00.000,2024-08-06 23:37:48.581,mitre,
+CVE-2011-3648,79,0.34%,~ 56 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-11-09 11:00:00.000,2024-08-06 23:37:48.541,mitre,Cross Site Scripting
+CVE-2011-3232,94,4.66%,~ 89 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,286789f9-fbc2-4510-9f9a-43facdede74c,,2011-09-29 00:00:00.000,2024-08-06 23:29:56.165,apple,
+CVE-2011-3079,399,0.80%,~ 74 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-05-01 10:00:00.000,2024-08-06 23:22:27.368,mitre,Privilege Escalation
+CVE-2011-3062,682,2.39%,~ 85 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-03-30 22:00:00.000,2024-08-06 23:22:27.308,mitre,Out-of-Bounds
+CVE-2011-3026,190,43.17%,~ 97 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2012-02-16 20:00:00.000,2024-08-06 23:22:26.978,mitre,Buffer Overflow
+CVE-2011-3005,119,3.36%,~ 87 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-09-29 00:00:00.000,2024-08-06 23:22:27.157,mitre,Use After Free
+CVE-2011-3004,20,0.31%,~ 54 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-09-29 00:00:00.000,2024-08-06 23:22:26.653,mitre,Privilege Escalation
+CVE-2011-3003,119,1.51%,~ 81 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-09-29 00:00:00.000,2024-08-06 23:22:26.649,mitre,
+CVE-2011-3002,119,1.59%,~ 81 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-09-29 00:00:00.000,2024-08-06 23:22:26.642,mitre,
+CVE-2011-3001,264,0.20%,~ 42 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-09-29 00:00:00.000,2024-08-06 23:22:27.276,mitre,
+CVE-2011-3000,94,1.30%,~ 79 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-09-29 00:00:00.000,2024-08-06 23:22:26.691,mitre,
+CVE-2011-2999,264,0.72%,~ 72 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-09-29 00:00:00.000,2024-08-06 23:22:26.687,mitre,Cross Site Scripting
+CVE-2011-2997,,3.14%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-09-29 00:00:00.000,2024-08-06 23:22:26.134,mitre,Memory Corruption
+CVE-2011-2996,,6.87%,~ 91 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-09-29 00:00:00.000,2024-08-06 23:22:26.106,mitre,Memory Corruption
+CVE-2011-2995,,1.98%,~ 83 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-09-29 00:00:00.000,2024-08-06 23:22:26.678,mitre,Memory Corruption
+CVE-2011-2989,119,6.83%,~ 91 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-08-18 18:00:00.000,2024-08-06 23:22:26.108,mitre,Memory Corruption
+CVE-2011-2372,264,0.43%,~ 62 %,3.5,LOW,AV:N/AC:M/Au:S/C:N/I:P/A:N,,,,,,,,,6.8,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-09-29 00:00:00.000,2024-08-06 23:00:33.547,mitre,
+CVE-2011-1187,200,0.89%,~ 75 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2011-03-11 01:00:00.000,2024-08-06 22:21:33.496,mitre,Information Disclosure

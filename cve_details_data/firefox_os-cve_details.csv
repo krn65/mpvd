@@ -1,15 +1,108 @@
-cve_id,cwe_id,number_exploits,vulnerability_types,publish_date,update_date,score,gained_access_level,access,complexity,authentication,confidentiality,integrity,availability
-CVE-2015-8512,284,,,2016-01-09,2016-01-14,2.1,None,Local,Low,Not required,Partial,None,None
-CVE-2015-8511,362,,Bypass,2016-01-09,2016-01-14,6.9,None,Local,Medium,Not required,Complete,Complete,Complete
-CVE-2015-8510,79,,XSS,2016-01-09,2016-01-14,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2015-5962,189,,DoS Mem. Corr.,2015-08-08,2015-08-21,5.0,None,Remote,Low,Not required,None,None,Partial
-CVE-2015-5961,264,,Bypass,2015-08-08,2015-08-21,3.3,None,Local Network,Low,Not required,None,Partial,None
-CVE-2015-5960,284,,Bypass,2015-08-08,2015-08-21,1.9,None,Local,Medium,Not required,Partial,None,None
-CVE-2015-4495,200,,+Priv Bypass +Info,2015-08-08,2018-10-30,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2015-4494,200,,+Info,2015-08-08,2015-08-10,4.3,None,Remote,Medium,Not required,Partial,None,None
-CVE-2015-4489,119,,DoS Overflow Mem. Corr.,2015-08-16,2018-10-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2015-4488,,,,2015-08-16,2018-10-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2015-4487,119,,DoS Overflow Mem. Corr.,2015-08-16,2018-10-30,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
-CVE-2015-4000,310,,,2015-05-21,2023-02-09,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2015-2745,79,,XSS,2015-08-08,2015-08-10,4.3,None,Remote,Medium,Not required,None,Partial,None
-CVE-2015-2744,79,,XSS,2015-08-08,2015-08-10,4.3,None,Remote,Medium,Not required,None,Partial,None
+cve_id,cwe_id,epss_score,epss_percentile,cvss_base_score,cvss_base_severity,cvss_vector,attack_vector,attack_complexity,privileges_required,user_interaction,scope,confidentiality,integrity,availability,cvss_exploitability_score,cvss_impact_score,cvss_score_source,cvss_first_seen,publish_date,update_date,source,vuln_category
+CVE-2015-8512,284,0.07%,~ 22 %,4.6,MEDIUM,CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,Physical,Low,None,None,Unchanged,High,None,None,0.9,3.6,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2016-01-09 02:00:00.000,2024-08-06 08:20:42.483,mozilla,
+CVE-2015-8511,362,0.04%,~ 11 %,6.4,MEDIUM,CVSS:3.0/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,Physical,High,None,None,Unchanged,High,High,High,0.5,5.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2016-01-09 02:00:00.000,2024-08-06 08:20:42.411,mozilla,
+CVE-2015-8510,79,0.30%,~ 53 %,6.1,MEDIUM,CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N,Network,Low,None,Required,Changed,Low,Low,None,2.8,2.7,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2016-01-09 02:00:00.000,2024-08-06 08:20:42.430,mozilla,
+CVE-2015-7219,189,1.26%,~ 79 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:N/A:P,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-12-16 11:00:00.000,2024-08-06 07:43:45.770,mozilla,
+CVE-2015-7218,189,1.26%,~ 79 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:N/A:P,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-12-16 11:00:00.000,2024-08-06 07:43:45.344,mozilla,
+CVE-2015-7214,200,15.48%,~ 95 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-12-16 11:00:00.000,2024-08-06 07:43:46.148,mozilla,
+CVE-2015-7210,,1.77%,~ 82 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-12-16 11:00:00.000,2024-08-06 07:43:45.692,mozilla,Use After Free
+CVE-2015-7205,189,0.86%,~ 75 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-12-16 11:00:00.000,2024-08-06 07:43:45.696,mozilla,
+CVE-2015-7202,119,1.91%,~ 83 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-12-16 11:00:00.000,2024-08-06 07:43:46.110,mozilla,Memory Corruption
+CVE-2015-7201,119,1.57%,~ 81 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-12-16 11:00:00.000,2024-08-06 07:43:44.975,mozilla,Memory Corruption
+CVE-2015-7193,254,0.51%,~ 66 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-11-05 02:00:00.000,2024-08-06 07:43:45.004,mozilla,
+CVE-2015-7180,119,3.21%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 07:43:44.879,mozilla,Buffer Overflow
+CVE-2015-7177,119,3.21%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 07:43:44.826,mozilla,Buffer Overflow
+CVE-2015-7176,119,5.71%,~ 90 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 07:43:44.881,mozilla,Buffer Overflow
+CVE-2015-7175,119,3.21%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 07:43:44.923,mozilla,Buffer Overflow
+CVE-2015-7174,119,3.21%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 07:43:44.855,mozilla,Buffer Overflow
+CVE-2015-4522,119,3.21%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.617,mozilla,Buffer Overflow
+CVE-2015-4521,119,3.21%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.773,mozilla,Buffer Overflow
+CVE-2015-4520,254,0.59%,~ 69 %,6.4,MEDIUM,AV:N/AC:L/Au:N/C:P/I:P/A:N,,,,,,,,,10.0,4.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.566,mozilla,
+CVE-2015-4519,200,0.44%,~ 63 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.507,mozilla,
+CVE-2015-4517,119,3.21%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.458,mozilla,Buffer Overflow
+CVE-2015-4514,119,3.91%,~ 88 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-11-05 02:00:00.000,2024-08-06 06:18:11.584,mozilla,Memory Corruption
+CVE-2015-4513,119,4.25%,~ 89 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-11-05 02:00:00.000,2024-08-06 06:18:11.486,mozilla,Memory Corruption
+CVE-2015-4509,,4.94%,~ 89 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.404,mozilla,Use After Free
+CVE-2015-4507,,1.20%,~ 79 %,5.1,MEDIUM,AV:N/AC:H/Au:N/C:P/I:P/A:P,,,,,,,,,4.9,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.191,mozilla,
+CVE-2015-4502,254,0.78%,~ 73 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.484,mozilla,
+CVE-2015-4501,119,2.92%,~ 86 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.456,mozilla,Memory Corruption
+CVE-2015-4500,119,3.17%,~ 87 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-09-24 01:00:00.000,2024-08-06 06:18:11.387,mozilla,Memory Corruption
+CVE-2015-4495,346,71.57%,~ 99 %,8.8,HIGH,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Network,Low,None,Required,Unchanged,High,High,High,,,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-08 00:00:00.000,2025-10-21 23:55:58.479,mozilla,
+CVE-2015-4494,200,0.26%,~ 49 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-08 00:00:00.000,2024-08-06 06:18:11.947,mozilla,
+CVE-2015-4492,,2.31%,~ 84 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.542,mozilla,Use After Free
+CVE-2015-4489,119,2.20%,~ 84 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.587,mozilla,
+CVE-2015-4488,,1.90%,~ 83 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.116,mozilla,
+CVE-2015-4487,119,2.68%,~ 86 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.063,mozilla,
+CVE-2015-4486,119,1.67%,~ 82 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.178,mozilla,Buffer Overflow
+CVE-2015-4485,119,7.60%,~ 92 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.557,mozilla,Buffer Overflow
+CVE-2015-4482,119,0.09%,~ 26 %,4.6,MEDIUM,AV:L/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,3.9,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.042,mozilla,Out-of-Bounds
+CVE-2015-4477,,2.91%,~ 86 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.162,mozilla,Use After Free
+CVE-2015-4475,119,1.25%,~ 79 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.081,mozilla,Out-of-Bounds
+CVE-2015-4474,,2.21%,~ 84 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.147,mozilla,Memory Corruption
+CVE-2015-4473,119,3.65%,~ 88 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-16 01:00:00.000,2024-08-06 06:18:11.058,mozilla,Memory Corruption
+CVE-2015-4000,310,93.90%,~ 100 %,3.7,LOW,CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N,Network,High,None,None,Unchanged,None,Low,None,2.2,1.4,8254265b-2729-46b6-b9e3-3dfca2d5bfca,,2015-05-21 00:00:00.000,2024-08-06 06:04:02.725,mitre,
+CVE-2015-2745,79,0.32%,~ 55 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-08 00:00:00.000,2024-08-06 05:24:38.562,mozilla,
+CVE-2015-2744,79,0.26%,~ 49 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-08-08 00:00:00.000,2024-08-06 05:24:38.508,mozilla,
+CVE-2015-2743,17,1.07%,~ 77 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.425,mozilla,Privilege Escalation
+CVE-2015-2740,119,3.49%,~ 87 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.471,mozilla,Information Disclosure
+CVE-2015-2739,119,1.05%,~ 77 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.416,mozilla,Information Disclosure
+CVE-2015-2738,17,1.25%,~ 79 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.469,mozilla,Information Disclosure
+CVE-2015-2737,17,1.25%,~ 79 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.482,mozilla,Information Disclosure
+CVE-2015-2736,17,1.19%,~ 79 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.549,mozilla,Information Disclosure
+CVE-2015-2735,17,1.19%,~ 79 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.438,mozilla,Information Disclosure
+CVE-2015-2734,17,1.25%,~ 79 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.466,mozilla,Information Disclosure
+CVE-2015-2733,,2.67%,~ 86 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.697,mozilla,Use After Free
+CVE-2015-2730,310,0.23%,~ 45 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.084,mozilla,
+CVE-2015-2729,119,0.41%,~ 61 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.595,mozilla,
+CVE-2015-2728,,1.07%,~ 77 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.406,mozilla,Memory Corruption
+CVE-2015-2726,119,1.25%,~ 79 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.493,mozilla,Memory Corruption
+CVE-2015-2725,119,1.63%,~ 82 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.187,mozilla,Memory Corruption
+CVE-2015-2724,119,0.91%,~ 76 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.499,mozilla,Memory Corruption
+CVE-2015-2722,,2.31%,~ 85 %,10.0,HIGH,AV:N/AC:L/Au:N/C:C/I:C/A:C,,,,,,,,,10.0,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.437,mozilla,Use After Free
+CVE-2015-2721,310,0.61%,~ 69 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:P/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-07-06 01:00:00.000,2024-08-06 05:24:38.535,mozilla,
+CVE-2015-2718,200,0.12%,~ 31 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.482,mozilla,
+CVE-2015-2717,189,2.42%,~ 85 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.418,mozilla,Out-of-Bounds
+CVE-2015-2716,119,5.61%,~ 90 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:37.933,mozilla,Buffer Overflow
+CVE-2015-2715,362,1.38%,~ 80 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.561,mozilla,Use After Free
+CVE-2015-2713,,1.75%,~ 82 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.447,mozilla,Use After Free
+CVE-2015-2710,119,2.42%,~ 85 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.446,mozilla,Buffer Overflow
+CVE-2015-2709,,1.08%,~ 78 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.425,mozilla,Memory Corruption
+CVE-2015-2708,,1.33%,~ 80 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-05-14 10:00:00.000,2024-08-06 05:24:38.136,mozilla,Memory Corruption
+CVE-2015-0836,,1.49%,~ 81 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:10.603,mozilla,Memory Corruption
+CVE-2015-0835,,1.51%,~ 81 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:11.134,mozilla,Memory Corruption
+CVE-2015-0834,200,0.51%,~ 66 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:11.083,mozilla,
+CVE-2015-0832,254,0.12%,~ 31 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:P/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:11.059,mozilla,
+CVE-2015-0831,,2.02%,~ 83 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:10.736,mozilla,Use After Free
+CVE-2015-0830,399,0.94%,~ 76 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:N/A:P,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:10.190,mozilla,
+CVE-2015-0829,119,2.18%,~ 84 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:11.031,mozilla,Buffer Overflow
+CVE-2015-0827,119,1.00%,~ 77 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:10.843,mozilla,Out-of-Bounds
+CVE-2015-0825,119,0.66%,~ 71 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:10.399,mozilla,
+CVE-2015-0822,200,0.64%,~ 70 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-02-25 11:00:00.000,2024-08-06 04:26:11.050,mozilla,Information Disclosure
+CVE-2015-0816,264,85.37%,~ 99 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:P/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:10.591,mozilla,
+CVE-2015-0815,,1.25%,~ 79 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:11.210,mozilla,Memory Corruption
+CVE-2015-0814,,1.88%,~ 83 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:10.627,mozilla,Memory Corruption
+CVE-2015-0811,119,0.77%,~ 73 %,6.4,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:P,,,,,,,,,10.0,4.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:10.145,mozilla,Out-of-Bounds
+CVE-2015-0807,352,0.14%,~ 34 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:10.737,mozilla,
+CVE-2015-0806,17,1.67%,~ 82 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:11.056,mozilla,Memory Corruption
+CVE-2015-0805,17,1.67%,~ 82 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:11.119,mozilla,Memory Corruption
+CVE-2015-0802,264,80.39%,~ 99 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:P/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:11.024,mozilla,Privilege Escalation
+CVE-2015-0801,264,1.19%,~ 79 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-04-01 10:00:00.000,2024-08-06 04:26:10.191,mozilla,
+CVE-2014-8641,,1.52%,~ 81 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-01-14 11:00:00.000,2024-08-06 13:26:02.418,mozilla,
+CVE-2014-8640,362,1.14%,~ 78 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:N/I:N/A:P,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-01-14 11:00:00.000,2024-08-06 13:26:02.156,mozilla,Information Disclosure
+CVE-2014-8638,352,0.50%,~ 65 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-01-14 11:00:00.000,2024-08-06 13:26:02.578,mozilla,
+CVE-2014-8635,,1.51%,~ 81 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-01-14 11:00:00.000,2024-08-06 13:26:02.528,mozilla,Memory Corruption
+CVE-2014-8634,,1.75%,~ 82 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2015-01-14 11:00:00.000,2024-08-06 13:26:02.335,mozilla,Memory Corruption
+CVE-2014-1594,20,1.69%,~ 82 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 09:50:09.592,mozilla,
+CVE-2014-1593,119,2.11%,~ 84 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 09:42:36.539,mozilla,Buffer Overflow
+CVE-2014-1592,,1.77%,~ 82 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 09:42:36.623,mozilla,Use After Free
+CVE-2014-1591,199,0.27%,~ 50 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:P/I:N/A:N,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 09:42:36.657,mozilla,
+CVE-2014-1590,20,1.00%,~ 77 %,4.3,MEDIUM,AV:N/AC:M/Au:N/C:N/I:N/A:P,,,,,,,,,8.6,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 09:42:36.608,mozilla,Denial of Service
+CVE-2014-1588,,1.68%,~ 82 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 09:42:36.614,mozilla,Memory Corruption
+CVE-2014-1587,20,1.64%,~ 82 %,6.8,MEDIUM,AV:N/AC:M/Au:N/C:P/I:P/A:P,,,,,,,,,8.6,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-12-11 11:00:00.000,2024-08-06 09:42:36.640,mozilla,Memory Corruption
+CVE-2014-1581,,2.31%,~ 84 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-10-15 10:00:00.000,2024-08-06 09:42:36.648,mozilla,Use After Free
+CVE-2014-1580,200,0.46%,~ 64 %,5.0,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:N,,,,,,,,,10.0,2.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-10-15 10:00:00.000,2024-08-06 09:42:36.526,mozilla,Information Disclosure
+CVE-2014-1577,,1.29%,~ 79 %,6.4,MEDIUM,AV:N/AC:L/Au:N/C:P/I:N/A:P,,,,,,,,,10.0,4.9,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-10-15 10:00:00.000,2024-08-06 09:42:36.631,mozilla,Memory Corruption
+CVE-2014-1575,264,1.99%,~ 83 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-10-15 10:00:00.000,2024-08-06 09:42:36.637,mozilla,Memory Corruption
+CVE-2014-1574,,1.64%,~ 82 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-10-15 10:00:00.000,2024-08-06 09:42:36.627,mozilla,Memory Corruption
+CVE-2014-1568,310,40.04%,~ 97 %,7.5,HIGH,AV:N/AC:L/Au:N/C:P/I:P/A:P,,,,,,,,,10.0,6.4,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-09-25 17:00:00.000,2024-08-06 09:42:36.192,mozilla,
+CVE-2014-1507,22,0.94%,~ 76 %,9.3,HIGH,AV:N/AC:M/Au:N/C:C/I:C/A:C,,,,,,,,,8.6,10.0,f16b083a-5664-49f3-a51e-8d479e5ed7fe,,2014-03-19 10:00:00.000,2024-08-06 09:42:36.268,mozilla,
