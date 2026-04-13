@@ -94,6 +94,7 @@ cwe_id,entry_type,title,description
 732,weakness,CWE-732: Incorrect Permission Assignment for Critical Resource,The product specifies permissions for a security-critical resource in a way that allows that resource to be read or modified by unintended actors.
 754,weakness,CWE-754: Improper Check for Unusual or Exceptional Conditions,The product does not check or incorrectly checks for unusual or exceptional conditions that are not expected to occur frequently during day to day operation of the product.
 755,weakness,CWE-755: Improper Handling of Exceptional Conditions,The product does not handle or incorrectly handles an exceptional condition.
+758,weakness,"CWE-758: Reliance on Undefined, Unspecified, or Implementation-Defined Behavior","The product uses an API function, data structure, or other entity in a way that relies on properties that are not always guaranteed to hold for that entity."
 770,weakness,CWE-770: Allocation of Resources Without Limits or Throttling,The product allocates a reusable resource or group of resources on behalf of an actor without imposing any intended restrictions on the size or number of resources that can be allocated.
 786,weakness,CWE-786: Access of Memory Location Before Start of Buffer,The product reads or writes to a buffer using an index or pointer that references a memory location prior to the beginning of the buffer.
 787,weakness,CWE-787: Out-of-bounds Write,"The product writes data past the end, or before the beginning, of the intended buffer."

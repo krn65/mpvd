@@ -1,0 +1,2 @@
+cwe_id,entry_type,title,description
+434,weakness,CWE-434: Unrestricted Upload of File with Dangerous Type,The product allows the upload or transfer of dangerous file types that are automatically processed within its environment.
