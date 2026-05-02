@@ -18,4 +18,4 @@ cwe_id,entry_type,title,description
 862,weakness,CWE-862: Missing Authorization,The product does not perform an authorization check when an actor attempts to access a resource or perform an action.
 922,weakness,CWE-922: Insecure Storage of Sensitive Information,The product stores sensitive information without properly limiting read or write access by unauthorized actors.
 939,weakness,CWE-939: Improper Authorization in Handler for Custom URL Scheme,"The product uses a handler for a custom URL scheme, but it does not properly restrict which actors can invoke the handler using the scheme."
-1021,weakness,CWE-1021: Improper Restriction of Rendered UI Layers or Frames,"The web application does not restrict or incorrectly restricts frame objects or UI layers that belong to another application or domain, which can lead to user confusion about which interface the user is interacting with."
+1021,weakness,CWE-1021: Improper Restriction of Rendered UI Layers or Frames,The web application does not restrict or incorrectly restricts frame objects or UI layers that belong to another application or domain.
